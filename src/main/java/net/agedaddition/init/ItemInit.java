@@ -4,6 +4,8 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
+import net.minecraft.recipe.BrewingRecipeRegistry;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -17,7 +19,7 @@ public class ItemInit {
     public static final Item RAW_IRON_NUGGET = register("raw_iron_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
     public static void init() {
-
+        BrewingRecipeRegistry.registerItemRecipe(Items.HONEY_BOTTLE, Items.ENDER_EYE, Items.DRAGON_BREATH);
     }
 
     private static Item register(String id, Item item, RegistryKey<ItemGroup> itemGroup) {
