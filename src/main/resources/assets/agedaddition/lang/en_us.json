@@ -2,5 +2,12 @@
     "item.agedaddition.copper_nugget": "Copper Nugget",
     "item.agedaddition.raw_copper_nugget": "Raw Copper Nugget",
     "item.agedaddition.raw_gold_nugget": "Raw Gold Nugget",
-    "item.agedaddition.raw_iron_nugget": "Raw Iron Nugget"
+    "item.agedaddition.raw_iron_nugget": "Raw Iron Nugget",
+
+    "item.agedaddition.coal_piece": "Coal Piece",
+    "item.agedaddition.lapis_lazuli_piece": "Lapis Lazuli Piece",
+    "item.agedaddition.emerald_piece": "Emerald Piece",
+    "item.agedaddition.diamond_piece": "Diamond Piece",
+    "item.agedaddition.netherite_scrap_piece": "Netherite Scrap Piece",
+    "item.agedaddition.nether_star_piece": "Nether Star Piece"
 }
