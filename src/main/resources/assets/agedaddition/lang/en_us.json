@@ -9,5 +9,13 @@
     "item.agedaddition.emerald_piece": "Emerald Piece",
     "item.agedaddition.diamond_piece": "Diamond Piece",
     "item.agedaddition.netherite_scrap_piece": "Netherite Scrap Piece",
-    "item.agedaddition.nether_star_piece": "Nether Star Piece"
+    "item.agedaddition.nether_star_piece": "Nether Star Piece",
+
+    "screen.diet": "Diet",
+
+    "text.autoconfig.agedaddition.title": "Aged-Addition Config",
+    "text.autoconfig.agedaddition.option.dietInventoryButtonX": "Diet Inventory Button X",
+    "text.autoconfig.agedaddition.option.dietInventoryButtonY": "Diet Inventory Button Y",
+    "text.autoconfig.agedaddition.option.dietButtonX": "Diet Button X",
+    "text.autoconfig.agedaddition.option.dietButtonY": "Diet Button Y"
 }

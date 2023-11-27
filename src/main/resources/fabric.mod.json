@@ -22,6 +22,9 @@
 		],
 		"client": [
 			"net.agedaddition.AgedAdditionClient"
+		],
+		"modmenu": [
+			"net.agedaddition.config.ModMenuIntegration"
 		]
 	},
 	"mixins": [

@@ -33,6 +33,10 @@ dependencies {
     modCompileOnly modRuntimeOnly("com.terraformersmc:modmenu:${project.mod_menu_version}") {
         exclude(group: "net.fabricmc.fabric-api")
     }
+	// Diet
+	modCompileOnly ('maven.modrinth:diet:ZHwy8qdO') {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
 }
 
 processResources {
