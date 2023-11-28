@@ -11,6 +11,9 @@ public class AgedAdditionConfig implements ConfigData {
     public int dietInventoryButtonX = 0;
     public int dietInventoryButtonY = 0;
 
+    public int numismaticButtonX = 0;
+    public int numismaticButtonY = 0;
+
     public int dietButtonX = 0;
     public int dietButtonY = 0;
 

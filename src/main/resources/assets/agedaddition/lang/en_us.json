@@ -16,6 +16,8 @@
     "text.autoconfig.agedaddition.title": "Aged-Addition Config",
     "text.autoconfig.agedaddition.option.dietInventoryButtonX": "Diet Inventory Button X",
     "text.autoconfig.agedaddition.option.dietInventoryButtonY": "Diet Inventory Button Y",
+    "text.autoconfig.agedaddition.option.numismaticButtonX": "Numismatic Button X",
+    "text.autoconfig.agedaddition.option.numismaticButtonY": "Numismatic Button Y",
     "text.autoconfig.agedaddition.option.dietButtonX": "Diet Button X",
     "text.autoconfig.agedaddition.option.dietButtonY": "Diet Button Y"
 }

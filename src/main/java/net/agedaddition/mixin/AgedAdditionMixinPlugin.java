@@ -25,6 +25,8 @@ public class AgedAdditionMixinPlugin implements IMixinConfigPlugin {
         if ((mixinClassName.contains("DietScreenMixin") || mixinClassName.contains("DynamicButtonMixin") || mixinClassName.contains("InventoryScreenMixin"))
                 && !FabricLoader.getInstance().isModLoaded("diet"))
             return false;
+        if (mixinClassName.contains("NumismaticOverhaulClientMixin") && !FabricLoader.getInstance().isModLoaded("numismatic-overhaul"))
+            return false;
 
         return true;
     }

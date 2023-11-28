@@ -7,7 +7,8 @@
 	"client": [
 		"client.DietScreenMixin",
 		"client.DynamicButtonMixin",
-		"client.InventoryScreenMixin"
+		"client.InventoryScreenMixin",
+		"client.NumismaticOverhaulClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
