@@ -15,7 +15,7 @@ public class RenderInit {
     public static final Identifier AGED_TEXTURES = new Identifier("agedaddition", "textures/gui/icons.png");
 
     public static void init() {
-        if (!FabricLoader.getInstance().isModLoaded("diet")) {
+        if (FabricLoader.getInstance().isModLoaded("diet")) {
             ScreenEvents.AFTER_INIT.register(new Identifier("agedaddition", "diet_button_removal"), (client, screen, scaledWidth, scaledHeight) -> {
                 if (screen instanceof InventoryScreen) {
                     for (int i = 0; i < ((InventoryScreen) screen).children().size(); i++) {
