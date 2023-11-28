@@ -22,9 +22,9 @@ import net.minecraft.text.Text;
 
 @Environment(EnvType.CLIENT)
 @Mixin(InventoryScreen.class)
-public abstract class InventoryScreenMixin extends AbstractInventoryScreen<PlayerScreenHandler> {
+public abstract class InventoryScreenDietMixin extends AbstractInventoryScreen<PlayerScreenHandler> {
 
-    public InventoryScreenMixin(PlayerScreenHandler screenHandler, PlayerInventory playerInventory, Text text) {
+    public InventoryScreenDietMixin(PlayerScreenHandler screenHandler, PlayerInventory playerInventory, Text text) {
         super(screenHandler, playerInventory, text);
     }
 

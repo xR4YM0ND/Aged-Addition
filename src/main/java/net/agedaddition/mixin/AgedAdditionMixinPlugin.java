@@ -22,7 +22,7 @@ public class AgedAdditionMixinPlugin implements IMixinConfigPlugin {
 
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
-        if ((mixinClassName.contains("DietScreenMixin") || mixinClassName.contains("DynamicButtonMixin") || mixinClassName.contains("InventoryScreenMixin"))
+        if ((mixinClassName.contains("DietScreenMixin") || mixinClassName.contains("DynamicButtonMixin") || mixinClassName.contains("InventoryScreenDietMixin"))
                 && !FabricLoader.getInstance().isModLoaded("diet"))
             return false;
         if (mixinClassName.contains("NumismaticOverhaulClientMixin") && !FabricLoader.getInstance().isModLoaded("numismatic-overhaul"))
