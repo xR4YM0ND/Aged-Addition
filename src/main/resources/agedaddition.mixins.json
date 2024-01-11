@@ -3,7 +3,9 @@
 	"package": "net.agedaddition.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"plugin": "net.agedaddition.mixin.AgedAdditionMixinPlugin",
-	"mixins": [],
+	"mixins": [
+		"SampleBlockMixin"
+	],
 	"client": [
 		"client.DietScreenMixin",
 		"client.DynamicButtonMixin",

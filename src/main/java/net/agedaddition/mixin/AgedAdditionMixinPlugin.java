@@ -27,6 +27,8 @@ public class AgedAdditionMixinPlugin implements IMixinConfigPlugin {
             return false;
         if (mixinClassName.contains("NumismaticOverhaulClientMixin") && !FabricLoader.getInstance().isModLoaded("numismatic-overhaul"))
             return false;
+        if (mixinClassName.contains("SampleBlockMixin") && !FabricLoader.getInstance().isModLoaded("geocluster"))
+            return false;
 
         return true;
     }
