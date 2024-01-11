@@ -1,5 +1,6 @@
 package net.agedaddition.init;
 
+import net.agedaddition.AgedAdditionMain;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.item.Item;
@@ -16,6 +17,8 @@ public class ItemInit {
     public static final Item RAW_COPPER_NUGGET = register("raw_copper_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item RAW_GOLD_NUGGET = register("raw_gold_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item RAW_IRON_NUGGET = register("raw_iron_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item RAW_TIN_NUGGET = register("raw_tin_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item RAW_SILVER_NUGGET = register("raw_silver_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
     public static final Item COAL_PIECE = register("coal_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item LAPIS_LAZULI_PIECE = register("lapis_lazuli_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
@@ -23,13 +26,14 @@ public class ItemInit {
     public static final Item DIAMOND_PIECE = register("diamond_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item NETHERITE_SCRAP_PIECE = register("netherite_scrap_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item NETHER_STAR_PIECE = register("nether_star_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item QUARTZ_PIECE = register("quartz_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
     public static void init() {
         FuelRegistry.INSTANCE.add(COAL_PIECE, 400);
     }
 
     private static Item register(String id, Item item, RegistryKey<ItemGroup> itemGroup) {
-        return register(new Identifier("agedaddition", id), item, itemGroup);
+        return register(new Identifier(AgedAdditionMain.MOD_ID, id), item, itemGroup);
     }
 
     private static Item register(Identifier id, Item item, RegistryKey<ItemGroup> itemGroup) {

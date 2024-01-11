@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "particle": "agedaddition:block/stone_salt_ore",
+        "all": "agedaddition:block/stone_salt_ore"
+    }
+}
