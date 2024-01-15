@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "agedaddition:block/stone_salt_ore_sample" },
+        "facing=east": { "model": "agedaddition:block/stone_salt_ore_sample", "y": 90 },
+        "facing=south": { "model": "agedaddition:block/stone_salt_ore_sample", "y": 180 },
+        "facing=west": { "model": "agedaddition:block/stone_salt_ore_sample", "y": 270 }
+    }
+}
