@@ -9,7 +9,8 @@
 	"client": [
 		"client.DietScreenMixin",
 		"client.DynamicButtonMixin",
-		"client.InventoryScreenDietMixin"
+		"client.InventoryScreenDietMixin",
+		"client.ScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

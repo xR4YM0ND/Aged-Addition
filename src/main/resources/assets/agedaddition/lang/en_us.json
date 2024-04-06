@@ -26,5 +26,6 @@
     "text.autoconfig.agedaddition.option.numismaticButtonX": "Numismatic Button X",
     "text.autoconfig.agedaddition.option.numismaticButtonY": "Numismatic Button Y",
     "text.autoconfig.agedaddition.option.dietButtonX": "Diet Button X",
-    "text.autoconfig.agedaddition.option.dietButtonY": "Diet Button Y"
+    "text.autoconfig.agedaddition.option.dietButtonY": "Diet Button Y",
+    "text.autoconfig.agedaddition.option.print": "Print"
 }
