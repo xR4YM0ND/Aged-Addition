@@ -25,6 +25,9 @@ public class BlockInit {
     public static final Block ALPINE_SALT_ORE_SAMPLE = register("alpine_salt_ore_sample", 
         new SampleBlock(AbstractBlock.Settings.create().strength(1.0f, 1.0f).nonOpaque()), true);
 
+    public static final Block THALLASIUM_ORE_SAMPLE = register("thallasium_ore_sample", 
+        new SampleBlock(AbstractBlock.Settings.create().strength(1.0f, 1.0f).nonOpaque()), true);
+
     public static Block register(String name, Block block, boolean shouldhaveitem){
 
         Identifier blockIdentifier = new Identifier(AgedAdditionMain.MOD_ID, name);

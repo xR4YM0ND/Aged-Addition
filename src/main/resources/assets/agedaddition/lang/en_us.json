@@ -2,6 +2,7 @@
     "block.agedaddition.stone_salt_ore": "Stone Salt Ore",
     "block.agedaddition.stone_salt_ore_sample": "Stone Salt Ore Sample",
     "block.agedaddition.alpine_salt_ore_sample": "Alpine Salt Ore Sample",
+    "block.agedaddition.thallasium_ore_sample": "Thallasium Ore Sample",
 
     "item.agedaddition.copper_nugget": "Copper Nugget",
     "item.agedaddition.raw_copper_nugget": "Raw Copper Nugget",
@@ -9,6 +10,7 @@
     "item.agedaddition.raw_iron_nugget": "Raw Iron Nugget",
     "item.agedaddition.raw_tin_nugget": "Raw Tin Nugget",
     "item.agedaddition.raw_silver_nugget": "Raw Silver Nugget",
+    "item.agedaddition.raw_thallasium_nugget": "Raw Thallasium Nugget",
 
     "item.agedaddition.coal_piece": "Coal Piece",
     "item.agedaddition.lapis_lazuli_piece": "Lapis Lazuli Piece",

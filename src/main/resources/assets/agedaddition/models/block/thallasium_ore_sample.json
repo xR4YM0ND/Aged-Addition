@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench by xR4yM0ND",
+	"texture_size": [32, 32],
+	"textures": {
+		"thallasium": "agedaddition:block/end_thallasium_ore_sample",
+		"particle": "agedaddition:block/end_thallasium_ore_sample"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [9, 3, 9],
+			"faces": {
+				"north": {"uv": [6, 4, 8.5, 5.5], "texture": "#thallasium"},
+				"east": {"uv": [6, 5.5, 8.5, 7], "texture": "#thallasium"},
+				"south": {"uv": [0, 7, 2.5, 8.5], "texture": "#thallasium"},
+				"west": {"uv": [2.5, 7, 5, 8.5], "texture": "#thallasium"},
+				"up": {"uv": [5.5, 2.5, 3, 0], "texture": "#thallasium"},
+				"down": {"uv": [5.5, 2.5, 3, 5], "texture": "#thallasium"}
+			}
+		},
+		{
+			"from": [6, 0, 7],
+			"to": [12, 4, 12],
+			"faces": {
+				"north": {"uv": [0, 5, 3, 7], "texture": "#thallasium"},
+				"east": {"uv": [5.5, 0, 8, 2], "texture": "#thallasium"},
+				"south": {"uv": [3, 5, 6, 7], "texture": "#thallasium"},
+				"west": {"uv": [5.5, 2, 8, 4], "texture": "#thallasium"},
+				"up": {"uv": [3, 2.5, 0, 0], "texture": "#thallasium"},
+				"down": {"uv": [3, 2.5, 0, 5], "texture": "#thallasium"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [10, -45, 0],
+			"translation": [0, 3, 0.5],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [9, 45, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 6.5, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 6.5, 0]
+		},
+		"ground": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [30, -112, 0],
+			"translation": [0, 6.25, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -6]
+		}
+	}
+}

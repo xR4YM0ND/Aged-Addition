@@ -16,6 +16,7 @@ public class AgedAdditionClient implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putBlock(BlockInit.STONE_SALT_ORE_SAMPLE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(BlockInit.ALPINE_SALT_ORE_SAMPLE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockInit.THALLASIUM_ORE_SAMPLE, RenderLayer.getCutout());
 
         RenderInit.init();
     }
