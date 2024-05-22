@@ -24,21 +24,33 @@
                                     }
                                 }
                             ],
-                            "name": "agedaddition:stone_salt_ore"
+                            "name": "minecraft:redstone_ore"
                         },
                         {
                             "type": "minecraft:item",
                             "functions": [
                                 {
+                                    "add": false,
+                                    "count": {
+                                        "type": "minecraft:uniform",
+                                        "max": 4.0,
+                                        "min": 1.0
+                                    },
+                                    "function": "minecraft:set_count"
+                                },
+                                {
                                     "enchantment": "minecraft:fortune",
-                                    "formula": "minecraft:ore_drops",
-                                    "function": "minecraft:apply_bonus"
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 1
+                                    }
                                 },
                                 {
                                     "function": "minecraft:explosion_decay"
                                 }
                             ],
-                            "name": "meadow:alpine_salt"
+                            "name": "minecraft:redstone"
                         }
                     ]
                 }
@@ -46,5 +58,5 @@
             "rolls": 1.0
         }
     ],
-    "random_sequence": "agedaddition:blocks/stone_salt_ore"
+    "random_sequence": "minecraft:blocks/redstone_ore"
 }

@@ -3,6 +3,11 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:alternatives",
@@ -24,21 +29,24 @@
                                     }
                                 }
                             ],
-                            "name": "agedaddition:stone_salt_ore"
+                            "name": "minecraft:ancient_debris"
                         },
                         {
                             "type": "minecraft:item",
                             "functions": [
                                 {
                                     "enchantment": "minecraft:fortune",
-                                    "formula": "minecraft:ore_drops",
-                                    "function": "minecraft:apply_bonus"
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 1
+                                    }
                                 },
                                 {
                                     "function": "minecraft:explosion_decay"
                                 }
                             ],
-                            "name": "meadow:alpine_salt"
+                            "name": "minecraft:netherite_scrap"
                         }
                     ]
                 }
@@ -46,5 +54,5 @@
             "rolls": 1.0
         }
     ],
-    "random_sequence": "agedaddition:blocks/stone_salt_ore"
+    "random_sequence": "minecraft:blocks/ancient_debris"
 }

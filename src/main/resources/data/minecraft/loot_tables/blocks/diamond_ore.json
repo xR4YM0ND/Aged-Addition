@@ -24,11 +24,20 @@
                                     }
                                 }
                             ],
-                            "name": "agedaddition:stone_salt_ore"
+                            "name": "minecraft:diamond_ore"
                         },
                         {
                             "type": "minecraft:item",
                             "functions": [
+                                {
+                                    "add": false,
+                                    "count": {
+                                        "type": "minecraft:uniform",
+                                        "max": 4.0,
+                                        "min": 1.0
+                                    },
+                                    "function": "minecraft:set_count"
+                                },
                                 {
                                     "enchantment": "minecraft:fortune",
                                     "formula": "minecraft:ore_drops",
@@ -38,7 +47,7 @@
                                     "function": "minecraft:explosion_decay"
                                 }
                             ],
-                            "name": "meadow:alpine_salt"
+                            "name": "agedaddition:diamond_piece"
                         }
                     ]
                 }
@@ -46,5 +55,5 @@
             "rolls": 1.0
         }
     ],
-    "random_sequence": "agedaddition:blocks/stone_salt_ore"
+    "random_sequence": "minecraft:blocks/diamond_ore"
 }

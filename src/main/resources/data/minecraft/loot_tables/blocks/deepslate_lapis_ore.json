@@ -24,11 +24,20 @@
                                     }
                                 }
                             ],
-                            "name": "agedaddition:stone_salt_ore"
+                            "name": "minecraft:deepslate_lapis_ore"
                         },
                         {
                             "type": "minecraft:item",
                             "functions": [
+                                {
+                                    "add": false,
+                                    "count": {
+                                        "type": "minecraft:uniform",
+                                        "max": 3.0,
+                                        "min": 1.0
+                                    },
+                                    "function": "minecraft:set_count"
+                                },
                                 {
                                     "enchantment": "minecraft:fortune",
                                     "formula": "minecraft:ore_drops",
@@ -38,13 +47,37 @@
                                     "function": "minecraft:explosion_decay"
                                 }
                             ],
-                            "name": "meadow:alpine_salt"
+                            "name": "minecraft:lapis_lazuli"
                         }
                     ]
                 }
             ],
             "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 9.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
+                        }
+                    ],
+                    "name": "agedaddition:lapis_lazuli_piece"
+                }
+            ],
+            "rolls": 1.0
         }
     ],
-    "random_sequence": "agedaddition:blocks/stone_salt_ore"
+    "random_sequence": "minecraft:blocks/deepslate_lapis_ore"
 }
