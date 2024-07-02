@@ -1,2 +1,11 @@
+## Changed:
+- Cleaned code
+
 ## Added:
-- Some recipes
+- Prospector Picks textures
+
+## Removed:
+- Recipes
+- Tags
+- Blocks
+- Some items
