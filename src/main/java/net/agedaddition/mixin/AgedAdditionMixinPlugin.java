@@ -7,8 +7,6 @@ import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
 import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 
-import net.fabricmc.loader.api.FabricLoader;
-
 public class AgedAdditionMixinPlugin implements IMixinConfigPlugin {
 
     @Override
@@ -22,12 +20,6 @@ public class AgedAdditionMixinPlugin implements IMixinConfigPlugin {
 
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
-        if ((mixinClassName.contains("DietScreenMixin") || mixinClassName.contains("DynamicButtonMixin") || mixinClassName.contains("InventoryScreenDietMixin"))
-                && !FabricLoader.getInstance().isModLoaded("diet"))
-            return false;
-        if (mixinClassName.contains("SampleBlockMixin") && !FabricLoader.getInstance().isModLoaded("geocluster"))
-            return false;
-
         return true;
     }
 
