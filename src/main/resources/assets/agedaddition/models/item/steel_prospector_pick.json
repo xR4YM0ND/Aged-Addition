@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "agedaddition:item/steel_prospector_pick"
+    }
+}
