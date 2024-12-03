@@ -1,18 +1,15 @@
 {
-	"required": true,
-	"package": "net.agedaddition.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"plugin": "net.agedaddition.mixin.AgedAdditionMixinPlugin",
-	"mixins": [
-		"SampleBlockMixin"
-	],
-	"client": [
-		"client.DietScreenMixin",
-		"client.DynamicButtonMixin",
-		"client.InventoryScreenDietMixin",
-		"client.ScreenMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": true,
+  "package": "net.agedaddition.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "net.agedaddition.mixin.AgedAdditionMixinPlugin",
+  "mixins": [
+  ],
+  "client": [
+    "client.ScreenMixin",
+    "client.ClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }

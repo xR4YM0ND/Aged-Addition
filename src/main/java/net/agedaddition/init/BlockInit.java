@@ -12,17 +12,17 @@ import net.minecraft.util.Identifier;
 
 public class BlockInit {
 
-    public static Block register(String name, Block block, boolean shouldhaveitem){
-
-        Identifier blockIdentifier = new Identifier(AgedAdditionMain.MOD_ID, name);
-        if(shouldhaveitem){
+    public static Block register(String name, Block block, boolean itemVariant) {
+        Identifier blockIdentifier = AgedAdditionMain.identifierOf(name);
+        if (itemVariant) {
             BlockItem blockitem = new BlockItem(block, new Item.Settings());
             Registry.register(Registries.ITEM, blockIdentifier, blockitem);
             ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(blockitem));
         }
-        
+
         return Registry.register(Registries.BLOCK, blockIdentifier, block);
     }
 
-    public static void init(){}
+    public static void init() {
+    }
 }
