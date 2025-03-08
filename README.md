@@ -6,3 +6,5 @@ AgedAddition is a mod built for the [Fabric Loader](https://fabricmc.net/). It r
 
 ### License
 AgedAddition is licensed under MIT.
+
+Feal free to use the whole code / jar in Modpacks on Curseforge / Modrinth / everywhere without permission.
