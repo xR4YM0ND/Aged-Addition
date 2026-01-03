@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "particle": "agedaddition:block/ores/copper/calcite_copper_ore",
+        "all": "agedaddition:block/ores/copper/calcite_copper_ore"
+    }
+}

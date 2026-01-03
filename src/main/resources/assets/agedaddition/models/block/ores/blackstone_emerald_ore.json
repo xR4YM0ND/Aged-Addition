@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "particle": "agedaddition:block/ores/emerald/blackstone_emerald_ore",
+        "all": "agedaddition:block/ores/emerald/blackstone_emerald_ore"
+    }
+}

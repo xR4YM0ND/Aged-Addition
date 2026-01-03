@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "particle": "agedaddition:block/ores/coal/granite_coal_ore",
+        "all": "agedaddition:block/ores/coal/granite_coal_ore"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "particle": "agedaddition:block/ores/chromium/laterit_chromium_ore",
+        "all": "agedaddition:block/ores/chromium/laterit_chromium_ore"
+    }
+}

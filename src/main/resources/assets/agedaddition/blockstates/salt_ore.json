@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "agedaddition:block/ores/salt_ore"
+    }
+  }
+}

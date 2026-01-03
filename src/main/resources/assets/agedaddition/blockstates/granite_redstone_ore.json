@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "agedaddition:block/ores/granite_redstone_ore"
+    }
+  }
+}

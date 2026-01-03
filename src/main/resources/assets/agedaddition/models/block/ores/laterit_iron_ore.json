@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "particle": "agedaddition:block/ores/iron/laterit_iron_ore",
+        "all": "agedaddition:block/ores/iron/laterit_iron_ore"
+    }
+}

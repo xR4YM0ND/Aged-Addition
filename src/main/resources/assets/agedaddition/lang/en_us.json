@@ -15,5 +15,7 @@
     "text.autoconfig.agedaddition.title": "Aged-Addition Config",
     "text.autoconfig.agedaddition.option.numismaticButtonX": "Numismatic Button X",
     "text.autoconfig.agedaddition.option.numismaticButtonY": "Numismatic Button Y",
-    "text.autoconfig.agedaddition.option.print": "Print"
+    "text.autoconfig.agedaddition.option.print": "Print",
+
+    "block.agedaddition.andesite_coal_ore": "Andesite Coal Ore"
 }
