@@ -492,6 +492,17 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
+    // DIAMOND
+
+    public static final Block BLACKSTONE_DIAMOND_ORE = register("blackstone_diamond_ore",
+        new ExperienceDroppingBlock(
+            UniformIntProvider.create(0, 1),
+            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
+        ),
+        true,
+        ItemGroups.NATURAL
+    );
+
 
 
 
