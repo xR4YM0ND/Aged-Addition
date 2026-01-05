@@ -2,7 +2,7 @@
     "type": "minecraft:ore",
     "config": {
         "discard_chance_on_air_exposure": 0.0,
-        "size": 15,
+        "size": 20,
         "targets": [
             {
                 "target": {
@@ -11,7 +11,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "minecraft:coal_ore"
+                    "Name": "minecraft:copper_ore"
                 }
             },
             {
@@ -21,7 +21,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "natures_spirit:chert_coal_ore"
+                    "Name": "natures_spirit:chert_copper_ore"
                 }
             },
             {
@@ -31,7 +31,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:andesite_coal_ore"
+                    "Name": "agedaddition:andesite_copper_ore"
                 }
             },
             {
@@ -41,7 +41,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:calcite_coal_ore"
+                    "Name": "agedaddition:calcite_copper_ore"
                 }
             },
             {
@@ -51,7 +51,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:diorite_coal_ore"
+                    "Name": "agedaddition:diorite_copper_ore"
                 }
             },
             {
@@ -61,57 +61,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "meadow:alpine_coal_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "natures_spirit:travertine",
-                    "probability": 0.5
-                },
-                "state": {
-                    "Name": "agedaddition:travertine_coal_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "bloomingnature:marlstone",
-                    "probability": 0.5
-                },
-                "state": {
-                    "Name": "agedaddition:marlstone_coal_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "alpinewhispers:alpine_gneiss",
-                    "probability": 0.5
-                },
-                "state": {
-                    "Name": "agedaddition:alpine_gneiss_coal_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "bloomingnature:laterit",
-                    "probability": 0.5
-                },
-                "state": {
-                    "Name": "agedaddition:laterit_coal_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "minecraft:granite",
-                    "probability": 0.5
-                },
-                "state": {
-                    "Name": "agedaddition:granite_coal_ore"
+                    "Name": "meadow:alpine_copper_ore"
                 }
             },
             {
@@ -121,7 +71,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:travertin_coal_ore"
+                    "Name": "agedaddition:travertin_copper_ore"
                 }
             },
             {
@@ -131,7 +81,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:tuff_coal_ore"
+                    "Name": "agedaddition:tuff_copper_ore"
                 }
             }
         ]

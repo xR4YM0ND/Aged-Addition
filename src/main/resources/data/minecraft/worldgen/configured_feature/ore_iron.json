@@ -2,18 +2,8 @@
     "type": "minecraft:ore",
     "config": {
         "discard_chance_on_air_exposure": 0.0,
-        "size": 15,
+        "size": 9,
         "targets": [
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "minecraft:stone",
-                    "probability": 0.5
-                },
-                "state": {
-                    "Name": "minecraft:coal_ore"
-                }
-            },
             {
                 "target": {
                     "predicate_type": "minecraft:random_block_match",
@@ -21,37 +11,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "natures_spirit:chert_coal_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "minecraft:andesite",
-                    "probability": 0.5
-                },
-                "state": {
-                    "Name": "agedaddition:andesite_coal_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "minecraft:calcite",
-                    "probability": 0.5
-                },
-                "state": {
-                    "Name": "agedaddition:calcite_coal_ore"
-                }
-            },
-            {
-                "target": {
-                    "predicate_type": "minecraft:random_block_match",
-                    "block": "minecraft:diorite",
-                    "probability": 0.5
-                },
-                "state": {
-                    "Name": "agedaddition:diorite_coal_ore"
+                    "Name": "natures_spirit:chert_iron_ore"
                 }
             },
             {
@@ -61,7 +21,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "meadow:alpine_coal_ore"
+                    "Name": "meadow:alpine_iron_ore"
                 }
             },
             {
@@ -71,7 +31,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:travertine_coal_ore"
+                    "Name": "agedaddition:travertine_iron_ore"
                 }
             },
             {
@@ -81,7 +41,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:marlstone_coal_ore"
+                    "Name": "agedaddition:marlstone_iron_ore"
                 }
             },
             {
@@ -91,7 +51,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:alpine_gneiss_coal_ore"
+                    "Name": "agedaddition:alpine_gneiss_iron_ore"
                 }
             },
             {
@@ -101,7 +61,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:laterit_coal_ore"
+                    "Name": "agedaddition:laterit_iron_ore"
                 }
             },
             {
@@ -111,7 +71,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:granite_coal_ore"
+                    "Name": "agedaddition:granite_iron_ore"
                 }
             },
             {
@@ -121,7 +81,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:travertin_coal_ore"
+                    "Name": "agedaddition:travertin_iron_ore"
                 }
             },
             {
@@ -131,7 +91,47 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:tuff_coal_ore"
+                    "Name": "agedaddition:tuff_iron_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "hearth_and_timber:groutless_rubblestone",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "agedaddition:groutless_rubblestone_iron_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:smooth_basalt",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "agedaddition:smooth_basalt_iron_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_iron_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:blackstone",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "agedaddition:blackstone_iron_ore"
                 }
             }
         ]

@@ -111,7 +111,7 @@ public class BlockInit {
 
     // COPPER
 
-    public static final Block ANDESITE_COPPER_ORE = register("andesite_coal_ore",
+    public static final Block ANDESITE_COPPER_ORE = register("andesite_copper_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
@@ -120,7 +120,7 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block CALCITE_COPPER_ORE = register("calcite_coal_ore",
+    public static final Block CALCITE_COPPER_ORE = register("calcite_copper_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
@@ -129,7 +129,7 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block DIORITE_COPPER_ORE = register("diorite_coal_ore",
+    public static final Block DIORITE_COPPER_ORE = register("diorite_copper_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
@@ -138,7 +138,7 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block TRAVERTIN_COPPER_ORE = register("travertin_coal_ore",
+    public static final Block TRAVERTIN_COPPER_ORE = register("travertin_copper_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
@@ -147,7 +147,7 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block TUFF_COPPER_ORE = register("tuff_coal_ore",
+    public static final Block TUFF_COPPER_ORE = register("tuff_copper_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
@@ -407,7 +407,7 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block GROUTLESS_RUBBLESTONE_EMERALD_ORE = register("groutless__rubblestone_emerald_ore",
+    public static final Block GROUTLESS_RUBBLESTONE_EMERALD_ORE = register("groutless_rubblestone_emerald_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)

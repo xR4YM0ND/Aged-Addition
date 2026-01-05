@@ -2,7 +2,7 @@
     "type": "minecraft:ore",
     "config": {
         "discard_chance_on_air_exposure": 0.0,
-        "size": 15,
+        "size": 3,
         "targets": [
             {
                 "target": {
@@ -11,7 +11,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "minecraft:coal_ore"
+                    "Name": "minecraft:emerald_ore"
                 }
             },
             {
@@ -21,7 +21,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "natures_spirit:chert_coal_ore"
+                    "Name": "natures_spirit:chert_emerald_ore"
                 }
             },
             {
@@ -31,7 +31,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:andesite_coal_ore"
+                    "Name": "agedaddition:andesite_emerald_ore"
                 }
             },
             {
@@ -41,7 +41,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:calcite_coal_ore"
+                    "Name": "agedaddition:calcite_emerald_ore"
                 }
             },
             {
@@ -51,7 +51,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:diorite_coal_ore"
+                    "Name": "agedaddition:diorite_emerald_ore"
                 }
             },
             {
@@ -61,7 +61,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "meadow:alpine_coal_ore"
+                    "Name": "meadow:alpine_emerald_ore"
                 }
             },
             {
@@ -71,7 +71,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:travertine_coal_ore"
+                    "Name": "agedaddition:travertine_emerald_ore"
                 }
             },
             {
@@ -81,7 +81,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:marlstone_coal_ore"
+                    "Name": "agedaddition:marlstone_emerald_ore"
                 }
             },
             {
@@ -91,7 +91,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:alpine_gneiss_coal_ore"
+                    "Name": "agedaddition:alpine_gneiss_emerald_ore"
                 }
             },
             {
@@ -101,7 +101,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:laterit_coal_ore"
+                    "Name": "agedaddition:laterit_emerald_ore"
                 }
             },
             {
@@ -111,7 +111,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:granite_coal_ore"
+                    "Name": "agedaddition:granite_emerald_ore"
                 }
             },
             {
@@ -121,7 +121,7 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:travertin_coal_ore"
+                    "Name": "agedaddition:travertin_emerald_ore"
                 }
             },
             {
@@ -131,7 +131,47 @@
                     "probability": 0.5
                 },
                 "state": {
-                    "Name": "agedaddition:tuff_coal_ore"
+                    "Name": "agedaddition:tuff_emerald_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "hearth_and_timber:groutless_rubblestone",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "agedaddition:groutless_rubblestone_emerald_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:smooth_basalt",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "agedaddition:smooth_basalt_emerald_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_emerald_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:blackstone",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "agedaddition:blackstone_emerald_ore"
                 }
             }
         ]
