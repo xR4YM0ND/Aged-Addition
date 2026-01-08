@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/cube_column_mirrored",
   "textures": {
     "end": "agedaddition:block/ores/quartz/deepslate_top_quartz_ore",
     "side": "agedaddition:block/ores/quartz/deepslate_quartz_ore"
