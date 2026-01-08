@@ -1,0 +1,27 @@
+{
+    "replace": false,
+    "values": [
+        "agedaddition:blackstone_diamond_ore",
+        "agedaddition:andesite_emerald_ore",
+        "agedaddition:calcite_emerald_ore",
+        "agedaddition:diorite_emerald_ore",
+        "agedaddition:travertine_emerald_ore",
+        "agedaddition:marlstone_emerald_ore",
+        "agedaddition:alpine_gneiss_emerald_ore",
+        "agedaddition:laterit_emerald_ore",
+        "agedaddition:granite_emerald_ore",
+        "agedaddition:travertin_emerald_ore",
+        "agedaddition:tuff_emerald_ore",
+        "agedaddition:groutless_rubblestone_emerald_ore",
+        "agedaddition:smooth_basalt_emerald_ore",
+        "agedaddition:blackstone_emerald_ore",
+        "agedaddition:tuff_gold_ore",
+        "agedaddition:groutless_rubblestone_gold_ore",
+        "agedaddition:smooth_basalt_gold_ore",
+        "agedaddition:blackstone_gold_ore",
+        "agedaddition:laterit_redstone_ore",
+        "agedaddition:granite_redstone_ore",
+        "agedaddition:travertin_redstone_ore"
+    ]
+  }
+
