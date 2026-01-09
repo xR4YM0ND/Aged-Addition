@@ -4,6 +4,8 @@
   "compatibilityLevel": "JAVA_21",
   "plugin": "net.agedaddition.mixin.AgedAdditionMixinPlugin",
   "mixins": [
+    "BlocksMixin",
+    "NaturesSpiritMixin"
   ],
   "client": [
     "client.ScreenMixin",

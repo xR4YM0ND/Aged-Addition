@@ -33,6 +33,11 @@ dependencies {
     modCompileOnly modRuntimeOnly("com.terraformersmc:modmenu:${project.mod_menu_version}") {
         exclude(group: "net.fabricmc.fabric-api")
     }
+
+	// Natures Spirit
+	modCompileOnly ('maven.modrinth:natures-spirit:TRMapjpU'){
+         exclude(group: "net.fabricmc.fabric-api")
+    }
 }
 
 processResources {

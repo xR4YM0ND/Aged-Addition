@@ -1,16 +1,62 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "agedaddition:block/ores/chert_horizontal_zinc_ore",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
-      "model": "agedaddition:block/ores/chert_zinc_ore"
-    },
-    "axis=z": {
-      "model": "agedaddition:block/ores/chert_horizontal_zinc_ore",
-      "x": 90
-    }
+    "axis=x": [
+      {
+        "model": "agedaddition:block/ores/chert_zinc_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_zinc_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_zinc_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_zinc_ore",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "agedaddition:block/ores/chert_zinc_ore"
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_zinc_ore"
+      },
+      {
+        "model": "agedaddition:block/ores/chert_zinc_ore",
+        "y": 180
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_zinc_ore",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "agedaddition:block/ores/chert_zinc_ore",
+        "x": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_zinc_ore",
+        "x": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_zinc_ore",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_zinc_ore",
+        "x": 90,
+        "y": 180
+      }
+    ]
   }
 }

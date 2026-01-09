@@ -1,16 +1,62 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "agedaddition:block/ores/chert_horizontal_nickel_ore",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
-      "model": "agedaddition:block/ores/chert_nickel_ore"
-    },
-    "axis=z": {
-      "model": "agedaddition:block/ores/chert_horizontal_nickel_ore",
-      "x": 90
-    }
+    "axis=x": [
+      {
+        "model": "agedaddition:block/ores/chert_nickel_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_nickel_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_nickel_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_nickel_ore",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "agedaddition:block/ores/chert_nickel_ore"
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_nickel_ore"
+      },
+      {
+        "model": "agedaddition:block/ores/chert_nickel_ore",
+        "y": 180
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_nickel_ore",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "agedaddition:block/ores/chert_nickel_ore",
+        "x": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_nickel_ore",
+        "x": 90
+      },
+      {
+        "model": "agedaddition:block/ores/chert_nickel_ore",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "agedaddition:block/ores/chert_horizontal_nickel_ore",
+        "x": 90,
+        "y": 180
+      }
+    ]
   }
 }

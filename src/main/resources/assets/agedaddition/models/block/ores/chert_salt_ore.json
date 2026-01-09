@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "natures_spirit:block/ores/salt/chert_horizontal_salt_ore",
-    "side": "natures_spirit:block/ores/salt/chert_salt_ore"
+    "end": "agedaddition:block/ores/salt/chert_horizontal_salt_ore",
+    "side": "agedaddition:block/ores/salt/chert_salt_ore"
   }
 }

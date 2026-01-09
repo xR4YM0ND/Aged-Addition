@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_mirrored",
+  "textures": {
+    "end": "minecraft:block/deepslate_top_gold_ore",
+    "side": "minecraft:block/deepslate_gold_ore"
+  }
+}

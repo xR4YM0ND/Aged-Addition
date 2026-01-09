@@ -4,7 +4,9 @@ import net.agedaddition.AgedAdditionMain;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock; // Used for Block.Settings
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock; // Import for blocks that drop XP
+import net.agedaddition.block.ExperienceDroppingPillarBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
@@ -607,7 +609,7 @@ public class BlockInit {
     // NICKEL
 
     public static final Block CHERT_NICKEL_ORE = register("chert_nickel_ore",
-        new ExperienceDroppingBlock(
+        new ExperienceDroppingPillarBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
         ),
@@ -755,7 +757,7 @@ public class BlockInit {
     // ZINC
 
     public static final Block CHERT_ZINC_ORE = register("chert_zinc_ore",
-        new ExperienceDroppingBlock(
+        new ExperienceDroppingPillarBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
         ),
@@ -811,7 +813,7 @@ public class BlockInit {
     );
 
     public static final Block CHERT_SALT_ORE = register("chert_salt_ore",
-        new ExperienceDroppingBlock(
+        new ExperienceDroppingPillarBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
         ),
@@ -894,7 +896,7 @@ public class BlockInit {
     );
 
     public static final Block DEEPSLATE_QUARTZ_ORE = register("deepslate_quartz_ore",
-        new ExperienceDroppingBlock(
+        new ExperienceDroppingPillarBlock(
             UniformIntProvider.create(0, 1),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)
         ),
@@ -910,7 +912,6 @@ public class BlockInit {
         true,
         ItemGroups.NATURAL
     );
-
 
 
 
