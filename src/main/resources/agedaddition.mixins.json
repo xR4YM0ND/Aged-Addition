@@ -7,6 +7,7 @@
     "AlpineWhispersMixin",
     "BlocksMixin",
     "BloomingNatureMixin",
+    "HearthTimberMixin",
     "MeadowMixin",
     "NaturesSpiritMixin"
   ],

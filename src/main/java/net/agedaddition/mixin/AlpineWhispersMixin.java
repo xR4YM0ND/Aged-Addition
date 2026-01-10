@@ -17,19 +17,12 @@ import net.satisfy.alpinewhispers.core.registry.ObjectRegistry;
 public class AlpineWhispersMixin {
 
     // Alpine Gneiss
-    // @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/satisfy/alpinewhispers/core/registry/ObjectRegistry;", ordinal = 1))
-    // private static Block modifyAlpineGneiss(AbstractBlock.Settings settings, Operation<Block> original) {
-    //     return new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(60.0F, 6.0F));
-    // }
-
-    // Alpine Gneiss
     @WrapOperation(
-        method = "lambda$static$0", // Name der synthetischen Lambda-Methode im Bytecode
-        at = @At(value = "NEW", target = "Lnet/minecraft/block/Block;", ordinal = 0),
-        remap = false // WICHTIG: Synthetische Namen sind nicht gemappt
+        method = "lambda$static$2",
+        at = @At(value = "NEW", target = "Lnet/minecraft/block/Block;"),
+        remap = false
     )
     private static Block modifyAlpineGneiss(AbstractBlock.Settings settings, Operation<Block> original) {
-        // Wir erstellen eine komplett neue Instanz mit deinen Wunsch-Werten
         return new Block(AbstractBlock.Settings.create()
                .mapColor(MapColor.STONE_GRAY)
                .instrument(NoteBlockInstrument.BASEDRUM)

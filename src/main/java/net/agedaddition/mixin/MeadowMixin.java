@@ -15,9 +15,18 @@ import net.satisfy.meadow.core.registry.ObjectRegistry;
 
 @Mixin(ObjectRegistry.class)
 public class MeadowMixin {
+
     // Limestone
-    @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/satisfy/meadow/core/registry/ObjectRegistry;", ordinal = 0))
+    @WrapOperation(
+        method = "lambda$static$18",
+        at = @At(value = "NEW", target = "Lnet/minecraft/block/Block;"),
+        remap = false
+    )
     private static Block modifyLimestone(AbstractBlock.Settings settings, Operation<Block> original) {
-        return new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(60.0F, 6.0F));
+        return new Block(AbstractBlock.Settings.create()
+               .mapColor(MapColor.STONE_GRAY)
+               .instrument(NoteBlockInstrument.BASEDRUM)
+               .requiresTool()
+               .strength(60.0F, 6.0F));
     }
 }

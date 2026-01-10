@@ -17,20 +17,44 @@ import net.satisfy.bloomingnature.core.registry.ObjectRegistry;
 public class BloomingNatureMixin {
 
     // Marlstone
-    @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/satisfy/meadow/core/registry/ObjectRegistry;", ordinal = 41))
+    @WrapOperation(
+        method = "lambda$static$464",
+        at = @At(value = "NEW", target = "Lnet/minecraft/block/Block;"),
+        remap = false
+    )
     private static Block modifyMarlstone(AbstractBlock.Settings settings, Operation<Block> original) {
-        return new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(60.0F, 6.0F));
+        return new Block(AbstractBlock.Settings.create()
+               .mapColor(MapColor.STONE_GRAY)
+               .instrument(NoteBlockInstrument.BASEDRUM)
+               .requiresTool()
+               .strength(60.0F, 6.0F));
     }
 
     // Laterit
-    @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/satisfy/meadow/core/registry/ObjectRegistry;", ordinal = 18))
+    @WrapOperation(
+        method = "lambda$static$198",
+        at = @At(value = "NEW", target = "Lnet/minecraft/block/Block;"),
+        remap = false
+    )
     private static Block modifyLaterit(AbstractBlock.Settings settings, Operation<Block> original) {
-        return new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(60.0F, 6.0F));
+        return new Block(AbstractBlock.Settings.create()
+               .mapColor(MapColor.STONE_GRAY)
+               .instrument(NoteBlockInstrument.BASEDRUM)
+               .requiresTool()
+               .strength(60.0F, 6.0F));
     }
 
     // Travertin
-    @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/satisfy/meadow/core/registry/ObjectRegistry;", ordinal = 9))
+    @WrapOperation(
+        method = "lambda$static$174",
+        at = @At(value = "NEW", target = "Lnet/minecraft/block/Block;"),
+        remap = false
+    )
     private static Block modifyTravertin(AbstractBlock.Settings settings, Operation<Block> original) {
-        return new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(60.0F, 6.0F));
+        return new Block(AbstractBlock.Settings.create()
+               .mapColor(MapColor.STONE_GRAY)
+               .instrument(NoteBlockInstrument.BASEDRUM)
+               .requiresTool()
+               .strength(60.0F, 6.0F));
     }
 }
