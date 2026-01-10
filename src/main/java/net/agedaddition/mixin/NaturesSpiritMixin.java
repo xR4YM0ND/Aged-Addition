@@ -9,18 +9,65 @@ import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import net.agedaddition.block.ExperienceDroppingPillarBlock;
 import net.agedaddition.block.RedstoneOrePillarBlock;
 import net.hibiscus.naturespirit.registration.NSMiscBlocks;
+import net.hibiscus.naturespirit.registration.sets.StoneSet;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.RedstoneOreBlock;
 import net.minecraft.block.enums.NoteBlockInstrument;
+import net.minecraft.item.Item;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.IntProvider;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 
 @Mixin(NSMiscBlocks.class)
 public class NaturesSpiritMixin {
+
+
+    // Travertine StoneSet (9 Parameter Konstruktor)
+    @WrapOperation(
+        method = "<clinit>", 
+        at = @At(value = "NEW", target = "Lnet/hibiscus/naturespirit/registration/sets/StoneSet;", ordinal = 0)
+    )
+    private static StoneSet modifyTravertineStrength(
+            Identifier id, 
+            MapColor color, 
+            Item slab, 
+            Item base, 
+            float strength, 
+            boolean hasSlab, 
+            boolean hasStairs, 
+            boolean hasWall, 
+            boolean hasButton, 
+            Operation<StoneSet> original) {
+        
+        // Hier ändern wir die Stärke von 1.5F auf z.B. 2.5F
+        return original.call(id, color, slab, base, 60.0F, hasSlab, hasStairs, hasWall, hasButton);
+    }
+
+    // Chert StoneSet (10 Parameter Konstruktor)
+    @WrapOperation(
+        method = "<clinit>", 
+        at = @At(value = "NEW", target = "Lnet/hibiscus/naturespirit/registration/sets/StoneSet;", ordinal = 1)
+    )
+    private static StoneSet modifyChertStrength(
+            Identifier id, 
+            MapColor color, 
+            Item slab, 
+            Item base, 
+            float strength, 
+            boolean hasSlab, 
+            boolean hasStairs, 
+            boolean hasWall, 
+            boolean hasButton, 
+            boolean hasPressurePlate, 
+            Operation<StoneSet> original) {
+        
+        // Hier ändern wir die Stärke von.9F auf z.B. 2.0F
+        return original.call(id, color, slab, base, 60.0F, hasSlab, hasStairs, hasWall, hasButton, hasPressurePlate);
+    }
 
     // Chert Gold Ore
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "(Lnet/minecraft/util/math/intprovider/IntProvider;Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 0))

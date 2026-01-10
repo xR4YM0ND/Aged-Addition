@@ -4,7 +4,10 @@
   "compatibilityLevel": "JAVA_21",
   "plugin": "net.agedaddition.mixin.AgedAdditionMixinPlugin",
   "mixins": [
+    "AlpineWhispersMixin",
     "BlocksMixin",
+    "BloomingNatureMixin",
+    "MeadowMixin",
     "NaturesSpiritMixin"
   ],
   "client": [
