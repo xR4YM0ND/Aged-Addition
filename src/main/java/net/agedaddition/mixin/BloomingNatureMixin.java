@@ -27,7 +27,7 @@ public class BloomingNatureMixin {
                .mapColor(MapColor.STONE_GRAY)
                .instrument(NoteBlockInstrument.BASEDRUM)
                .requiresTool()
-               .strength(60.0F, 6.0F));
+               .strength(20.0F, 200.0F));
     }
 
     // Laterit
@@ -41,7 +41,7 @@ public class BloomingNatureMixin {
                .mapColor(MapColor.STONE_GRAY)
                .instrument(NoteBlockInstrument.BASEDRUM)
                .requiresTool()
-               .strength(60.0F, 6.0F));
+               .strength(40.0F, 400.0F));
     }
 
     // Travertin
@@ -55,6 +55,6 @@ public class BloomingNatureMixin {
                .mapColor(MapColor.STONE_GRAY)
                .instrument(NoteBlockInstrument.BASEDRUM)
                .requiresTool()
-               .strength(60.0F, 6.0F));
+               .strength(50.0F, 500.0F));
     }
 }

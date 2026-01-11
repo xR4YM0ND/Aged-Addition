@@ -27,6 +27,6 @@ public class MeadowMixin {
                .mapColor(MapColor.STONE_GRAY)
                .instrument(NoteBlockInstrument.BASEDRUM)
                .requiresTool()
-               .strength(60.0F, 6.0F));
+               .strength(10.0F, 100.0F));
     }
 }

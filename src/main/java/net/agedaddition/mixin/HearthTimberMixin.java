@@ -31,7 +31,7 @@ public class HearthTimberMixin {
         Operation<RubbleMasonryBlock> original
     ) {
         // 1. Modify the settings object directly
-        AbstractBlock.Settings modifiedSettings = settings.strength(60.0F, 6.0F);
+        AbstractBlock.Settings modifiedSettings = settings.strength(70.0F, 700.0F);
         
         // 2. Call the original constructor using the modified settings and the original suppliers
         return original.call(modifiedSettings, nextBlock, previousBlock);

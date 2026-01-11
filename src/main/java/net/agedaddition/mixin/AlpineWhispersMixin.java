@@ -27,6 +27,6 @@ public class AlpineWhispersMixin {
                .mapColor(MapColor.STONE_GRAY)
                .instrument(NoteBlockInstrument.BASEDRUM)
                .requiresTool()
-               .strength(60.0F, 6.0F));
+               .strength(30.0F, 300.0F));
     }
 }

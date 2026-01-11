@@ -16,7 +16,6 @@ import net.minecraft.block.MapColor;
 import net.minecraft.block.RedstoneOreBlock;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.Item;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.IntProvider;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
@@ -44,7 +43,7 @@ public class NaturesSpiritMixin {
             Operation<StoneSet> original) {
         
         // Hier ändern wir die Stärke von 1.5F auf z.B. 2.5F
-        return original.call(id, color, slab, base, 60.0F, hasSlab, hasStairs, hasWall, hasButton);
+        return original.call(id, color, slab, base, 25.0F, hasSlab, hasStairs, hasWall, hasButton);
     }
 
     // Chert StoneSet (10 Parameter Konstruktor)
@@ -66,7 +65,7 @@ public class NaturesSpiritMixin {
             Operation<StoneSet> original) {
         
         // Hier ändern wir die Stärke von.9F auf z.B. 2.0F
-        return original.call(id, color, slab, base, 60.0F, hasSlab, hasStairs, hasWall, hasButton, hasPressurePlate);
+        return original.call(id, color, slab, base, 3.0F, hasSlab, hasStairs, hasWall, hasButton, hasPressurePlate);
     }
 
     // Chert Gold Ore
@@ -76,7 +75,7 @@ public class NaturesSpiritMixin {
         return new ExperienceDroppingPillarBlock(
                 UniformIntProvider.create(1, 2),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
-                        .requiresTool().strength(3.0F, 3.0F));
+                        .requiresTool().strength(5.0F, 30.0F));
     }
 
     // Chert Iron Ore
@@ -86,7 +85,7 @@ public class NaturesSpiritMixin {
         return new ExperienceDroppingPillarBlock(
                 UniformIntProvider.create(1, 2),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
-                        .requiresTool().strength(3.0F, 3.0F));
+                        .requiresTool().strength(5.0F, 30.0F));
     }
 
     // Chert Coal Ore
@@ -96,7 +95,7 @@ public class NaturesSpiritMixin {
         return new ExperienceDroppingPillarBlock(
                 UniformIntProvider.create(1, 2),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
-                        .requiresTool().strength(3.0F, 3.0F));
+                        .requiresTool().strength(5.0F, 30.0F));
     }
 
     // Chert Lapis Ore
@@ -106,7 +105,7 @@ public class NaturesSpiritMixin {
         return new ExperienceDroppingPillarBlock(
                 UniformIntProvider.create(1, 2),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
-                        .requiresTool().strength(3.0F, 3.0F));
+                        .requiresTool().strength(5.0F, 30.0F));
     }
 
     // Chert Diamond Ore
@@ -116,7 +115,7 @@ public class NaturesSpiritMixin {
         return new ExperienceDroppingPillarBlock(
                 UniformIntProvider.create(1, 2),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
-                        .requiresTool().strength(3.0F, 3.0F));
+                        .requiresTool().strength(5.0F, 30.0F));
     }
 
     // Chert Emerald Ore
@@ -126,7 +125,7 @@ public class NaturesSpiritMixin {
         return new ExperienceDroppingPillarBlock(
                 UniformIntProvider.create(1, 2),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
-                        .requiresTool().strength(3.0F, 3.0F));
+                        .requiresTool().strength(5.0F, 30.0F));
     }
 
     // Chert Copper Ore
@@ -136,7 +135,7 @@ public class NaturesSpiritMixin {
         return new ExperienceDroppingPillarBlock(
                 UniformIntProvider.create(100, 200),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
-                        .requiresTool().strength(60.0F, 3.0F));
+                        .requiresTool().strength(5.0F, 30.0F));
     }
 
     // Chert Redstone Ore
@@ -148,7 +147,7 @@ public class NaturesSpiritMixin {
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .mapColor(MapColor.STONE_GRAY)
                 .requiresTool()
-                .strength(60.0F, 4.0F);
+                .strength(5.0F, 30.0F);
 
         return new RedstoneOrePillarBlock(customExperience, customSettings);
     }
