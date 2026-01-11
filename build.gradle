@@ -55,6 +55,10 @@ dependencies {
 	modCompileOnly ('maven.modrinth:lets-do-hearth-timber:IMDjqcHV'){
          exclude(group: "net.fabricmc.fabric-api")
     }
+	// STAL Alloys
+	modCompileOnly ('maven.modrinth:stal-alloys:hkUgZzFE'){
+         exclude(group: "net.fabricmc.fabric-api")
+    }
 }
 
 processResources {

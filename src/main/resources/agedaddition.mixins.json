@@ -9,7 +9,8 @@
     "BloomingNatureMixin",
     "HearthTimberMixin",
     "MeadowMixin",
-    "NaturesSpiritMixin"
+    "NaturesSpiritMixin",
+    "StalMixin"
   ],
   "client": [
     "client.ScreenMixin",
