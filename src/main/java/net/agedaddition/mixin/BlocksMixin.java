@@ -87,7 +87,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinDeepslateGold(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(1, 2),
+                UniformIntProvider.create(11, 16),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(92.0F, 800.0F));
     }
@@ -97,7 +97,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinDeepslateIron(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(1, 2),
+                UniformIntProvider.create(6, 11),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(92.0F, 800.0F));
     }
@@ -107,7 +107,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinDeepslateCoal(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(1, 2),
+                UniformIntProvider.create(5, 10),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(92.0F, 800.0F));
     }
@@ -117,7 +117,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinDeepslateLapis(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(1, 2),
+                UniformIntProvider.create(10, 15),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(92.0F, 800.0F));
     }
@@ -127,7 +127,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinDeepslateDiamond(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(1, 2),
+                UniformIntProvider.create(14, 19),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(92.0F, 800.0F));
     }
@@ -137,7 +137,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinDeepslateEmerald(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(1, 2),
+                UniformIntProvider.create(12, 17),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(92.0F, 800.0F));
     }
@@ -147,7 +147,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinDeepslateCopper(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(1, 2),
+                UniformIntProvider.create(5, 10),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(92.0F, 800.0F));
     }
@@ -156,7 +156,7 @@ public class BlocksMixin {
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/RedstoneOreBlock;", ordinal = 1))
     private static RedstoneOreBlock initMixinDeepslateRedstone(AbstractBlock.Settings settings, Operation<RedstoneOreBlock> original) {
         
-        IntProvider customExperience = UniformIntProvider.create(3, 7);
+        IntProvider customExperience = UniformIntProvider.create(8, 13);
         
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .mapColor(MapColor.DEEPSLATE_GRAY)
@@ -174,7 +174,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinGold(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingBlock(
-                UniformIntProvider.create(1, 3),
+                UniformIntProvider.create(2, 7),
                 AbstractBlock.Settings.create()
                     .mapColor(MapColor.STONE_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
@@ -186,7 +186,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinIron(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingBlock(
-                UniformIntProvider.create(1, 3),
+                UniformIntProvider.create(0, 2),
                 AbstractBlock.Settings.create()
                     .mapColor(MapColor.STONE_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
@@ -198,7 +198,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinCoal(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingBlock(
-                UniformIntProvider.create(1, 3),
+                UniformIntProvider.create(0, 1),
                 AbstractBlock.Settings.create()
                     .mapColor(MapColor.STONE_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
@@ -210,7 +210,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinLapis(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingBlock(
-                UniformIntProvider.create(1, 3),
+                UniformIntProvider.create(1, 6),
                 AbstractBlock.Settings.create()
                     .mapColor(MapColor.STONE_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
@@ -222,7 +222,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinDiamond(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingBlock(
-                UniformIntProvider.create(1, 3),
+                UniformIntProvider.create(5, 10),
                 AbstractBlock.Settings.create()
                     .mapColor(MapColor.STONE_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
@@ -234,7 +234,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinEmerald(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingBlock(
-                UniformIntProvider.create(1, 3),
+                UniformIntProvider.create(3, 8),
                 AbstractBlock.Settings.create()
                     .mapColor(MapColor.STONE_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
@@ -246,7 +246,7 @@ public class BlocksMixin {
     private static ExperienceDroppingBlock initMixinCopper(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingBlock(
-                UniformIntProvider.create(1, 3),
+                UniformIntProvider.create(0, 1),
                 AbstractBlock.Settings.create()
                     .mapColor(MapColor.STONE_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
@@ -257,7 +257,7 @@ public class BlocksMixin {
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/RedstoneOreBlock;", ordinal = 0))
     private static RedstoneOreBlock initMixinRedstone(AbstractBlock.Settings settings, Operation<RedstoneOreBlock> original) {
     
-        IntProvider customExperience = UniformIntProvider.create(2, 5);
+        IntProvider customExperience = UniformIntProvider.create(0, 4);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)

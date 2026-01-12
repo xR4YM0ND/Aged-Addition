@@ -20,7 +20,7 @@ public class StalMixin {
     // Deepslate Nickel
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 1, remap = false))
     private static ExperienceDroppingBlock modifyDeepslateNickel(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(8, 13);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.DEEPSLATE)
                 .requiresTool()
@@ -31,7 +31,7 @@ public class StalMixin {
     // Deepslate Chromium
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 4, remap = false))
     private static ExperienceDroppingBlock modifyDeepslateChromium(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(13, 18);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.DEEPSLATE)
                 .requiresTool()
@@ -42,7 +42,7 @@ public class StalMixin {
     // Deepslate Carbon
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 7, remap = false))
     private static ExperienceDroppingBlock modifyDeepslateCarbon(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(9, 14);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.DEEPSLATE)
                 .requiresTool()
@@ -53,7 +53,7 @@ public class StalMixin {
     // Deepslate Zinc
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 9, remap = false))
     private static ExperienceDroppingBlock modifyDeepslateZinc(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(7, 12);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.DEEPSLATE)
                 .requiresTool()
@@ -64,7 +64,7 @@ public class StalMixin {
     // Deepslate Tin
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 11, remap = false))
     private static ExperienceDroppingBlock modifyDeepslateTin(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(6, 11);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.DEEPSLATE)
                 .requiresTool()
@@ -75,7 +75,7 @@ public class StalMixin {
     // Nickel
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 0, remap = false))
     private static ExperienceDroppingBlock modifyNickel(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(0, 4);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.STONE)
                 .requiresTool()
@@ -86,7 +86,7 @@ public class StalMixin {
     // Chromium
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 3, remap = false))
     private static ExperienceDroppingBlock modifyChromium(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(4, 9);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.STONE)
                 .requiresTool()
@@ -97,7 +97,7 @@ public class StalMixin {
     // Carbon
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 6, remap = false))
     private static ExperienceDroppingBlock modifyCarbon(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(0, 5);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.STONE)
                 .requiresTool()
@@ -108,7 +108,7 @@ public class StalMixin {
     // Zinc
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 8, remap = false))
     private static ExperienceDroppingBlock modifyZinc(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(0, 3);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.STONE)
                 .requiresTool()
@@ -119,7 +119,7 @@ public class StalMixin {
     // Tin
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/ExperienceDroppingBlock;", ordinal = 10, remap = false))
     private static ExperienceDroppingBlock modifyTin(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
-        IntProvider customExperience = UniformIntProvider.create(1, 3);
+        IntProvider customExperience = UniformIntProvider.create(0, 2);
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .sounds(BlockSoundGroup.STONE)
                 .requiresTool()
