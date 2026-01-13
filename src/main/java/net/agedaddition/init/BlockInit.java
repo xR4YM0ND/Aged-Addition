@@ -57,14 +57,14 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block MARLSTONE_COAL_ORE = register("marlstone_coal_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(0, 5),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block MARLSTONE_COAL_ORE = register("marlstone_coal_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(0, 5),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block ALPINE_GNEISS_COAL_ORE = register("alpine_gneiss_coal_ore",
         new ExperienceDroppingBlock(
@@ -75,32 +75,32 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block LATERIT_COAL_ORE = register("laterit_coal_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(1, 6),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block LATERIT_COAL_ORE = register("laterit_coal_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(1, 6),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block GRANITE_COAL_ORE = register("granite_coal_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(1, 6),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(52.0F, 450.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
-
-    public static final Block TRAVERTIN_COAL_ORE = register("travertin_coal_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(2, 7),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
         ),
         true,
         ItemGroups.NATURAL
     );
+
+    // public static final Block TRAVERTIN_COAL_ORE = register("travertin_coal_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(2, 7),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block TUFF_COAL_ORE = register("tuff_coal_ore",
         new ExperienceDroppingBlock(
@@ -140,14 +140,14 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block TRAVERTIN_COPPER_ORE = register("travertin_copper_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(2, 7),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block TRAVERTIN_COPPER_ORE = register("travertin_copper_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(2, 7),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block TUFF_COPPER_ORE = register("tuff_copper_ore",
         new ExperienceDroppingBlock(
@@ -169,14 +169,14 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block MARLSTONE_IRON_ORE = register("marlstone_iron_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(1, 6),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block MARLSTONE_IRON_ORE = register("marlstone_iron_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(1, 6),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block ALPINE_GNEISS_IRON_ORE = register("alpine_gneiss_iron_ore",
         new ExperienceDroppingBlock(
@@ -187,32 +187,32 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block LATERIT_IRON_ORE = register("laterit_iron_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(2, 7),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block LATERIT_IRON_ORE = register("laterit_iron_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(2, 7),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block GRANITE_IRON_ORE = register("granite_iron_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(2, 7),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(52.0F, 450.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
-
-    public static final Block TRAVERTIN_IRON_ORE = register("travertin_iron_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(3, 8),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
         ),
         true,
         ItemGroups.NATURAL
     );
+
+    // public static final Block TRAVERTIN_IRON_ORE = register("travertin_iron_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(3, 8),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block TUFF_IRON_ORE = register("tuff_iron_ore",
         new ExperienceDroppingBlock(
@@ -300,28 +300,37 @@ public class BlockInit {
         .strength(hardness, resistance);
 }
 
-    public static final Block LATERIT_REDSTONE_ORE = register("laterit_redstone_ore",
-        new CustomRedstoneOreBlock(
-            createRedstoneOreSettings(47.0F, 400.0F),
-            UniformIntProvider.create(4, 9)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block LATERIT_REDSTONE_ORE = register("laterit_redstone_ore",
+    //     new CustomRedstoneOreBlock(
+    //         createRedstoneOreSettings(47.0F, 400.0F),
+    //         UniformIntProvider.create(4, 9)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block GRANITE_REDSTONE_ORE = register("granite_redstone_ore",
         new CustomRedstoneOreBlock(
-            createRedstoneOreSettings(52.0F, 450.0F),
+            createRedstoneOreSettings(58.0F, 500.0F),
             UniformIntProvider.create(4, 9)
         ),
         true,
         ItemGroups.NATURAL
     );
 
-    public static final Block TRAVERTIN_REDSTONE_ORE = register("travertin_redstone_ore",
+    // public static final Block TRAVERTIN_REDSTONE_ORE = register("travertin_redstone_ore",
+    //     new CustomRedstoneOreBlock(
+    //         createRedstoneOreSettings(58.0F, 500.0F),
+    //         UniformIntProvider.create(5, 10)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
+
+    public static final Block TUFF_REDSTONE_ORE = register("tuff_redstone_ore",
         new CustomRedstoneOreBlock(
-            createRedstoneOreSettings(58.0F, 500.0F),
-            UniformIntProvider.create(5, 10)
+            createRedstoneOreSettings(69.0F, 600.0F),
+            UniformIntProvider.create(6, 11)
         ),
         true,
         ItemGroups.NATURAL
@@ -365,14 +374,14 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block MARLSTONE_EMERALD_ORE = register("marlstone_emerald_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(7, 12),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block MARLSTONE_EMERALD_ORE = register("marlstone_emerald_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(7, 12),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block ALPINE_GNEISS_EMERALD_ORE = register("alpine_gneiss_emerald_ore",
         new ExperienceDroppingBlock(
@@ -383,32 +392,32 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block LATERIT_EMERALD_ORE = register("laterit_emerald_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(8, 13),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block LATERIT_EMERALD_ORE = register("laterit_emerald_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(8, 13),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block GRANITE_EMERALD_ORE = register("granite_emerald_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(8, 13),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(52.0F, 450.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
-
-    public static final Block TRAVERTIN_EMERALD_ORE = register("travertin_emerald_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(9, 14),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
         ),
         true,
         ItemGroups.NATURAL
     );
+
+    // public static final Block TRAVERTIN_EMERALD_ORE = register("travertin_emerald_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(9, 14),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block TUFF_EMERALD_ORE = register("tuff_emerald_ore",
         new ExperienceDroppingBlock(
@@ -457,14 +466,14 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block MARLSTONE_LAPIS_ORE = register("marlstone_lapis_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(5, 10),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block MARLSTONE_LAPIS_ORE = register("marlstone_lapis_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(5, 10),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block ALPINE_GNEISS_LAPIS_ORE = register("alpine_gneiss_lapis_ore",
         new ExperienceDroppingBlock(
@@ -515,14 +524,14 @@ public class BlockInit {
 
     // CARBON
 
-    public static final Block TRAVERTIN_CARBON_ORE = register("travertin_carbon_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(6, 11),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block TRAVERTIN_CARBON_ORE = register("travertin_carbon_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(6, 11),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block TUFF_CARBON_ORE = register("tuff_carbon_ore",
         new ExperienceDroppingBlock(
@@ -562,32 +571,32 @@ public class BlockInit {
 
     // CHROMIUM
 
-    public static final Block LATERIT_CHROMIUM_ORE = register("laterit_chromium_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(9, 14),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block LATERIT_CHROMIUM_ORE = register("laterit_chromium_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(9, 14),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block GRANITE_CHROMIUM_ORE = register("granite_chromium_ore",
         new ExperienceDroppingBlock(
             UniformIntProvider.create(9, 14),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(52.0F, 450.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
-
-    public static final Block TRAVERTIN_CHROMIUM_ORE = register("travertin_chromium_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(10, 15),
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
         ),
         true,
         ItemGroups.NATURAL
     );
+
+    // public static final Block TRAVERTIN_CHROMIUM_ORE = register("travertin_chromium_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(10, 15),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block TUFF_CHROMIUM_ORE = register("tuff_chromium_ore",
         new ExperienceDroppingBlock(
@@ -672,14 +681,14 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block MARLSTONE_NICKEL_ORE = register("marlstone_nickel_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(3, 8),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block MARLSTONE_NICKEL_ORE = register("marlstone_nickel_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(3, 8),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block ALPINE_GNEISS_NICKEL_ORE = register("alpine_gneiss_nickel_ore",
         new ExperienceDroppingBlock(
@@ -710,14 +719,14 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block MARLSTONE_TIN_ORE = register("marlstone_tin_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(1, 6),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block MARLSTONE_TIN_ORE = register("marlstone_tin_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(1, 6),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block ALPINE_GNEISS_TIN_ORE = register("alpine_gneiss_tin_ore",
         new ExperienceDroppingBlock(
@@ -728,14 +737,14 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block TRAVERTIN_TIN_ORE = register("travertin_tin_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(3, 8),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block TRAVERTIN_TIN_ORE = register("travertin_tin_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(3, 8),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block TUFF_TIN_ORE = register("tuff_tin_ore",
         new ExperienceDroppingBlock(
@@ -867,14 +876,14 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    public static final Block MARLSTONE_SALT_ORE = register("marlstone_salt_ore",
-        new ExperienceDroppingBlock(
-            UniformIntProvider.create(0, 5),
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-        ),
-        true,
-        ItemGroups.NATURAL
-    );
+    // public static final Block MARLSTONE_SALT_ORE = register("marlstone_salt_ore",
+    //     new ExperienceDroppingBlock(
+    //         UniformIntProvider.create(0, 5),
+    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
+    //     ),
+    //     true,
+    //     ItemGroups.NATURAL
+    // );
 
     public static final Block ALPINE_GNEISS_SALT_ORE = register("alpine_gneiss_salt_ore",
         new ExperienceDroppingBlock(
