@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "particle": "agedaddition:block/sparse_ores/sparse_iron_ore",
+        "all": "agedaddition:block/sparse_ores/sparse_iron_ore"
+    }
+}

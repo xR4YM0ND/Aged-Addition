@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "agedaddition:block/sparse_ores/sparse_nickel_ore"
+    }
+  }
+}

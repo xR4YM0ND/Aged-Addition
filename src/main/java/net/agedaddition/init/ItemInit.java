@@ -18,6 +18,12 @@ public class ItemInit {
     public static final Item RAW_COPPER_NUGGET = register("raw_copper_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item RAW_GOLD_NUGGET = register("raw_gold_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item RAW_IRON_NUGGET = register("raw_iron_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item NICKEL_NUGGET = register("nickel_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item RAW_NICKEL_NUGGET = register("raw_nickel_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item ZINC_NUGGET = register("zinc_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item RAW_ZINC_NUGGET = register("raw_zinc_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item TIN_NUGGET = register("tin_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item RAW_TIN_NUGGET = register("raw_tin_nugget", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
     public static final Item COAL_PIECE = register("coal_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item LAPIS_LAZULI_PIECE = register("lapis_lazuli_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);

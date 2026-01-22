@@ -1,6 +1,17 @@
 {
     "replace": false,
     "values": [
+        "agedaddition:sparse_coal_ore",
+        "agedaddition:sparse_copper_ore",
+        "agedaddition:sparse_emerald_ore",
+        "agedaddition:sparse_gold_ore",
+        "agedaddition:sparse_iron_ore",
+        "agedaddition:sparse_lapis_ore",
+        "agedaddition:sparse_nickel_ore",
+        "agedaddition:sparse_quartz_ore",
+        "agedaddition:sparse_redstone_ore",
+        "agedaddition:sparse_tin_ore",
+        "agedaddition:sparse_zinc_ore",
         "agedaddition:andesite_coal_ore",
         "agedaddition:calcite_coal_ore",
         "agedaddition:diorite_coal_ore",
