@@ -1,12 +1,11 @@
 package net.agedaddition.init;
 
 import net.agedaddition.AgedAdditionMain;
-import net.agedaddition.item.ProspectorPick;
+import net.agedaddition.item.material.AgedAdditioArmorMaterials;
+import net.agedaddition.item.material.AgedAdditionToolMaterials;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -33,14 +32,27 @@ public class ItemInit {
     public static final Item NETHER_STAR_PIECE = register("nether_star_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item QUARTZ_PIECE = register("quartz_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
-    public static final Item WOODEN_PROSPECTOR_PICK = register("wooden_prospector_pick", new ProspectorPick(3, new Item.Settings().maxDamage(59)), ItemGroups.INGREDIENTS);
-    public static final Item STONE_PROSPECTOR_PICK = register("stone_prospector_pick", new ProspectorPick(4, new Item.Settings().maxDamage(131)), ItemGroups.INGREDIENTS);
-    public static final Item COPPER_PROSPECTOR_PICK = register("copper_prospector_pick", new ProspectorPick(5, new Item.Settings().maxDamage(190)), ItemGroups.INGREDIENTS);
-    public static final Item GOLDEN_PROSPECTOR_PICK = register("golden_prospector_pick", new ProspectorPick(6, new Item.Settings().maxDamage(32)), ItemGroups.INGREDIENTS);
-    public static final Item IRON_PROSPECTOR_PICK = register("iron_prospector_pick", new ProspectorPick(7, new Item.Settings().maxDamage(250)), ItemGroups.INGREDIENTS);
-    public static final Item STEEL_PROSPECTOR_PICK = register("steel_prospector_pick", new ProspectorPick(8, new Item.Settings().maxDamage(641)), ItemGroups.INGREDIENTS);
-    public static final Item DIAMOND_PROSPECTOR_PICK = register("diamond_prospector_pick", new ProspectorPick(9, new Item.Settings().maxDamage(1561)), ItemGroups.INGREDIENTS);
-    public static final Item NETHERITE_PROSPECTOR_PICK = register("netherite_prospector_pick", new ProspectorPick(10, new Item.Settings().maxDamage(2031)), ItemGroups.INGREDIENTS);
+    public static final Item CHROME_STEEL_SWORD = register("chrome_steel_sword",
+            new SwordItem(AgedAdditionToolMaterials.CHROME_STEEL, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(AgedAdditionToolMaterials.CHROME_STEEL, 3, -2.4f))),ItemGroups.COMBAT);
+    public static final Item CHROME_STEEL_SHOVEL = register("chrome_steel_shovel",
+            new ShovelItem(AgedAdditionToolMaterials.CHROME_STEEL, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(AgedAdditionToolMaterials.CHROME_STEEL, 1.5f, -3.0f))),ItemGroups.TOOLS);
+    public static final Item CHROME_STEEL_PICKAXE = register("chrome_steel_pickaxe",
+            new PickaxeItem(AgedAdditionToolMaterials.CHROME_STEEL, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(AgedAdditionToolMaterials.CHROME_STEEL, 1.0f, -2.8f))),ItemGroups.TOOLS);
+    public static final Item CHROME_STEEL_AXE = register("chrome_steel_axe",
+            new AxeItem(AgedAdditionToolMaterials.CHROME_STEEL, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(AgedAdditionToolMaterials.CHROME_STEEL, 6.0f, -3.1f))),ItemGroups.TOOLS);
+    public static final Item CHROME_STEEL_HOE = register("chrome_steel_hoe",
+            new HoeItem(AgedAdditionToolMaterials.CHROME_STEEL, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(AgedAdditionToolMaterials.CHROME_STEEL, -2.0f, -1.0f))),ItemGroups.TOOLS);
+//    public static final Item CHROME_STEEL_HORSE_ARMOR = register("chrome_steel_horse_armor",
+//            new AnimalArmorItem(AgedAdditioArmorMaterials.CHROME_STEEL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)),ItemGroups.TOOLS);
+
+    public static final Item CHROME_STEEL_HELMET = register("chrome_steel_helmet",
+            new ArmorItem(AgedAdditioArmorMaterials.CHROME_STEEL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(20))),ItemGroups.COMBAT);
+    public static final Item CHROME_STEEL_CHESTPLATE = register("chrome_steel_chestplate",
+            new ArmorItem(AgedAdditioArmorMaterials.CHROME_STEEL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(20))),ItemGroups.COMBAT);
+    public static final Item CHROME_STEEL_LEGGINGS = register("chrome_steel_leggings",
+            new ArmorItem(AgedAdditioArmorMaterials.CHROME_STEEL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(20))),ItemGroups.COMBAT);
+    public static final Item CHROME_STEEL_BOOTS = register("chrome_steel_boots",
+            new ArmorItem(AgedAdditioArmorMaterials.CHROME_STEEL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))),ItemGroups.COMBAT);
 
     public static void init() {
         FuelRegistry.INSTANCE.add(COAL_PIECE, 400);
