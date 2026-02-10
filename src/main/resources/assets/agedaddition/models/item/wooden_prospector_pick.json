@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "agedaddition:item/prospector_picks/wooden_prospector_pick"
+  }
+}
