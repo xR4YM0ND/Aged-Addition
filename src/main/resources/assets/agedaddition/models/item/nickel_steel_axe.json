@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "agedaddition:item/nickel_steel_axe"
+    "layer0": "agedaddition:item/nickel_steel_set/nickel_steel_axe"
   }
 }

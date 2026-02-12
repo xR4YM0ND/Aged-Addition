@@ -16,8 +16,55 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider; // Import for setting XP drops
+import net.minecraft.sound.BlockSoundGroup;
 
 public class BlockInit {
+
+    // MATERIAL BLOCKS
+
+    public static final Block BRONZE_BLOCK = register("bronze_block",
+        new Block(AbstractBlock.Settings.create()
+            .mapColor(MapColor.IRON_GRAY)
+            .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+            .requiresTool()
+            .strength(5.0F, 6.0F)
+            .sounds(BlockSoundGroup.METAL)), // <--- Adds standard metal sounds
+        true,
+        ItemGroups.BUILDING_BLOCKS // <--- Correct group for metal blocks
+    );
+
+    public static final Block NICKEL_STEEL_BLOCK = register("nickel_steel_block",
+        new Block(AbstractBlock.Settings.create()
+            .mapColor(MapColor.IRON_GRAY)
+            .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+            .requiresTool()
+            .strength(5.0F, 6.0F)
+            .sounds(BlockSoundGroup.METAL)),
+        true,
+        ItemGroups.BUILDING_BLOCKS
+    );
+
+    public static final Block CHROME_STEEL_BLOCK = register("chrome_steel_block",
+        new Block(AbstractBlock.Settings.create()
+            .mapColor(MapColor.IRON_GRAY)
+            .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+            .requiresTool()
+            .strength(5.0F, 6.0F)
+            .sounds(BlockSoundGroup.METAL)),
+        true,
+        ItemGroups.BUILDING_BLOCKS
+    );
+
+    public static final Block STAINLESS_STEEL_BLOCK = register("stainless_steel_block",
+        new Block(AbstractBlock.Settings.create()
+            .mapColor(MapColor.IRON_GRAY)
+            .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+            .requiresTool()
+            .strength(5.0F, 6.0F)
+            .sounds(BlockSoundGroup.METAL)),
+        true,
+        ItemGroups.BUILDING_BLOCKS
+    );
 
     // SPARSE ORES
 

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "agedaddition:basic_steel_helmet",
+    "agedaddition:nickel_steel_helmet",
+    "agedaddition:chrome_steel_helmet",
+    "agedaddition:bronze_helmet"
+  ]
+}

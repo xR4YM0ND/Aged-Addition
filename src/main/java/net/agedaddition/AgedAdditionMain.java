@@ -4,7 +4,6 @@ import net.agedaddition.init.BlockInit;
 import net.agedaddition.init.ConfigInit;
 import net.agedaddition.init.ItemInit;
 import net.agedaddition.init.TagInit;
-import net.agedaddition.init.BiomeInit;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 
@@ -18,7 +17,7 @@ public class AgedAdditionMain implements ModInitializer {
         BlockInit.init();
         ConfigInit.init();
         TagInit.init();
-        BiomeInit.init();
+        //BiomeInit.init();
     }
 
     public static Identifier identifierOf(String name) {

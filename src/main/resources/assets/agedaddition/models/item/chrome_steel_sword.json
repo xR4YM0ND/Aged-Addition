@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "agedaddition:item/chrome_steel_set/chrome_steel_sword"
+  }
+}

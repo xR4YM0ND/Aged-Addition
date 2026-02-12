@@ -88,6 +88,10 @@
         "agedaddition:groutless_rubblestone_quartz_ore",
         "agedaddition:smooth_basalt_quartz_ore",
         "agedaddition:deepslate_quartz_ore",
-        "agedaddition:blackstone_quartz_ore"
+        "agedaddition:blackstone_quartz_ore",
+        "agedaddition:bronze_block",
+        "agedaddition:nickel_steel_block",
+        "agedaddition:chrome_steel_block",
+        "agedaddition:stainless_steel_block"
     ]
 }

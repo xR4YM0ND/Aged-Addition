@@ -63,6 +63,6 @@
     }
   ],
   "textures": {
-    "layer0": "agedaddition:item/nickel_steel_leggings"
+    "layer0": "agedaddition:item/nickel_steel_set/nickel_steel_leggings"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "agedaddition:item/bronze_set/bronze_shovel"
+  }
+}

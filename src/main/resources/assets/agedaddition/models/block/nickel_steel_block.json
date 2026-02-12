@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "agedaddition:block/nickel_steel_block"
+  }
+}
