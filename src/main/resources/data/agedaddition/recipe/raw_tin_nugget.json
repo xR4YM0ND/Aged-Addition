@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stal-alloys:raw_tin"
+    }
+  ],
+  "result": {
+    "id": "agedaddition:raw_tin_nugget",
+    "count": 9
+  }
+}

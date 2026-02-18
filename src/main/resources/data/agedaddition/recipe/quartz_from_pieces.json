@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "agedaddition:quartz_piece"
+    }
+  },
+  "result": {
+    "id": "minecraft:quartz"
+  }
+}

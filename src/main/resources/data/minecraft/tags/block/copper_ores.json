@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "agedaddition:sparse_copper_ore",
+        "agedaddition:andesite_copper_ore",
+        "agedaddition:calcite_copper_ore",
+        "agedaddition:diorite_copper_ore",
+        "agedaddition:tuff_copper_ore"
+    ]
+}

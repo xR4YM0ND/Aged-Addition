@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "agedaddition:sparse_emerald_ore",
+        "agedaddition:andesite_emerald_ore",
+        "agedaddition:calcite_emerald_ore",
+        "agedaddition:diorite_emerald_ore",
+        "agedaddition:travertine_emerald_ore",
+        "agedaddition:alpine_gneiss_emerald_ore",
+        "agedaddition:granite_emerald_ore",
+        "agedaddition:tuff_emerald_ore",
+        "agedaddition:groutless_rubblestone_emerald_ore",
+        "agedaddition:smooth_basalt_emerald_ore",
+        "agedaddition:blackstone_emerald_ore"
+    ]
+}

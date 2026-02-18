@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#a#"
+  ],
+  "key": {
+    "#": {
+      "item": "agedaddition:netherite_scrap_piece"
+    },
+    "a": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "id": "minecraft:netherite_scrap"
+  }
+}

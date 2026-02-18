@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#a#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "agedaddition:diamond_piece"
+    },
+    "a": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond"
+  }
+}

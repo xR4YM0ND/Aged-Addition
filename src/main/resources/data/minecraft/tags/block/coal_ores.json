@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "agedaddition:sparse_coal_ore",
+        "agedaddition:andesite_coal_ore",
+        "agedaddition:calcite_coal_ore",
+        "agedaddition:diorite_coal_ore",
+        "agedaddition:travertine_coal_ore",
+        "agedaddition:alpine_gneiss_coal_ore",
+        "agedaddition:granite_coal_ore",
+        "agedaddition:tuff_coal_ore"
+    ]
+}

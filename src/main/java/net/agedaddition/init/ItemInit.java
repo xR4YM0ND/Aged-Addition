@@ -1,6 +1,7 @@
 package net.agedaddition.init;
 
 import net.agedaddition.AgedAdditionMain;
+import net.agedaddition.item.ItemWithGlint;
 import net.agedaddition.item.material.AgedAdditioArmorMaterials;
 import net.agedaddition.item.material.AgedAdditionToolMaterials;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -35,10 +36,13 @@ public class ItemInit {
     public static final Item EMERALD_PIECE = register("emerald_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item DIAMOND_PIECE = register("diamond_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item NETHERITE_SCRAP_PIECE = register("netherite_scrap_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
-    public static final Item NETHER_STAR_PIECE = register("nether_star_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item NETHER_STAR_PIECE = register("nether_star_piece", new ItemWithGlint(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item QUARTZ_PIECE = register("quartz_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
+    public static final Item COPPER_SHEET = register("copper_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+
     public static final Item CHROME_STEEL_INGOT = register("chrome_steel_ingot", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item CHROME_STEEL_SHEET = register("chrome_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item CHROME_STEEL_SWORD = register("chrome_steel_sword",
             new SwordItem(AgedAdditionToolMaterials.CHROME_STEEL, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(AgedAdditionToolMaterials.CHROME_STEEL, 3, -2.4f))),ItemGroups.COMBAT);
     public static final Item CHROME_STEEL_SHOVEL = register("chrome_steel_shovel",
@@ -61,6 +65,7 @@ public class ItemInit {
             new ArmorItem(AgedAdditioArmorMaterials.CHROME_STEEL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))),ItemGroups.COMBAT);
 
     public static final Item NICKEL_STEEL_INGOT = register("nickel_steel_ingot", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item NICKEL_STEEL_SHEET = register("nickel_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item NICKEL_STEEL_SWORD = register("nickel_steel_sword",
             new SwordItem(AgedAdditionToolMaterials.NICKEL_STEEL, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(AgedAdditionToolMaterials.NICKEL_STEEL, 3, -2.4f))),ItemGroups.COMBAT);
     public static final Item NICKEL_STEEL_SHOVEL = register("nickel_steel_shovel",
@@ -80,6 +85,7 @@ public class ItemInit {
     public static final Item NICKEL_STEEL_BOOTS = register("nickel_steel_boots",
             new ArmorItem(AgedAdditioArmorMaterials.NICKEL_STEEL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))),ItemGroups.COMBAT);
 
+    public static final Item BRONZE_SHEET = register("bronze_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item BRONZE_ROD = register("bronze_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item BRONZE_SHOVEL = register("bronze_shovel",
             new ShovelItem(AgedAdditionToolMaterials.BRONZE, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(AgedAdditionToolMaterials.BRONZE, 1.5f, -3.0f))),ItemGroups.TOOLS);
@@ -96,6 +102,7 @@ public class ItemInit {
     public static final Item BRONZE_BOOTS = register("bronze_boots",
             new ArmorItem(AgedAdditioArmorMaterials.BRONZE, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))),ItemGroups.COMBAT);
 
+    public static final Item BASIC_STEEL_SHEET = register("basic_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item BASIC_STEEL_ROD = register("basic_steel_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item BASIC_STEEL_SWORD = register("basic_steel_sword",
             new SwordItem(AgedAdditionToolMaterials.BASIC_STEEL, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(AgedAdditionToolMaterials.BASIC_STEEL, 3, -2.4f))),ItemGroups.COMBAT);
@@ -108,8 +115,25 @@ public class ItemInit {
     public static final Item BASIC_STEEL_BOOTS = register("basic_steel_boots",
             new ArmorItem(AgedAdditioArmorMaterials.BASIC_STEEL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))),ItemGroups.COMBAT);
 
+    public static final Item STAINLESS_STEEL_SHEET = register("stainless_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item STAINLESS_STEEL_ROD = register("stainless_steel_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item STAINLESS_STEEL_SWORD = register("stainless_steel_sword",
+            new SwordItem(AgedAdditionToolMaterials.STAINLESS_STEEL, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(AgedAdditionToolMaterials.STAINLESS_STEEL, 3, -2.4f))),ItemGroups.COMBAT);
+    public static final Item STAINLESS_STEEL_SHOVEL = register("stainless_steel_shovel",
+            new ShovelItem(AgedAdditionToolMaterials.STAINLESS_STEEL, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(AgedAdditionToolMaterials.STAINLESS_STEEL, 1.5f, -3.0f))),ItemGroups.TOOLS);
+    public static final Item STAINLESS_STEEL_PICKAXE = register("stainless_steel_pickaxe",
+            new PickaxeItem(AgedAdditionToolMaterials.STAINLESS_STEEL, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(AgedAdditionToolMaterials.STAINLESS_STEEL, 1.0f, -2.8f))),ItemGroups.TOOLS);
+    public static final Item STAINLESS_STEEL_AXE = register("stainless_steel_axe",
+            new AxeItem(AgedAdditionToolMaterials.STAINLESS_STEEL, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(AgedAdditionToolMaterials.STAINLESS_STEEL, 6.0f, -3.1f))),ItemGroups.TOOLS);
+    public static final Item STAINLESS_STEEL_HOE = register("stainless_steel_hoe",
+            new HoeItem(AgedAdditionToolMaterials.STAINLESS_STEEL, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(AgedAdditionToolMaterials.STAINLESS_STEEL, -2.0f, -1.0f))),ItemGroups.TOOLS);
 
+    public static final Item DIAMOND_INFUSED_ALLOY_SHEET = register("diamond_infused_alloy_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item HIGH_GRADE_STEEL_SHEET = register("high-grade_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item NETHERITE_STEEL_SHEET = register("netherite_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+
+    public static final Item GOLDEN_UPGRADE_TEMPLATE = register("golden_upgrade_template",
+            createSmithingTemplate("Gold", "Gold"), ItemGroups.INGREDIENTS);
     public static final Item BRONZE_UPGRADE_TEMPLATE = register("bronze_upgrade_template",
             createSmithingTemplate("Bronze", "Copper"), ItemGroups.INGREDIENTS);
     public static final Item BASIC_STEEL_UPGRADE_TEMPLATE = register("basic_steel_upgrade_template",
@@ -136,7 +160,7 @@ public class ItemInit {
                 Identifier.ofVanilla("item/empty_slot_ingot")
         );
         return new SmithingTemplateItem(
-                Text.translatable("item.agedaddition.smithing_template.applies_to").formatted(Formatting.BLUE), // Title for "Applies to"
+                Text.translatable("item.agedaddition." + materialName.toLowerCase().replace(" ", "_") + "_upgrade_template.applies_to").formatted(Formatting.BLUE), // Title for "Applies to"
                 //Text.translatable("item.agedaddition.smithing_template.ingredients").formatted(Formatting.BLUE), // Title for "Ingredients"
                 Text.translatable("item.agedaddition." + materialName.toLowerCase().replace(" ", "_") + "_upgrade_template.ingredients").formatted(Formatting.BLUE), // Title for material "Ingredients"
                 Text.translatable("upgrade.agedaddition." + materialName.toLowerCase().replace(" ", "_") + "_upgrade").formatted(Formatting.GRAY), // The Template Title

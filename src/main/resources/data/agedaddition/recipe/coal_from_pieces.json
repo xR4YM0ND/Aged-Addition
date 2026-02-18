@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "agedaddition:coal_piece"
+    }
+  },
+  "result": {
+    "id": "minecraft:coal"
+  }
+}

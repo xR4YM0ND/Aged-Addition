@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "zinc_ingot",
+  "key": {
+    "#": {
+      "item": "agedaddition:raw_zinc_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stal-alloys:raw_zinc"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stal-alloys:nickel_ingot"
+    }
+  ],
+  "result": {
+    "id": "agedaddition:nickel_nugget",
+    "count": 9
+  }
+}

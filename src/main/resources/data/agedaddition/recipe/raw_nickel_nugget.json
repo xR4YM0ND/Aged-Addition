@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stal-alloys:raw_nickel"
+    }
+  ],
+  "result": {
+    "id": "agedaddition:raw_nickel_nugget",
+    "count": 9
+  }
+}

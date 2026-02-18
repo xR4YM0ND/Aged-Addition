@@ -29,6 +29,10 @@ public class AgedAdditionToolMaterials implements ToolMaterial {
             BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1000, 9.0f, 4.0f, 18,
             () -> Ingredient.ofItems(ItemInit.CHROME_STEEL_INGOT), "chrome_steel");
 
+    public static final ToolMaterial STAINLESS_STEEL = new AgedAdditionToolMaterials(
+            BlockTags.INCORRECT_FOR_WOODEN_TOOL, 250, 6.0f, 2.0f, 15,
+            () -> Ingredient.ofItems(Registries.ITEM.get(Identifier.of("stal-alloys", "stainless_steel_ingot"))), "stainless_steel");
+
     // VANILLA = () -> Ingredient.ofItems(Items.FLINT), "nickel_steel");
     // AGED_ADDITION = () -> Ingredient.ofItems(ItemInit.COAL_PIECE), "chrome_steel");
     // EXTERNAL_MODS = () -> Ingredient.ofItems(Registries.ITEM.get(Identifier.of("stal-alloys", "bronze_ingot"))), "bronze");
