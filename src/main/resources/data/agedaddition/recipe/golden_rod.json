@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "stal-alloys:stainless_steel_ingot"
+      "item": "minecraft:gold_ingot"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "agedaddition:stainless_steel_rod"
+    "id": "agedaddition:golden_rod"
   }
 }

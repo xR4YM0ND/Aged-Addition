@@ -40,7 +40,17 @@ public class ItemInit {
     public static final Item QUARTZ_PIECE = register("quartz_piece", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
     public static final Item COPPER_SHEET = register("copper_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item COPPER_ROD = register("copper_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
+    public static final Item IRON_ROD = register("iron_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+
+    public static final Item GOLDEN_UPGRADE_TEMPLATE = register("golden_upgrade_template",
+            createSmithingTemplate("Golden", "Iron"), ItemGroups.INGREDIENTS);
+	public static final Item GOLDEN_SHEET = register("golden_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item GOLDEN_ROD = register("golden_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+
+	public static final Item CHROME_STEEL_UPGRADE_TEMPLATE = register("chrome_steel_upgrade_template",
+            createSmithingTemplate("Chrome Steel", "Basic Steel"), ItemGroups.INGREDIENTS);
     public static final Item CHROME_STEEL_INGOT = register("chrome_steel_ingot", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item CHROME_STEEL_SHEET = register("chrome_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item CHROME_STEEL_SWORD = register("chrome_steel_sword",
@@ -64,6 +74,8 @@ public class ItemInit {
     public static final Item CHROME_STEEL_BOOTS = register("chrome_steel_boots",
             new ArmorItem(AgedAdditioArmorMaterials.CHROME_STEEL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))),ItemGroups.COMBAT);
 
+	public static final Item NICKEL_STEEL_UPGRADE_TEMPLATE = register("nickel_steel_upgrade_template",
+            createSmithingTemplate("Nickel Steel", "Basic Steel"), ItemGroups.INGREDIENTS);
     public static final Item NICKEL_STEEL_INGOT = register("nickel_steel_ingot", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item NICKEL_STEEL_SHEET = register("nickel_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item NICKEL_STEEL_SWORD = register("nickel_steel_sword",
@@ -85,6 +97,8 @@ public class ItemInit {
     public static final Item NICKEL_STEEL_BOOTS = register("nickel_steel_boots",
             new ArmorItem(AgedAdditioArmorMaterials.NICKEL_STEEL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))),ItemGroups.COMBAT);
 
+    public static final Item BRONZE_UPGRADE_TEMPLATE = register("bronze_upgrade_template",
+            createSmithingTemplate("Bronze", "Copper"), ItemGroups.INGREDIENTS);
     public static final Item BRONZE_SHEET = register("bronze_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item BRONZE_ROD = register("bronze_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item BRONZE_SHOVEL = register("bronze_shovel",
@@ -102,6 +116,8 @@ public class ItemInit {
     public static final Item BRONZE_BOOTS = register("bronze_boots",
             new ArmorItem(AgedAdditioArmorMaterials.BRONZE, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))),ItemGroups.COMBAT);
 
+	public static final Item BASIC_STEEL_UPGRADE_TEMPLATE = register("basic_steel_upgrade_template",
+            createSmithingTemplate("Basic Steel", "Iron"), ItemGroups.INGREDIENTS);
     public static final Item BASIC_STEEL_SHEET = register("basic_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item BASIC_STEEL_ROD = register("basic_steel_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item BASIC_STEEL_SWORD = register("basic_steel_sword",
@@ -115,6 +131,8 @@ public class ItemInit {
     public static final Item BASIC_STEEL_BOOTS = register("basic_steel_boots",
             new ArmorItem(AgedAdditioArmorMaterials.BASIC_STEEL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))),ItemGroups.COMBAT);
 
+	public static final Item STAINLESS_STEEL_UPGRADE_TEMPLATE = register("stainless_steel_upgrade_template",
+            createSmithingTemplate("Stainless Steel", "High-Grade Steel"), ItemGroups.INGREDIENTS);
     public static final Item STAINLESS_STEEL_SHEET = register("stainless_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item STAINLESS_STEEL_ROD = register("stainless_steel_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
     public static final Item STAINLESS_STEEL_SWORD = register("stainless_steel_sword",
@@ -129,21 +147,14 @@ public class ItemInit {
             new HoeItem(AgedAdditionToolMaterials.STAINLESS_STEEL, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(AgedAdditionToolMaterials.STAINLESS_STEEL, -2.0f, -1.0f))),ItemGroups.TOOLS);
 
     public static final Item DIAMOND_INFUSED_ALLOY_SHEET = register("diamond_infused_alloy_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+	public static final Item DIAMOND_INFUSED_ALLOY_ROD = register("diamond_infused_alloy_rod", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    
     public static final Item HIGH_GRADE_STEEL_SHEET = register("high-grade_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+
     public static final Item NETHERITE_STEEL_SHEET = register("netherite_steel_sheet", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
-    public static final Item GOLDEN_UPGRADE_TEMPLATE = register("golden_upgrade_template",
-            createSmithingTemplate("Gold", "Gold"), ItemGroups.INGREDIENTS);
-    public static final Item BRONZE_UPGRADE_TEMPLATE = register("bronze_upgrade_template",
-            createSmithingTemplate("Bronze", "Copper"), ItemGroups.INGREDIENTS);
-    public static final Item BASIC_STEEL_UPGRADE_TEMPLATE = register("basic_steel_upgrade_template",
-            createSmithingTemplate("Basic Steel", "Iron"), ItemGroups.INGREDIENTS);
-    public static final Item NICKEL_STEEL_UPGRADE_TEMPLATE = register("nickel_steel_upgrade_template",
-            createSmithingTemplate("Nickel Steel", "Basic Steel"), ItemGroups.INGREDIENTS);
-    public static final Item CHROME_STEEL_UPGRADE_TEMPLATE = register("chrome_steel_upgrade_template",
-            createSmithingTemplate("Chrome Steel", "Basic Steel"), ItemGroups.INGREDIENTS);
-    public static final Item STAINLESS_STEEL_UPGRADE_TEMPLATE = register("stainless_steel_upgrade_template",
-            createSmithingTemplate("Stainless Steel", "High-Grade Steel"), ItemGroups.INGREDIENTS);
+    
+
     private static SmithingTemplateItem createSmithingTemplate(String materialName, String baseMaterialName) {
         List<Identifier> emptyBaseSlotTextures = List.of(
                 Identifier.ofVanilla("item/empty_armor_slot_helmet"),

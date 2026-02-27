@@ -7,11 +7,15 @@
     "item.agedaddition.copper_nugget": "Copper Nugget",
     "item.agedaddition.raw_copper_nugget": "Raw Copper Nugget",
     "item.agedaddition.copper_sheet": "Copper Sheet",
+    "item.agedaddition.copper_rod": "Copper Rod",
 
     "item.agedaddition.raw_iron_nugget": "Raw Iron Nugget",
+    "item.agedaddition.iron_rod": "Iron Rod",
 
     "item.agedaddition.raw_gold_nugget": "Raw Gold Nugget",
-    "item.agedaddition.golden_upgrade_template": "Golden Steel Upgrade",
+    "item.agedaddition.golden_sheet": "Golden Sheet",
+    "item.agedaddition.golden_rod": "Golden Rod",
+    "item.agedaddition.golden_upgrade_template": "Golden Upgrade",
     "item.agedaddition.golden_upgrade_template.applies_to": "Iron Equipment",
     "item.agedaddition.golden_upgrade_template.ingredients": "Gold Ingot / Sheet / Rod",
 
@@ -91,8 +95,11 @@
     "item.agedaddition.stainless_steel_upgrade_template": "Stainless Steel Upgrade",
     "block.agedaddition.stainless_steel_block": "Block of Stainless Steel",
 
+    "item.agedaddition.diamond_infused_alloy_rod": "Diamond Infused Alloy Rod",
     "item.agedaddition.diamond_infused_alloy_sheet": "Diamond Infused Alloy Sheet",
+
     "item.agedaddition.high-grade_steel_sheet": "High-Grade Steel Sheet",
+    
     "item.agedaddition.netherite_steel_sheet": "Netherite Steel Sheet",
 
     "block.agedaddition.sparse_coal_ore": "Sparse Coal Ore",
@@ -219,6 +226,7 @@
     "item.agedaddition.smithing_template.additions_slot_description": "Add Sheet",
 
     "upgrade.agedaddition.bronze_upgrade": "Craft more of these",
+    "upgrade.agedaddition.golden_upgrade": "Craft more of these",
     "upgrade.agedaddition.basic_steel_upgrade": "Craft more of these",
     "upgrade.agedaddition.nickel_steel_upgrade": "Craft more of these",
     "upgrade.agedaddition.chrome_steel_upgrade": "Craft more of these",

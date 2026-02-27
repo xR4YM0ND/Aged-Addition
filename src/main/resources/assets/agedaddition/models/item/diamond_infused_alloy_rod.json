@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "agedaddition:item/diamond_infused_alloy_set/diamond_infused_alloy_rod"
+  }
+}
