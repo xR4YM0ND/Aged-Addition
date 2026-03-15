@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "group": "Nuggets",
+  "ingredient": {
+    "item": "agedaddition:raw_tin_nugget"
+  },
+  "result": {
+    "id": "agedaddition:tin_nugget"
+  },
+  "experience": 0.1,
+  "cookingtime": 300
+}

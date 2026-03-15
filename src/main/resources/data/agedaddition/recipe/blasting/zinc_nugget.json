@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "group": "Nuggets",
+  "ingredient": {
+    "item": "agedaddition:raw_zinc_nugget"
+  },
+  "result": {
+    "id": "agedaddition:zinc_nugget"
+  },
+  "experience": 0.1,
+  "cookingtime": 300
+}
