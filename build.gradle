@@ -61,6 +61,10 @@ dependencies {
 	modCompileOnly ('maven.modrinth:stal-alloys:hkUgZzFE'){
          exclude(group: "net.fabricmc.fabric-api")
     }
+  // Alloy Forgery
+	modCompileOnly ('maven.modrinth:alloy-forgery:czJc7eUX'){
+         exclude(group: "net.fabricmc.fabric-api")
+    }
 }
 
 processResources {
