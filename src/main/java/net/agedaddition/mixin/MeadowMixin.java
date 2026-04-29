@@ -44,7 +44,7 @@ public class MeadowMixin {
     )
     private static ExperienceDroppingBlock modifyLimestoneSalt(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
 
-        IntProvider customExperience = UniformIntProvider.create(0, 4);
+        IntProvider customExperience = UniformIntProvider.create(0, 1);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)
@@ -63,7 +63,7 @@ public class MeadowMixin {
     )
     private static ExperienceDroppingBlock modifyLimestoneCoal(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
 
-        IntProvider customExperience = UniformIntProvider.create(0, 4);
+        IntProvider customExperience = UniformIntProvider.create(0, 1);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)
@@ -82,7 +82,7 @@ public class MeadowMixin {
     )
     private static ExperienceDroppingBlock modifyLimestoneLapis(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
 
-        IntProvider customExperience = UniformIntProvider.create(4, 9);
+        IntProvider customExperience = UniformIntProvider.create(3, 5);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)
@@ -101,7 +101,7 @@ public class MeadowMixin {
     )
     private static ExperienceDroppingBlock modifyLimestoneGold(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
 
-        IntProvider customExperience = UniformIntProvider.create(5, 10);
+        IntProvider customExperience = UniformIntProvider.create(2, 3);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)
@@ -120,7 +120,7 @@ public class MeadowMixin {
     )
     private static ExperienceDroppingBlock modifyLimestoneEmerald(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
 
-        IntProvider customExperience = UniformIntProvider.create(6, 11);
+        IntProvider customExperience = UniformIntProvider.create(2, 5);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)
@@ -139,7 +139,7 @@ public class MeadowMixin {
     )
     private static ExperienceDroppingBlock modifyLimestoneIron(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
 
-        IntProvider customExperience = UniformIntProvider.create(0, 5);
+        IntProvider customExperience = UniformIntProvider.create(0, 3);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)
@@ -158,7 +158,7 @@ public class MeadowMixin {
     )
     private static ExperienceDroppingBlock modifyLimestoneCopper(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
 
-        IntProvider customExperience = UniformIntProvider.create(0, 4);
+        IntProvider customExperience = UniformIntProvider.create(0, 2);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)
@@ -177,7 +177,7 @@ public class MeadowMixin {
     )
     private static ExperienceDroppingBlock modifyLimestoneDiamond(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
 
-        IntProvider customExperience = UniformIntProvider.create(8, 13);
+        IntProvider customExperience = UniformIntProvider.create(4, 7);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)
@@ -196,7 +196,7 @@ public class MeadowMixin {
     )
     private static ExperienceDroppingBlock modifyLimestoneRedstone(IntProvider experienceDropped, AbstractBlock.Settings settings, Operation<ExperienceDroppingBlock> original) {
 
-        IntProvider customExperience = UniformIntProvider.create(2, 7);
+        IntProvider customExperience = UniformIntProvider.create(1, 4);
 
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
             .mapColor(MapColor.STONE_GRAY)

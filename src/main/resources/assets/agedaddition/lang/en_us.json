@@ -230,5 +230,7 @@
     "upgrade.agedaddition.basic_steel_upgrade": "Craft more of these",
     "upgrade.agedaddition.nickel_steel_upgrade": "Craft more of these",
     "upgrade.agedaddition.chrome_steel_upgrade": "Craft more of these",
-    "upgrade.agedaddition.stainless_steel_upgrade": "Craft more of these"
+    "upgrade.agedaddition.stainless_steel_upgrade": "Craft more of these",
+
+    "item.agedaddition.guide_book": "Guide Book"
 }
