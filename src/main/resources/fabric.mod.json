@@ -25,6 +25,9 @@
 		],
 		"modmenu": [
 			"net.agedaddition.config.ModMenuIntegration"
+		],
+		"cupellation": [
+			"net.agedaddition.compat.AgedCupellationPlugin"
 		]
 	},
 	"mixins": [

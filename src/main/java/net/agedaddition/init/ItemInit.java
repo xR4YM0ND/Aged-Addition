@@ -19,6 +19,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import java.util.ArrayList;
 import java.util.Set;
 import net.minecraft.registry.RegistryKeys;
+import net.stal.alloys.item.StalAlloysItems;
 
 import java.util.List;
 
@@ -310,6 +311,7 @@ public class ItemInit {
     public static void init() {
         FuelRegistry.INSTANCE.add(COPPER_NUGGET, 400);
         registerItemGroup();
+        FuelRegistry.INSTANCE.add(StalAlloysItems.CARBON_PLATE, 24000);
     }
 
     private static void registerItemGroup() {
