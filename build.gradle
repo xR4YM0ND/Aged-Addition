@@ -12,10 +12,11 @@ base {
 
 repositories {
 	maven { url "https://maven.shedaniel.me/" }
-    maven { url "https://maven.terraformersmc.com/" }
+  maven { url "https://maven.terraformersmc.com/" }
 	maven { url "https://api.modrinth.com/maven" }
 	maven { url "https://maven.blamejared.com/" }
 	maven { url "https://modmaven.dev" }
+  maven { url "https://maven.wispforest.io" }
 }
 
 dependencies {
@@ -28,39 +29,49 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	
 	// Cloth
-    modImplementation("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}") {
-        exclude(group: "net.fabricmc.fabric-api")
-    }
-    // ModMenu
-    modCompileOnly modRuntimeOnly("com.terraformersmc:modmenu:${project.mod_menu_version}") {
-        exclude(group: "net.fabricmc.fabric-api")
-    }
+  modImplementation("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}") {
+    exclude(group: "net.fabricmc.fabric-api")
+  }
+  // ModMenu
+  modCompileOnly modRuntimeOnly("com.terraformersmc:modmenu:${project.mod_menu_version}") {
+    exclude(group: "net.fabricmc.fabric-api")
+  }
+  // Lavender
+  modImplementation "io.wispforest:lavender:${project.lavender_version}"
+  include "io.wispforest:owo-sentinel:${project.owo_version}"
 
 	// Natures Spirit
 	modCompileOnly ('maven.modrinth:natures-spirit:TRMapjpU'){
-         exclude(group: "net.fabricmc.fabric-api")
-    }
-
+    exclude(group: "net.fabricmc.fabric-api")
+  }
 	// Meadow
 	modCompileOnly ('maven.modrinth:lets-do-meadow:iHC6YtIg'){
-         exclude(group: "net.fabricmc.fabric-api")
-    }
+    exclude(group: "net.fabricmc.fabric-api")
+  }
 	// Alpine Whispers
 	modCompileOnly ('maven.modrinth:lets-do-alpine-whispers:zNxGTDXB'){
-         exclude(group: "net.fabricmc.fabric-api")
-    }
+    exclude(group: "net.fabricmc.fabric-api")
+  }
 	// BloomingNature
 	modCompileOnly ('maven.modrinth:lets-do-bloomingnature:HZ2AuUCO'){
-         exclude(group: "net.fabricmc.fabric-api")
-    }
+    exclude(group: "net.fabricmc.fabric-api")
+  }
 	// Hearth Timber
 	modCompileOnly ('maven.modrinth:lets-do-hearth-timber:IMDjqcHV'){
-         exclude(group: "net.fabricmc.fabric-api")
-    }
+    exclude(group: "net.fabricmc.fabric-api")
+  }
 	// STAL Alloys
 	modCompileOnly ('maven.modrinth:stal-alloys:hkUgZzFE'){
-         exclude(group: "net.fabricmc.fabric-api")
-    }
+    exclude(group: "net.fabricmc.fabric-api")
+  }
+  // Alloy Forgery
+	modCompileOnly ('maven.modrinth:alloy-forgery:czJc7eUX'){
+    exclude(group: "net.fabricmc.fabric-api")
+  }
+	// Cupellation
+	modImplementation ('maven.modrinth:cupellation:cWSkkbBz'){
+		exclude(group: "net.fabricmc.fabric-api")
+	}
 }
 
 processResources {

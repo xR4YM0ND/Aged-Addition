@@ -4,10 +4,21 @@
     "text.autoconfig.agedaddition.option.numismaticButtonY": "Numismatic Button Y",
     "text.autoconfig.agedaddition.option.print": "Print",
 
+    "item.agedaddition.shard_mold": "Shard Mold",
+    "item.agedaddition.sheet_mold": "Sheet Mold",
+    "item.agedaddition.rod_mold": "Rod Mold",
+    "item.agedaddition.dagger_blade_mold": "Dagger Blade Mold",
+    "item.agedaddition.dirk_blade_mold": "Dirk Blade Mold",
+
     "item.agedaddition.copper_nugget": "Copper Nugget",
     "item.agedaddition.raw_copper_nugget": "Raw Copper Nugget",
     "item.agedaddition.copper_sheet": "Copper Sheet",
     "item.agedaddition.copper_rod": "Copper Rod",
+    "item.agedaddition.copper_axe_head": "Copper Axe Head",
+    "item.agedaddition.copper_pickaxe_head": "Copper Pickaxe Head",
+    "item.agedaddition.copper_shovel_head": "Copper Shovel Head",
+    "item.agedaddition.copper_hoe_head": "Copper Hoe Head",
+    "item.agedaddition.copper_sword_blade": "Copper Sword Blade",
 
     "item.agedaddition.raw_iron_nugget": "Raw Iron Nugget",
     "item.agedaddition.iron_rod": "Iron Rod",
@@ -18,6 +29,21 @@
     "item.agedaddition.golden_upgrade_template": "Golden Upgrade",
     "item.agedaddition.golden_upgrade_template.applies_to": "Iron Equipment",
     "item.agedaddition.golden_upgrade_template.ingredients": "Gold Ingot / Sheet / Rod",
+
+    "item.agedaddition.rose_gold_sheet": "Rose Gold Sheet",
+    "item.agedaddition.rose_gold_rod": "Rose Gold Rod",
+    "item.agedaddition.rose_gold_axe_head": "Rose Gold Axe Head",
+    "item.agedaddition.rose_gold_pickaxe_head": "Rose Gold Pickaxe Head",
+    "item.agedaddition.rose_gold_shovel_head": "Rose Gold Shovel Head",
+    "item.agedaddition.rose_gold_hoe_head": "Rose Gold Hoe Head",
+    "item.agedaddition.rose_gold_sword_blade": "Rose Gold Sword Blade",
+
+    "item.agedaddition.aurium_rod": "Aurium Rod",
+    "item.agedaddition.aurium_axe_head": "Aurium Axe Head",
+    "item.agedaddition.aurium_pickaxe_head": "Aurium Pickaxe Head",
+    "item.agedaddition.aurium_shovel_head": "Aurium Shovel Head",
+    "item.agedaddition.aurium_hoe_head": "Aurium Hoe Head",
+    "item.agedaddition.aurium_sword_blade": "Aurium Sword Blade",
 
     "item.agedaddition.nickel_nugget": "Nickel Nugget",
     "item.agedaddition.raw_nickel_nugget": "Raw Nickel Nugget",
@@ -38,6 +64,12 @@
 
     "item.agedaddition.nickel_steel_ingot": "Nickel Steel Ingot",
     "item.agedaddition.nickel_steel_sheet": "Nickel Steel Sheet",
+    "item.agedaddition.nickel_steel_rod": "Nickel Steel Rod",
+    "item.agedaddition.nickel_steel_axe_head": "Nickel Steel Axe Head",
+    "item.agedaddition.nickel_steel_pickaxe_head": "Nickel Steel Pickaxe Head",
+    "item.agedaddition.nickel_steel_shovel_head": "Nickel Steel Shovel Head",
+    "item.agedaddition.nickel_steel_hoe_head": "Nickel Steel Hoe Head",
+    "item.agedaddition.nickel_steel_sword_blade": "Nickel Steel Sword Blade",
     "item.agedaddition.nickel_steel_sword": "Nickel Steel Sword",
     "item.agedaddition.nickel_steel_axe": "Nickel Steel Axe",
     "item.agedaddition.nickel_steel_pickaxe": "Nickel Steel Pickaxe",
@@ -52,6 +84,12 @@
     
     "item.agedaddition.chrome_steel_ingot": "Chrome Steel Ingot",
     "item.agedaddition.chrome_steel_sheet": "Chrome Steel Sheet",
+    "item.agedaddition.chrome_steel_rod": "Chrome Steel Rod",
+    "item.agedaddition.chrome_steel_axe_head": "Chrome Steel Axe Head",
+    "item.agedaddition.chrome_steel_pickaxe_head": "Chrome Steel Pickaxe Head",
+    "item.agedaddition.chrome_steel_shovel_head": "Chrome Steel Shovel Head",
+    "item.agedaddition.chrome_steel_hoe_head": "Chrome Steel Hoe Head",
+    "item.agedaddition.chrome_steel_sword_blade": "Chrome Steel Sword Blade",
     "item.agedaddition.chrome_steel_sword": "Chrome Steel Sword",
     "item.agedaddition.chrome_steel_axe": "Chrome Steel Axe",
     "item.agedaddition.chrome_steel_pickaxe": "Chrome Steel Pickaxe",
@@ -66,6 +104,13 @@
 
     "item.agedaddition.bronze_sheet": "Bronze Sheet",
     "item.agedaddition.bronze_rod": "Bronze Rod",
+    "item.agedaddition.bronze_axe_head": "Bronze Axe Head",
+    "item.agedaddition.bronze_pickaxe_head": "Bronze Pickaxe Head",
+    "item.agedaddition.bronze_shovel_head": "Bronze Shovel Head",
+    "item.agedaddition.bronze_hoe_head": "Bronze Hoe Head",
+    "item.agedaddition.bronze_sword_blade": "Bronze Sword Blade",
+    "item.agedaddition.bronze_dagger_blade": "Bronze Dagger Blade",
+    "item.agedaddition.bronze_dirk_blade": "Bronze Dirk Blade",
     "item.agedaddition.bronze_pickaxe": "Bronze Pickaxe",
     "item.agedaddition.bronze_shovel": "Bronze Shovel",
     "item.agedaddition.bronze_hoe": "Bronze Hoe",
@@ -78,6 +123,11 @@
 
     "item.agedaddition.basic_steel_sheet": "Basic Steel Sheet",
     "item.agedaddition.basic_steel_rod": "Basic Steel Rod",
+    "item.agedaddition.basic_steel_axe_head": "Basic Steel Axe Head",
+    "item.agedaddition.basic_steel_pickaxe_head": "Basic Steel Pickaxe Head",
+    "item.agedaddition.basic_steel_shovel_head": "Basic Steel Shovel Head",
+    "item.agedaddition.basic_steel_hoe_head": "Basic Steel Hoe Head",
+    "item.agedaddition.basic_steel_sword_blade": "Basic Steel Sword Blade",
     "item.agedaddition.basic_steel_sword": "Basic Steel Sword",
     "item.agedaddition.basic_steel_helmet": "Basic Steel Helmet",
     "item.agedaddition.basic_steel_chestplate": "Basic Steel Chestplate",
@@ -99,8 +149,10 @@
     "item.agedaddition.diamond_infused_alloy_sheet": "Diamond Infused Alloy Sheet",
 
     "item.agedaddition.high-grade_steel_sheet": "High-Grade Steel Sheet",
+    "item.agedaddition.high-grade_steel_rod": "High-Grade Steel Rod",
     
     "item.agedaddition.netherite_steel_sheet": "Netherite Steel Sheet",
+    "item.agedaddition.netherite_steel_rod": "Netherite Steel Rod",
 
     "block.agedaddition.sparse_coal_ore": "Sparse Coal Ore",
     "block.agedaddition.sparse_copper_ore": "Sparse Copper Ore",
@@ -230,5 +282,9 @@
     "upgrade.agedaddition.basic_steel_upgrade": "Craft more of these",
     "upgrade.agedaddition.nickel_steel_upgrade": "Craft more of these",
     "upgrade.agedaddition.chrome_steel_upgrade": "Craft more of these",
-    "upgrade.agedaddition.stainless_steel_upgrade": "Craft more of these"
+    "upgrade.agedaddition.stainless_steel_upgrade": "Craft more of these",
+
+    "item.agedaddition.guide_book": "Guide Book",
+
+    "itemgroup.agedaddition.item_group": "Aged Addition"
 }

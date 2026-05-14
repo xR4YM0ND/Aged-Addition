@@ -73,7 +73,7 @@ public class NaturesSpiritMixin {
     private static ExperienceDroppingBlock initMixin0(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(2, 7),
+                UniformIntProvider.create(2, 3),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(5.0F, 30.0F));
     }
@@ -83,7 +83,7 @@ public class NaturesSpiritMixin {
     private static ExperienceDroppingBlock initMixin1(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(0, 2),
+                UniformIntProvider.create(0, 3),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(5.0F, 30.0F));
     }
@@ -103,7 +103,7 @@ public class NaturesSpiritMixin {
     private static ExperienceDroppingBlock initMixin3(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(1, 6),
+                UniformIntProvider.create(3, 5),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(5.0F, 30.0F));
     }
@@ -113,7 +113,7 @@ public class NaturesSpiritMixin {
     private static ExperienceDroppingBlock initMixin4(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(5, 10),
+                UniformIntProvider.create(4, 7),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(5.0F, 30.0F));
     }
@@ -123,7 +123,7 @@ public class NaturesSpiritMixin {
     private static ExperienceDroppingBlock initMixin5(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(3, 8),
+                UniformIntProvider.create(2, 5),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(5.0F, 30.0F));
     }
@@ -133,7 +133,7 @@ public class NaturesSpiritMixin {
     private static ExperienceDroppingBlock initMixin6(IntProvider experienceDropped, AbstractBlock.Settings settings,
             Operation<ExperienceDroppingBlock> original) {
         return new ExperienceDroppingPillarBlock(
-                UniformIntProvider.create(0, 1),
+                UniformIntProvider.create(0, 2),
                 AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool().strength(5.0F, 30.0F));
     }
@@ -142,7 +142,7 @@ public class NaturesSpiritMixin {
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "Lnet/minecraft/block/RedstoneOreBlock;", ordinal = 0))
     private static RedstoneOreBlock initMixinRedstone(AbstractBlock.Settings settings, Operation<RedstoneOreBlock> original) {
         
-        IntProvider customExperience = UniformIntProvider.create(0, 4);
+        IntProvider customExperience = UniformIntProvider.create(1, 4);
         
         AbstractBlock.Settings customSettings = AbstractBlock.Settings.create()
                 .mapColor(MapColor.STONE_GRAY)

@@ -9,7 +9,8 @@
     "HearthTimberMixin",
     "MeadowMixin",
     "NaturesSpiritMixin",
-    "StalMixin"
+    "StalMixin",
+    "HideVanillaRarityMixin"
   ],
   "client": [
     "client.ScreenMixin",

@@ -1,0 +1,23 @@
+{
+  "keys": {
+    "b": "minecraft:prismarine_bricks",
+    "x": "alloy_forgery:prismarine_bricks_forge_controller"
+  },
+  "layers": [
+    [
+      "bbb",
+      "bbb",
+      "bbb"
+    ],
+    [
+      " x ",
+      "b b",
+      " b "
+    ],
+    [
+      " b ",
+      "b b",
+      " b "
+    ]
+  ]
+}

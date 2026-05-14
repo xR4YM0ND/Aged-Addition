@@ -1,0 +1,23 @@
+{
+  "keys": {
+    "b": "minecraft:polished_blackstone",
+    "x": "alloy_forgery:polished_blackstone_forge_controller"
+  },
+  "layers": [
+    [
+      "bbb",
+      "bbb",
+      "bbb"
+    ],
+    [
+      " x ",
+      "b b",
+      " b "
+    ],
+    [
+      " b ",
+      "b b",
+      " b "
+    ]
+  ]
+}
