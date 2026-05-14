@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "agedaddition:item/sheet_mold"
+    "layer0": "cupellation:item/clay_rod_mold"
   }
 }

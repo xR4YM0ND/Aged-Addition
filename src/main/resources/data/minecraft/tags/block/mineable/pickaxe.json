@@ -92,6 +92,18 @@
         "agedaddition:bronze_block",
         "agedaddition:nickel_steel_block",
         "agedaddition:chrome_steel_block",
-        "agedaddition:stainless_steel_block"
+        "agedaddition:stainless_steel_block",
+        "cupellation:limestone_brick_smelter",
+        "cupellation:limestone_brick_glass",
+        "cupellation:limestone_brick_drain",
+        "cupellation:limestone_brick_faucet",
+        "cupellation:limestone_brick_casting_basin",
+        "cupellation:limestone_brick_casting_table",
+        "cupellation:white_brick_smelter",
+        "cupellation:white_brick_glass",
+        "cupellation:white_brick_drain",
+        "cupellation:white_brick_faucet",
+        "cupellation:white_brick_casting_basin",
+        "cupellation:white_brick_casting_table"
     ]
 }

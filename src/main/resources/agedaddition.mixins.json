@@ -13,8 +13,7 @@
     "HideVanillaRarityMixin"
   ],
   "client": [
-    "client.ScreenMixin",
-    "client.ClientPlayerEntityMixin"
+    "client.ScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

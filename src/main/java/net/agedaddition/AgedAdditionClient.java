@@ -1,15 +1,14 @@
 package net.agedaddition;
 
-import net.agedaddition.util.CustomRarity;
-import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
-import net.minecraft.item.ItemStack;
-import net.minecraft.text.Text;
-import net.minecraft.text.Style;
-import net.minecraft.util.Formatting;
 import net.agedaddition.init.RenderInit;
+import net.agedaddition.util.CustomRarity;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Style;
+import net.minecraft.text.Text;
 
 @Environment(EnvType.CLIENT)
 public class AgedAdditionClient implements ClientModInitializer {
@@ -19,17 +18,16 @@ public class AgedAdditionClient implements ClientModInitializer {
         ItemTooltipCallback.EVENT.register((stack, context, type, lines) -> {
             CustomRarity rarity = getStrongestRarity(stack);
 
-            String rarityName = rarity.getName().substring(0, 1).toUpperCase() +
-                    rarity.getName().substring(1).toLowerCase();
+            String rarityName = rarity.getName().substring(0, 1).toUpperCase() + rarity.getName().substring(1).toLowerCase();
 
-// "Rarity: " in gray
+            // "Rarity: " in gray
             Text label = Text.literal("Rarity: ").setStyle(Style.EMPTY.withColor(0x9D9D9D)); // gray
 
-// name in rarity color; COMMON should also be gray
+            // name in rarity color; COMMON should also be gray
             int nameColor = (rarity == CustomRarity.COMMON) ? 0x9D9D9D : rarity.getColorValue();
             Text name = Text.literal(rarityName).setStyle(Style.EMPTY.withColor(nameColor));
 
-// combine and insert
+            // combine and insert
             Text tooltipText = Text.empty().append(label).append(name);
 
 
@@ -38,7 +36,6 @@ public class AgedAdditionClient implements ClientModInitializer {
                 lines.add(1, tooltipText);
             }
         });
-        // SEPERATE
         RenderInit.init();
     }
 
@@ -56,11 +53,5 @@ public class AgedAdditionClient implements ClientModInitializer {
         // Default fallback if no tags match
         return CustomRarity.COMMON;
     }
-
-
-//    @Override
-//    public void onInitializeClient() {
-//        RenderInit.init();
-//    }
 
 }

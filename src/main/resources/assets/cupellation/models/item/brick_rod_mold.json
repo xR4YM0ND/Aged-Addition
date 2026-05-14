@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "agedaddition:item/dagger_blade_mold"
+    "layer0": "cupellation:item/brick_rod_mold"
   }
 }
