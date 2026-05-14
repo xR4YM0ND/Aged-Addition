@@ -6,10 +6,6 @@
 }
 ```
 
-More variaty for your look.
+Choose your armor wisely.
 
-
-[Special armors](^agedaddition:armors/special) can include armors which are [thin](^agedaddition:armors/thin) or [thick](^agedaddition:armors/thick).
-
-
-You might wanna check out [tools and weapons](^agedaddition:tools_and_weapons).
+Thin armor doesnt warm you up that much while warm armor does excactly that.

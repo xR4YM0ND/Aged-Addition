@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "agedaddition:item/basic_steel_set/basic_steel_shovel_head"
+  }
+}

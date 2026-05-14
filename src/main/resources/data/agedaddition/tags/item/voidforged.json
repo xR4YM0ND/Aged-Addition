@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:shulker_shell",
+    "immersive_machinery:redstone_sheep",
+    "immersive_machinery:bamboo_bee",
+    "tide:chorus_fishing_bobber",
+    "tide:pearl_fishing_bobber",
+    "tide:end_loot_crate",
+    "alloy_forgery:end_stone_bricks_forge_controller",
+    "minecraft:end_crystal",
+    "minecraft:ender_chest",
+    "minecraft:end_portal_frame",
+    "minecraft:ender_eye",
+    "minecraft:ender_pearl",
+    "adventurez:ender_flute",
+    "inmis:endless_backpack",
+    "inmis:ender_pouch",
+    "minecraft:end_rod",
+    "minecraft:dragon_breath"
+  ]
+}

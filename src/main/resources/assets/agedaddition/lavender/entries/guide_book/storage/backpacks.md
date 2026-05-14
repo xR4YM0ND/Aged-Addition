@@ -7,7 +7,7 @@
 }
 ```
 
-Backpacks are restricted to the skill [health](^agedaddition:character/skills).
+Backpacks give you extra inventory space when needed.
 
 
 Frayed Backpacks can be dyed in various colors.
@@ -22,29 +22,18 @@ All backpacks can be equipt in a trinket slot.
 
 
 <recipe;inmis:baby_backpack>
-<recipe;agedaddition:upgrade_baby_to_frayed_backpack>
-
-;;;;;
-
-
 <recipe;inmis:frayed_backpack>
-<recipe;inmis:plated_backpack>
 
 ;;;;;
 
-
+<recipe;inmis:plated_backpack>
 <recipe;inmis:gilded_backpack>
 <recipe;inmis:bejeweled_backpack>
-
-;;;;;
-
-
 <recipe;inmis:blazing_backpack>
-<recipe;inmis:withered_backpack>
 
 ;;;;;
 
-
+<recipe;inmis:withered_backpack>
 <recipe;inmis:endless_backpack>
 <recipe;inmis:ender_pouch>
 

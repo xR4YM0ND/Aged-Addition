@@ -10,10 +10,10 @@
 You can have {dark_gray}3{} jobs at the same time.
 
 
-But the cooldown after each job apply is {dark_gray}20 min{}.
+But the cooldown after each job apply is {dark_gray}15 min{}.
 
 
-The jobs max level is {dark_gray}150{}.
+The jobs max level is {dark_gray}100{}.
 
 
 Here is a compact listing for all jobs & how to gain {green}XP.{}

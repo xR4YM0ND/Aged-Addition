@@ -22,21 +22,21 @@ Below your:
 ;;;;;
 
 
-
-This is followed by the {dark_gray}12{} different skills:
-
-- Health
-- Strength
-- Agility
-- Defense
-- Stamina
-- Luck
+There are{dark_gray}14{} skills:
+- Constitution
+- Warding
+- Athletics
+- Combat
 - Archery
-- Trade
+- Sorcery
+- Barter
+- Provisioning
+- Cultivation
+- Seafaring
+- Quarrying
 - Smithing
-- Mining
-- Farming
-- Alchemy
+- Mechanics
+- Masonry
 
 ;;;;;
 

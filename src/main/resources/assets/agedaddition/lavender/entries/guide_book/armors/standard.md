@@ -7,7 +7,31 @@
 }
 ```
 
-Standard armor increases your [{gold}body temperature{}](^agedaddition:temperature/body_temperature) amount gained.
+Standard armor increases your {gold}body temperature{} amount gained.
+
+;;;;;
+
+
+**Copper Armor**
+
+---
+
+<item;armorandtools:copper_helmet>
+<item;armorandtools:copper_chestplate>
+<item;armorandtools:copper_leggings>
+<item;armorandtools:copper_boots>
+
+;;;;;
+
+
+**Bronze Armor**
+
+---
+
+<item;agedaddition:bronze_helmet>
+<item;agedaddition:bronze_chestplate>
+<item;agedaddition:bronze_leggings>
+<item;agedaddition:bronze_boots>
 
 ;;;;;
 
@@ -24,31 +48,43 @@ Standard armor increases your [{gold}body temperature{}](^agedaddition:temperatu
 ;;;;;
 
 
-**Golden Armor**
+**Basic Steel Armor**
 
 ---
 
-<item;minecraft:golden_helmet>
-<item;minecraft:golden_chestplate>
-<item;minecraft:golden_leggings>
-<item;minecraft:golden_boots>
+<item;agedaddition:basic_steel_helmet>
+<item;agedaddition:basic_steel_chestplate>
+<item;agedaddition:basic_steel_leggings>
+<item;agedaddition:basic_steel_boots>
 
 ;;;;;
 
 
-**Steel Armor**
+**Nickel Steel Armor**
 
 ---
 
-<item;earlystage:steel_helmet>
-<item;earlystage:steel_chestplate>
-<item;earlystage:steel_leggings>
-<item;earlystage:steel_boots>
+<item;agedaddition:nickel_steel_helmet>
+<item;agedaddition:nickel_steel_chestplate>
+<item;agedaddition:nickel_steel_leggings>
+<item;agedaddition:nickel_steel_boots>
 
 ;;;;;
 
 
-**Diamond Armor**
+**Chrome Steel Armor**
+
+---
+
+<item;agedaddition:chrome_steel_helmet>
+<item;agedaddition:chrome_steel_chestplate>
+<item;agedaddition:chrome_steel_leggings>
+<item;agedaddition:chrome_steel_boots>
+
+;;;;;
+
+
+**Diamond Infused Armor**
 
 ---
 
@@ -60,11 +96,24 @@ Standard armor increases your [{gold}body temperature{}](^agedaddition:temperatu
 ;;;;;
 
 
-**Netherite Armor**
+**High-Grade Steel Armor**
 
 ---
 
-<item;minecraft:netherite_helmet>
-<item;minecraft:netherite_chestplate>
-<item;minecraft:netherite_leggings>
-<item;minecraft:netherite_boots>
+<item;earlystage:steel_helmet>
+<item;earlystage:steel_chestplate>
+<item;earlystage:steel_leggings>
+<item;earlystage:steel_boots>
+
+;;;;;
+
+
+**Stainless Steel Armor**
+
+---
+
+<item;stal-alloys:stainless_steel_helmet>
+<item;stal-alloys:stainless_steel_chestplate>
+<item;stal-alloys:stainless_steel_leggings>
+<item;stal-alloys:stainless_steel_boots>
+

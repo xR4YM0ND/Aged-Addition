@@ -68,6 +68,10 @@ dependencies {
 	modCompileOnly ('maven.modrinth:alloy-forgery:czJc7eUX'){
     exclude(group: "net.fabricmc.fabric-api")
   }
+	// Cupellation
+	modImplementation ('maven.modrinth:cupellation:cWSkkbBz'){
+		exclude(group: "net.fabricmc.fabric-api")
+	}
 }
 
 processResources {

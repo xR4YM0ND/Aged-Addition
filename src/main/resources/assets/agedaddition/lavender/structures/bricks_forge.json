@@ -1,0 +1,23 @@
+{
+  "keys": {
+    "b": "minecraft:bricks",
+    "x": "alloy_forgery:bricks_forge_controller"
+  },
+  "layers": [
+    [
+      "bbb",
+      "bbb",
+      "bbb"
+    ],
+    [
+      " x ",
+      "b b",
+      " b "
+    ],
+    [
+      " b ",
+      "b b",
+      " b "
+    ]
+  ]
+}

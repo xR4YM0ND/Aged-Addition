@@ -11,9 +11,11 @@ import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider; // Import for setting XP drops
 import net.minecraft.sound.BlockSoundGroup;
@@ -30,7 +32,7 @@ public class BlockInit {
             .strength(5.0F, 6.0F)
             .sounds(BlockSoundGroup.METAL)), // <--- Adds standard metal sounds
         true,
-        ItemGroups.BUILDING_BLOCKS // <--- Correct group for metal blocks
+            ItemGroups.NATURAL
     );
 
     public static final Block NICKEL_STEEL_BLOCK = register("nickel_steel_block",
@@ -41,7 +43,7 @@ public class BlockInit {
             .strength(5.0F, 6.0F)
             .sounds(BlockSoundGroup.METAL)),
         true,
-        ItemGroups.BUILDING_BLOCKS
+            ItemGroups.NATURAL
     );
 
     public static final Block CHROME_STEEL_BLOCK = register("chrome_steel_block",
@@ -52,7 +54,7 @@ public class BlockInit {
             .strength(5.0F, 6.0F)
             .sounds(BlockSoundGroup.METAL)),
         true,
-        ItemGroups.BUILDING_BLOCKS
+            ItemGroups.NATURAL
     );
 
     public static final Block STAINLESS_STEEL_BLOCK = register("stainless_steel_block",
@@ -63,7 +65,7 @@ public class BlockInit {
             .strength(5.0F, 6.0F)
             .sounds(BlockSoundGroup.METAL)),
         true,
-        ItemGroups.BUILDING_BLOCKS
+            ItemGroups.NATURAL
     );
 
     // SPARSE ORES
@@ -205,14 +207,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block MARLSTONE_COAL_ORE = register("marlstone_coal_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(0, 5),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block ALPINE_GNEISS_COAL_ORE = register("alpine_gneiss_coal_ore",
         new ExperienceDroppingBlock(
@@ -223,14 +217,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block LATERIT_COAL_ORE = register("laterit_coal_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(1, 6),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block GRANITE_COAL_ORE = register("granite_coal_ore",
         new ExperienceDroppingBlock(
@@ -241,14 +227,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block TRAVERTIN_COAL_ORE = register("travertin_coal_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(2, 7),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block TUFF_COAL_ORE = register("tuff_coal_ore",
         new ExperienceDroppingBlock(
@@ -288,14 +266,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block TRAVERTIN_COPPER_ORE = register("travertin_copper_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(2, 7),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block TUFF_COPPER_ORE = register("tuff_copper_ore",
         new ExperienceDroppingBlock(
@@ -317,14 +287,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block MARLSTONE_IRON_ORE = register("marlstone_iron_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(1, 6),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block ALPINE_GNEISS_IRON_ORE = register("alpine_gneiss_iron_ore",
         new ExperienceDroppingBlock(
@@ -335,14 +297,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block LATERIT_IRON_ORE = register("laterit_iron_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(2, 7),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block GRANITE_IRON_ORE = register("granite_iron_ore",
         new ExperienceDroppingBlock(
@@ -353,14 +307,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block TRAVERTIN_IRON_ORE = register("travertin_iron_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(3, 8),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block TUFF_IRON_ORE = register("tuff_iron_ore",
         new ExperienceDroppingBlock(
@@ -448,14 +394,6 @@ public class BlockInit {
         .strength(hardness, resistance);
 }
 
-    // public static final Block LATERIT_REDSTONE_ORE = register("laterit_redstone_ore",
-    //     new CustomRedstoneOreBlock(
-    //         createRedstoneOreSettings(47.0F, 400.0F),
-    //         UniformIntProvider.create(4, 9)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block GRANITE_REDSTONE_ORE = register("granite_redstone_ore",
         new CustomRedstoneOreBlock(
@@ -466,14 +404,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block TRAVERTIN_REDSTONE_ORE = register("travertin_redstone_ore",
-    //     new CustomRedstoneOreBlock(
-    //         createRedstoneOreSettings(58.0F, 500.0F),
-    //         UniformIntProvider.create(5, 10)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block TUFF_REDSTONE_ORE = register("tuff_redstone_ore",
         new CustomRedstoneOreBlock(
@@ -522,14 +452,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block MARLSTONE_EMERALD_ORE = register("marlstone_emerald_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(7, 12),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block ALPINE_GNEISS_EMERALD_ORE = register("alpine_gneiss_emerald_ore",
         new ExperienceDroppingBlock(
@@ -540,14 +462,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block LATERIT_EMERALD_ORE = register("laterit_emerald_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(8, 13),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block GRANITE_EMERALD_ORE = register("granite_emerald_ore",
         new ExperienceDroppingBlock(
@@ -558,14 +472,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block TRAVERTIN_EMERALD_ORE = register("travertin_emerald_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(9, 14),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block TUFF_EMERALD_ORE = register("tuff_emerald_ore",
         new ExperienceDroppingBlock(
@@ -614,14 +520,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block MARLSTONE_LAPIS_ORE = register("marlstone_lapis_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(5, 10),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block ALPINE_GNEISS_LAPIS_ORE = register("alpine_gneiss_lapis_ore",
         new ExperienceDroppingBlock(
@@ -672,14 +570,6 @@ public class BlockInit {
 
     // CARBON
 
-    // public static final Block TRAVERTIN_CARBON_ORE = register("travertin_carbon_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(6, 11),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block TUFF_CARBON_ORE = register("tuff_carbon_ore",
         new ExperienceDroppingBlock(
@@ -719,14 +609,7 @@ public class BlockInit {
 
     // CHROMIUM
 
-    // public static final Block LATERIT_CHROMIUM_ORE = register("laterit_chromium_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(9, 14),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(47.0F, 400.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
+
 
     public static final Block GRANITE_CHROMIUM_ORE = register("granite_chromium_ore",
         new ExperienceDroppingBlock(
@@ -737,14 +620,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block TRAVERTIN_CHROMIUM_ORE = register("travertin_chromium_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(10, 15),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block TUFF_CHROMIUM_ORE = register("tuff_chromium_ore",
         new ExperienceDroppingBlock(
@@ -829,14 +704,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block MARLSTONE_NICKEL_ORE = register("marlstone_nickel_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(3, 8),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block ALPINE_GNEISS_NICKEL_ORE = register("alpine_gneiss_nickel_ore",
         new ExperienceDroppingBlock(
@@ -867,14 +734,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block MARLSTONE_TIN_ORE = register("marlstone_tin_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(1, 6),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block ALPINE_GNEISS_TIN_ORE = register("alpine_gneiss_tin_ore",
         new ExperienceDroppingBlock(
@@ -885,14 +744,6 @@ public class BlockInit {
         ItemGroups.NATURAL
     );
 
-    // public static final Block TRAVERTIN_TIN_ORE = register("travertin_tin_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(3, 8),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(58.0F, 500.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block TUFF_TIN_ORE = register("tuff_tin_ore",
         new ExperienceDroppingBlock(
@@ -1021,17 +872,8 @@ public class BlockInit {
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(30.0F, 250.0F)
         ),
         true,
-        ItemGroups.NATURAL
+            ItemGroups.NATURAL
     );
-
-    // public static final Block MARLSTONE_SALT_ORE = register("marlstone_salt_ore",
-    //     new ExperienceDroppingBlock(
-    //         UniformIntProvider.create(0, 5),
-    //         AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(26.0F, 200.0F)
-    //     ),
-    //     true,
-    //     ItemGroups.NATURAL
-    // );
 
     public static final Block ALPINE_GNEISS_SALT_ORE = register("alpine_gneiss_salt_ore",
         new ExperienceDroppingBlock(
@@ -1039,7 +881,7 @@ public class BlockInit {
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(36.0F, 300.0F)
         ),
         true,
-        ItemGroups.NATURAL
+            ItemGroups.NATURAL
     );
 
     // QUARTZ
@@ -1050,7 +892,7 @@ public class BlockInit {
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(80.0F, 700.0F)
         ),
         true,
-        ItemGroups.NATURAL
+            ItemGroups.NATURAL
     );
 
     public static final Block SMOOTH_BASALT_QUARTZ_ORE = register("smooth_basalt_quartz_ore",
@@ -1059,7 +901,7 @@ public class BlockInit {
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(85.0F, 750.0F)
         ),
         true,
-        ItemGroups.NATURAL
+            ItemGroups.NATURAL
     );
 
     public static final Block DEEPSLATE_QUARTZ_ORE = register("deepslate_quartz_ore",
@@ -1068,7 +910,7 @@ public class BlockInit {
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(92.0F, 800.0F)
         ),
         true,
-        ItemGroups.NATURAL
+            ItemGroups.NATURAL
     );
 
     public static final Block BLACKSTONE_QUARTZ_ORE = register("blackstone_quartz_ore",
@@ -1077,42 +919,57 @@ public class BlockInit {
             AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(105.0F, 900.0F)
         ),
         true,
-        ItemGroups.NATURAL
+            ItemGroups.NATURAL
     );
 
 
 
 
+    public static Block register(String name, Block block, boolean itemVariant, RegistryKey<ItemGroup> vanillaGroup) {
+        Identifier blockIdentifier = AgedAdditionMain.identifierOf(name);
+
+        if (itemVariant) {
+            BlockItem blockitem = new BlockItem(block, new Item.Settings());
+            Registry.register(Registries.ITEM, blockIdentifier, blockitem);
+
+            // Add to the Vanilla group provided (e.g., NATURAL)
+            ItemGroupEvents.modifyEntriesEvent(vanillaGroup).register(entries -> entries.add(blockitem));
+
+            // ALSO add to your custom mod group
+            ItemGroupEvents.modifyEntriesEvent(ItemInit.AGEDADDITION_ITEM_GROUP).register(entries -> entries.add(blockitem));
+        }
+
+        return Registry.register(Registries.BLOCK, blockIdentifier, block);
+    }
 
 
 
     // --- EXISTING REGISTER METHOD MODIFICATION ---
 
-    public static Block register(String name, Block block, boolean itemVariant, net.minecraft.registry.RegistryKey<net.minecraft.item.ItemGroup> itemGroup) {
-        Identifier blockIdentifier = AgedAdditionMain.identifierOf(name);
-        if (itemVariant) {
-            BlockItem blockitem = new BlockItem(block, new Item.Settings());
-            Registry.register(Registries.ITEM, blockIdentifier, blockitem);
-            // Use the itemGroup parameter instead of hardcoding ItemGroups.NATURAL
-            ItemGroupEvents.modifyEntriesEvent(itemGroup).register(entries -> entries.add(blockitem));
-        }
-
-        return Registry.register(Registries.BLOCK, blockIdentifier, block);
-    }
+//    public static Block register(String name, Block block, boolean itemVariant, net.minecraft.registry.RegistryKey<net.minecraft.item.ItemGroup> itemGroup) {
+//        Identifier blockIdentifier = AgedAdditionMain.identifierOf(name);
+//        if (itemVariant) {
+//            BlockItem blockitem = new BlockItem(block, new Item.Settings());
+//            Registry.register(Registries.ITEM, blockIdentifier, blockitem);
+//            ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(blockitem));
+//        }
+//
+//        return Registry.register(Registries.BLOCK, blockIdentifier, block);
+//    }
     
     // Original register method is now deprecated/unused, but keep it for compatibility if you need it later.
     // For new blocks, use the one with ItemGroup.
-    @Deprecated
-    public static Block register(String name, Block block, boolean itemVariant) {
-        Identifier blockIdentifier = AgedAdditionMain.identifierOf(name);
-        if (itemVariant) {
-            BlockItem blockitem = new BlockItem(block, new Item.Settings());
-            Registry.register(Registries.ITEM, blockIdentifier, blockitem);
-            ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(blockitem));
-        }
-
-        return Registry.register(Registries.BLOCK, blockIdentifier, block);
-    }
+//    @Deprecated
+//    public static Block register(String name, Block block, boolean itemVariant) {
+//        Identifier blockIdentifier = AgedAdditionMain.identifierOf(name);
+//        if (itemVariant) {
+//            BlockItem blockitem = new BlockItem(block, new Item.Settings());
+//            Registry.register(Registries.ITEM, blockIdentifier, blockitem);
+//            ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(blockitem));
+//        }
+//
+//        return Registry.register(Registries.BLOCK, blockIdentifier, block);
+//    }
 
     public static void init() {
         // You only need to call init() to ensure the static fields are loaded and registered.

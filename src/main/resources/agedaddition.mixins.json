@@ -4,14 +4,13 @@
   "compatibilityLevel": "JAVA_21",
   "plugin": "net.agedaddition.mixin.AgedAdditionMixinPlugin",
   "mixins": [
-    "ForgeControllerBlockEntityMixin",
-    "ForgeControllerItemMixin",
     "AlpineWhispersMixin",
     "BlocksMixin",
     "HearthTimberMixin",
     "MeadowMixin",
     "NaturesSpiritMixin",
-    "StalMixin"
+    "StalMixin",
+    "HideVanillaRarityMixin"
   ],
   "client": [
     "client.ScreenMixin",

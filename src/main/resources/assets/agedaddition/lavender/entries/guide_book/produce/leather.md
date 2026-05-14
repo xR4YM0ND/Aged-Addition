@@ -30,7 +30,7 @@ Prepared Hide -> {dark_gray}10 min{}
 
 ---
 
-<recipe;fleshz:wood_rack>
+<recipe;fleshz:oak_wood_rack>
 
 Now hang these items on a rack:
 

@@ -1,0 +1,23 @@
+{
+  "keys": {
+    "b": "minecraft:deepslate_bricks",
+    "x": "alloy_forgery:deepslate_bricks_forge_controller"
+  },
+  "layers": [
+    [
+      "bbb",
+      "bbb",
+      "bbb"
+    ],
+    [
+      " x ",
+      "b b",
+      " b "
+    ],
+    [
+      " b ",
+      "b b",
+      " b "
+    ]
+  ]
+}

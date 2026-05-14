@@ -27,3 +27,4 @@ Now its time to get your hands on a brush!
 
 
 <recipe;betterarcheology:diamond_brush>
+<recipe;betterarcheology:netherite_brush_smithing>
