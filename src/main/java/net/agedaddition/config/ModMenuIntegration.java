@@ -31,14 +31,12 @@ public class ModMenuIntegration implements ModMenuApi {
                     // if (client.player != null) {
                     ((ScreenAccess) screen).addAnotherDrawable(ButtonWidget.builder(Text.translatable("text.autoconfig.agedaddition.option.print"), (button) -> {
                         writeId("---Effects---");
-                        Iterator<Identifier> statusEffectIterator = Registries.STATUS_EFFECT.getIds().iterator();
-                        while (statusEffectIterator.hasNext()) {
-                            writeId(statusEffectIterator.next().toString());
+                        for (Identifier identifier : Registries.STATUS_EFFECT.getIds()) {
+                            writeId(identifier.toString());
                         }
                         writeId("---Attributes---");
-                        Iterator<Identifier> attributeIterator = Registries.ATTRIBUTE.getIds().iterator();
-                        while (attributeIterator.hasNext()) {
-                            writeId(attributeIterator.next().toString());
+                        for (Identifier identifier : Registries.ATTRIBUTE.getIds()) {
+                            writeId(identifier.toString());
                         }
                     }).dimensions((screen.width - 104), 4, 50, 20).build());
                     // }
