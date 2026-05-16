@@ -168,6 +168,11 @@ public class ItemInit {
     // ==========================================
     // Grouping them by metal makes it easy to read and precise to control.
 
+    // --- STONE ---
+    public static final Item STONE_SHEET = register("stone_sheet", new Item(new Item.Settings()));
+    public static final Item STONE_ROD = register("stone_rod", new Item(new Item.Settings()));
+    public static final Item STONE_DAGGER_BLADE = register("stone_dagger_blade", new Item(new Item.Settings()));
+    public static final Item STONE_DIRK_BLADE = register("stone_dirk_blade", new Item(new Item.Settings()));
     // --- COPPER ---
     public static final Item COPPER_SHEET = register("copper_sheet", new Item(new Item.Settings()));
     public static final Item COPPER_ROD = register("copper_rod", new Item(new Item.Settings()));

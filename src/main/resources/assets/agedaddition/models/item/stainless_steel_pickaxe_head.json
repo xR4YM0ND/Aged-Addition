@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "agedaddition:item/stainless_steel_set/stainless_steel_pickaxe_head"
+  }
+}

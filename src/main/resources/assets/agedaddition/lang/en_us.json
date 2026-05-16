@@ -22,6 +22,11 @@
     "item.cupellation.brick_dagger_blade_mold": "Brick Dagger Blade Mold",
     "item.cupellation.brick_dirk_blade_mold": "Brick Dirk Blade Mold",
 
+    "item.agedaddition.stone_sheet": "Stone Sheet",
+    "item.agedaddition.stone_rod": "Stone Rod",
+    "item.agedaddition.stone_dagger_blade": "Stone Dagger Blade",
+    "item.agedaddition.stone_dirk_blade": "Stone Dirk Blade",
+
     "item.agedaddition.copper_nugget": "Copper Nugget",
     "item.agedaddition.raw_copper_nugget": "Raw Copper Nugget",
     "item.agedaddition.copper_sheet": "Copper Sheet",
@@ -149,6 +154,11 @@
 
     "item.agedaddition.stainless_steel_rod": "Stainless Steel Rod",
     "item.agedaddition.stainless_steel_sheet": "Stainless Steel Sheet",
+    "item.agedaddition.stainless_steel_axe_head": "Stainless Steel Axe Head",
+    "item.agedaddition.stainless_steel_pickaxe_head": "Stainless Steel Pickaxe Head",
+    "item.agedaddition.stainless_steel_shovel_head": "Stainless Steel Shovel Head",
+    "item.agedaddition.stainless_steel_hoe_head": "Stainless Steel Hoe Head",
+    "item.agedaddition.stainless_steel_sword_blade": "Stainless Steel Sword Blade",
     "item.agedaddition.stainless_steel_sword": "Stainless Steel Sword",
     "item.agedaddition.stainless_steel_pickaxe": "Stainless Steel Pickaxe",
     "item.agedaddition.stainless_steel_axe": "Stainless Steel Axe",
@@ -162,6 +172,11 @@
 
     "item.agedaddition.high-grade_steel_sheet": "High-Grade Steel Sheet",
     "item.agedaddition.high-grade_steel_rod": "High-Grade Steel Rod",
+    "item.agedaddition.high-grade_steel_axe_head": "High-Grade Steel Axe Head",
+    "item.agedaddition.high-grade_steel_pickaxe_head": "High-Grade Steel Pickaxe Head",
+    "item.agedaddition.high-grade_steel_shovel_head": "High-Grade Steel Shovel Head",
+    "item.agedaddition.high-grade_steel_hoe_head": "High-Grade Steel Hoe Head",
+    "item.agedaddition.high-grade_steel_sword_blade": "High-Grade Steel Sword Blade",
     
     "item.agedaddition.netherite_steel_sheet": "Netherite Steel Sheet",
     "item.agedaddition.netherite_steel_rod": "Netherite Steel Rod",

@@ -1,5 +1,6 @@
 {
   "id": "cupellation:limestone_smelter",
+  "max_temperature": 900,
   "blocks": [
     "meadow:limestone_bricks",
     "meadow:mossy_limestone_bricks",
@@ -11,7 +12,14 @@
     "cupellation:limestone_brick_drain"
   ],
   "allowed_metals": [
+    "cupellation:tin",
+    "cupellation:copper",
+    "cupellation:bronze",
     "cupellation:gold",
-    "cupellation:copper"
+    "cupellation:iron",
+    "cupellation:rose_gold",
+    "cupellation:zinc",
+    "cupellation:nickel",
+    "cupellation:basic_steel"
   ]
 }
