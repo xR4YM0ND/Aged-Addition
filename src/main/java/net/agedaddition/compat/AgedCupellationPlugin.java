@@ -23,7 +23,7 @@ public class AgedCupellationPlugin implements CupellationEntrypoint {
         CupellationAPI.registerMoldType(new MoldType("dirk_blade", 1296, false, Set.of()));
         CupellationAPI.registerMoldType(new MoldType("sheet", 432, false, Set.of()));
         CupellationAPI.registerMoldType(new MoldType("rod", 288, false, Set.of()));
-        CupellationAPI.registerMoldType(new MoldType("gemstone", 144, false, Set.of()));
+        CupellationAPI.registerMoldType(new MoldType("diamond_gemstone", 144, false, Set.of()));
         CupellationAPI.registerMoldType(new MoldType("hook", 864, false, Set.of()));
  }
 }

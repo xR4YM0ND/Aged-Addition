@@ -130,10 +130,11 @@
     "tide:ender_glider",
     "tide:endergazer",
     "tide:blue_neonfish",
-    "tide:judgement_fish",
+    "tide:judgment_fish",
     "tide:deep_blue",
     "tide:violet_carp",
     "adventurez:orc_skin",
-    "stal-alloys:zinc_block"
+    "stal-alloys:zinc_block",
+    "tide:deep_grouper"
   ]
 }

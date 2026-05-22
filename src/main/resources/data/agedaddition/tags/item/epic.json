@@ -4,11 +4,10 @@
     "betterarcheology:unidentified_artifact",
     "tide:crystal_fishing_rod",
     "tide:amethyst_fishing_bobber",
-    "tide:surface_loot_crate",
     "herbalbrews:herbal_infusion",
     "herbalbrews:flask",
     "farm_and_charm:chicken_feed",
-    "farm_and_charm:horse_fooder",
+    "farm_and_charm:horse_fodder",
     "alloy_forgery:deepslate_bricks_forge_controller",
     "agedaddition:chrome_steel_block",
     "agedaddition:chrome_steel_shovel",
@@ -54,6 +53,7 @@
     "minecraft:amethyst_shard",
     "meadow:amethyst_cheese_wheel",
     "meadow:amethyst_cheese_slice",
-    "meadow:wooden_amethyst_milk_bucket"
+    "meadow:wooden_amethyst_milk_bucket",
+    "tide:obsidian_crate"
   ]
 }

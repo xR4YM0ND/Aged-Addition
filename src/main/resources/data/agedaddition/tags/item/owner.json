@@ -2,6 +2,7 @@
   "values": [
     "minecraft:command_block",
     "minecraft:barrier",
-    "agedaddition:guide_book"
+    "agedaddition:guide_book",
+    "tide:duck_fishing_bobber"
   ]
 }

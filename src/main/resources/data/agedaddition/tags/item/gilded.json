@@ -1,13 +1,10 @@
 {
   "values": [
     "minecraft:blaze_powder",
-    "backtobed:hells_returner",
     "immersive_aircraft:nether_engine",
     "immersive_machinery:tunnel_digger",
     "immersive_machinery:copperfin",
     "tide:lavaproof_fishing_hook",
-    "tide:obsidian_loot_crate",
-    "alloy_forgery:pollished_blackstone_forge_controller",
     "minecraft:netherite_block",
     "minecraft:netherite_shovel",
     "minecraft:netherite_pickaxe",
