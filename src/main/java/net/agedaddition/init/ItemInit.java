@@ -257,39 +257,15 @@ public class ItemInit {
         Registry.register(Registries.ITEM_GROUP, AGEDADDITION_ITEM_GROUP, FabricItemGroup.builder().icon(() -> new ItemStack(COAL_PIECE)).displayName(Text.translatable("itemgroup.agedaddition.item_group")).build());
     }
 
-    // Registration methods
-    //private static Item register(String id, Item item) {
-    //  return register(AgedAdditionMain.identifierOf(id), item);
-    //}
-
-    //private static Item register(Identifier id, Item item) {
-    //    ItemGroupEvents.modifyEntriesEvent(AGEDADDITION_ITEM_GROUP).register(entries -> entries.add(item));
-    //    return Registry.register(Registries.ITEM, id, item);
-    //}
-
-    //private static Item register(String id, Item item, RegistryKey<ItemGroup> itemGroup) {
-    //    return register(AgedAdditionMain.identifierOf(id), item, itemGroup);
-    //}
-
-    //private static Item register(Identifier id, Item item, RegistryKey<ItemGroup> itemGroup) {
-    //    ItemGroupEvents.modifyEntriesEvent(itemGroup).register(entries -> entries.add(item));
-    //    return Registry.register(Registries.ITEM, id, item);
-    //}
-
-
-    // Helper for items that should ONLY be in your custom tab
     private static Item register(String id, Item item) {
         return register(id, item, AGEDADDITION_ITEM_GROUP);
     }
 
-    // Helper for items that go into a Vanilla group AND your custom group
     private static Item register(String id, Item item, RegistryKey<ItemGroup> vanillaGroup) {
         Identifier identifier = AgedAdditionMain.identifierOf(id);
 
-        // 1. Always add to your Custom Mod Tab
         ItemGroupEvents.modifyEntriesEvent(AGEDADDITION_ITEM_GROUP).register(entries -> entries.add(item));
 
-        // 2. If the provided group isn't your custom one (e.g., it's COMBAT), add it there too
         if (vanillaGroup != AGEDADDITION_ITEM_GROUP) {
             ItemGroupEvents.modifyEntriesEvent(vanillaGroup).register(entries -> entries.add(item));
         }
