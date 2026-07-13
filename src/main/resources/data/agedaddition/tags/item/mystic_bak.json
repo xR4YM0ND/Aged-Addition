@@ -1,0 +1,30 @@
+{
+  "values": [
+    "minecraft:ominous_trial_key",
+    "minecraft:breeze_rod",
+    "minecraft:wind_charge",
+    "minecraft:phantom_membrane",
+    "minecraft:beacon",
+    "naturescompass:naturescompass",
+    "explorerscompass:explorerscompass",
+    "minecraft:recovery_compass",
+    "bakery:bakery_banner",
+    "beachparty:beachparty_banner",
+    "brewery:brewery_banner",
+    "candlelight:candlelight_banner",
+    "herbalbrews:herbalbrews_banner",
+    "lilis_lucky_lures:lilis_lucky_lures_banner",
+    "meadow:meadow_banner",
+    "vinery:vinery_standard",
+    "wildernature:wolf_trapper_banner",
+    "wildernature:bunny_stalker_banner",
+    "wildernature:cod_catcher_banner",
+    "farm_and_charm:scarecrow",
+    "additionz:teleport_potion",
+    "levelz:strange_potion",
+    "additionz:chunk_loader",
+    "sereneseasons:calendar",
+    "adventurez:source_stone",
+    "adventurez:blackstone_golem_heart"
+  ]
+}

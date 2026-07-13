@@ -9,20 +9,20 @@ import net.minecraft.util.StringIdentifiable;
 
 public enum CustomRarity implements StringIdentifiable {
     // Ordered from Weakest to Strongest
-    COMMON("common", "#9D9D9D", null),
-    RUSTIC("rustic", "#8A5A3B", "rustic"),
-    UNUSUAL("unusual", "#CFCFCF", "unusual"),
-    RARE("rare", "#4A90E2", "rare"),
-    REFINED("refined", "#6FCF97", "refined"),
-    EPIC("epic", "#A259FF", "epic"),
-    PRECIOUS("precious", "#FFD166", "precious"),
-    ANCIENT("ancient", "#7A6F4B", "ancient"),
-    EXQUISITE("exquisite", "#FF8FA3", "exquisite"),
-    GILDED("gilded", "#D4AF37", "gilded"),
-    VOIDFORGED("voidforged", "#5A2A82", "voidforged"),
-    LEGENDARY("legendary", "#FF7A1A", "legendary"),
-    MYSTIC("mystic", "#3ED1CF", "mystic"),
-    ADMIN("owner", "#6B0000", "owner");
+    COMMON("common", "#999999", null),
+    //RUSTIC("rustic", "#8A5A3B", "rustic"),
+    UNCOMMON("uncommon", "#FFFFFF", "uncommon"),
+    RARE("rare", "#6699D8", "rare"),
+    //REFINED("refined", "#6FCF97", "refined"),
+    EPIC("epic", "#B24CD8", "epic"),
+    //PRECIOUS("precious", "#FFD166", "precious"),
+    //ANCIENT("ancient", "#7A6F4B", "ancient"),
+    //EXQUISITE("exquisite", "#FF8FA3", "exquisite"),
+    //GILDED("gilded", "#D4AF37", "gilded"),
+    //VOIDFORGED("voidforged", "#5A2A82", "voidforged"),
+    LEGENDARY("legendary", "#D87F33", "legendary"),
+    MYSTIC("mystic", "#E5E533", "mystic");
+    //ADMIN("owner", "#6B0000", "owner");
 
     public static final Codec<CustomRarity> CODEC = StringIdentifiable.createCodec(CustomRarity::values);
 

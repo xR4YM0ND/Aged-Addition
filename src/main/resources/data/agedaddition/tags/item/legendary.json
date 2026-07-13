@@ -1,24 +1,3 @@
 {
-  "values": [
-    "minecraft:nether_star",
-    "betterarcheology:torrent_totem",
-    "betterarcheology:soul_totem",
-    "betterarcheology:growth_totem",
-    "betterarcheology:radiance_totem",
-    "tide:heart_fishing_bobber",
-    "tide:enchanted_pocket_watch",
-    "tide:enchanted_golden_apple_fishing_bobber",
-    "minecraft:enchanted_golden_apple",
-    "minecraft:mace",
-    "minecraft:experience_bottle",
-    "agedaddition:nether_star_piece",
-    "tide:shooting_starfish",
-    "tide:coelacanth",
-    "tide:midas_fish",
-    "tide:devils_hole_pupfish",
-    "tide:voidseeker",
-    "tide:alpha_fish",
-    "tide:dragon_fish",
-    "adventurez:dragon_saddle"
-  ]
+  "values": []
 }
