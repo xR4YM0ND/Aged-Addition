@@ -334,5 +334,25 @@
 
     "item.agedaddition.guide_book": "Guide Book",
 
-    "itemgroup.agedaddition.item_group": "Aged Addition"
+    "itemgroup.agedaddition.item_group": "Aged Addition",
+
+    "metal.cupellation.amethyst": "Molten Amethyst",
+    "metal.cupellation.aurium": "Molten Aurium",
+    "metal.cupellation.basic_steel": "Molten Basic Steel",
+    "metal.cupellation.bronze": "Molten Bronze",
+    "metal.cupellation.carbon": "Molten Carbon",
+    "metal.cupellation.chrome_steel": "Molten Chrome Steel",
+    "metal.cupellation.chromium": "Molten Chromium",
+    "metal.cupellation.diamond": "Molten Diamond",
+    "metal.cupellation.diamond_infused": "Molten Diamond Infused",
+    "metal.cupellation.emerald": "Molten Emerald",
+    "metal.cupellation.high_grade_steel": "Molten High-Grade Steel",
+    "metal.cupellation.nickel": "Molten Nickel",
+    "metal.cupellation.nickel_steel": "Molten Nickel Steel",
+    "metal.cupellation.quartz": "Molten Quartz",
+    "metal.cupellation.stainless_steel": "Molten Stainless Steel",
+    "metal.cupellation.tin": "Molten Tin",
+    "metal.cupellation.zinc": "Molten Zinc",
+    "metal.cupellation.damascus_steel": "Molten Damascus Steel",
+    "metal.cupellation.rose_gold": "Molten Rose Gold"
 }

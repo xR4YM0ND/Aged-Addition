@@ -1,0 +1,39 @@
+{
+  "id": "cupellation:diamond_infused",
+  "name": "metal.cupellation.diamond_infused",
+  "required_temp": 1000,
+  "color": "9FF8E5",
+  "cooled_color": "145D52",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "armorandtools:diamond_infused_ingot",
+  "flux_item": "minecraft:blaze_powder",
+  "density": 105,
+  "alloy_from": [
+    {
+      "metal": "cupellation:diamond",
+      "parts": 4
+    },
+    {
+      "metal": "cupellation:basic_steel",
+      "parts": 4
+    },
+    {
+      "metal": "cupellation:carbon",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 1000,
+      "max": 1250
+    },
+    "mid": {
+      "min": 1250,
+      "max": 1450
+    },
+    "high": {
+      "min": 1450,
+      "max": 1650
+    }
+  }
+}

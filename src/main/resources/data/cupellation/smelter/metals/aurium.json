@@ -1,0 +1,40 @@
+{
+  "id": "cupellation:aurium",
+  "name": "metal.cupellation.aurium",
+  "required_temp": 800,
+  "color": "C19D5A",
+  "cooled_color": "8D6625",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "armorandtools:aurium_ingot",
+  "block": "armorandtools:aurium_block",
+  "flux_item": "minecraft:blaze_powder",
+  "density": 27,
+  "alloy_from": [
+    {
+      "metal": "cupellation:gold",
+      "parts": 2
+    },
+    {
+      "metal": "cupellation:iron",
+      "parts": 2
+    },
+    {
+      "metal": "cupellation:rose_gold",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 800,
+      "max": 1000
+    },
+    "mid": {
+      "min": 1000,
+      "max": 1200
+    },
+    "high": {
+      "min": 1200,
+      "max": 1400
+    }
+  }
+}

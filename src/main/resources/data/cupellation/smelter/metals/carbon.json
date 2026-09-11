@@ -1,0 +1,24 @@
+{
+  "id": "cupellation:carbon",
+  "name": "metal.cupellation.carbon",
+  "required_temp": 700,
+  "color": "3A3A3A",
+  "cooled_color": "222222",
+  "texture": "cupellation:fluid/molten_copper",
+  "flux_item": "minecraft:bone_meal",
+  "density": 20,
+  "grades": {
+    "low": {
+      "min": 350,
+      "max": 500
+    },
+    "mid": {
+      "min": 500,
+      "max": 650
+    },
+    "high": {
+      "min": 650,
+      "max": 800
+    }
+  }
+}

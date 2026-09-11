@@ -1,0 +1,6 @@
+{
+  "item": "minecraft:amethyst_cluster",
+  "metal_type": "cupellation:amethyst",
+  "smelt_time": 600,
+  "yield": 432
+}

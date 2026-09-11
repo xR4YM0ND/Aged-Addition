@@ -1,0 +1,40 @@
+{
+  "id": "cupellation:chromium",
+  "name": "metal.cupellation.chromium",
+  "required_temp": 950,
+  "color": "7873AF",
+  "cooled_color": "565276",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "stal-alloys:chromium_ingot",
+  "block": "stal-alloys:chromium_block",
+  "flux_item": "minecraft:prismarine_crystals",
+  "density": 80,
+  "alloy_from": [
+    {
+      "metal": "cupellation:chromium",
+      "parts": 3
+    },
+    {
+      "metal": "cupellation:basic_steel",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:amethyst",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 950,
+      "max": 1100
+    },
+    "mid": {
+      "min": 1100,
+      "max": 1300
+    },
+    "high": {
+      "min": 1300,
+      "max": 1500
+    }
+  }
+}

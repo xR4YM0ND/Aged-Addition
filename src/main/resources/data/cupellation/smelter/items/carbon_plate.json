@@ -1,0 +1,6 @@
+{
+  "item": "stal-alloys:carbon_plate",
+  "metal_type": "cupellation:carbon",
+  "smelt_time": 200,
+  "yield": 96
+}

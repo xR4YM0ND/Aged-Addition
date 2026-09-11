@@ -1,0 +1,40 @@
+{
+  "id": "cupellation:high_grade_steel",
+  "name": "metal.cupellation.high_grade_steel",
+  "required_temp": 1050,
+  "color": "B7CBCA",
+  "cooled_color": "626E76",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "earlystage:steel_ingot",
+  "block": "earlystage:steel_block",
+  "flux_item": "minecraft:fire_charge",
+  "density": 82,
+  "alloy_from": [
+    {
+      "metal": "cupellation:chrome_steel",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:diamond_infused",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:nickel_steel",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 1050,
+      "max": 1200
+    },
+    "mid": {
+      "min": 1200,
+      "max": 1400
+    },
+    "high": {
+      "min": 1400,
+      "max": 1600
+    }
+  }
+}

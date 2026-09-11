@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:bronze",
+  "name": "metal.cupellation.bronze",
+  "required_temp": 700,
+  "color": "CB7D31",
+  "cooled_color": "AB6621",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "stal-alloys:bronze_ingot",
+  "block": "stal-alloy:bronze_block",
+  "flux_item": "minecraft:gunpowder",
+  "density": 88,
+  "alloy_from": [
+    {
+      "metal": "cupellation:copper",
+      "parts": 2
+    },
+    {
+      "metal": "cupellation:tin",
+      "parts": 1
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 700,
+      "max": 850
+    },
+    "mid": {
+      "min": 850,
+      "max": 1000
+    },
+    "high": {
+      "min": 1000,
+      "max": 1150
+    }
+  }
+}

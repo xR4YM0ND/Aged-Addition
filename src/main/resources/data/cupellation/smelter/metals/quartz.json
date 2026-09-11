@@ -1,0 +1,24 @@
+{
+  "id": "cupellation:quartz",
+  "name": "metal.cupellation.quartz",
+  "required_temp": 700,
+  "color": "E7E2DB",
+  "cooled_color": "877A72",
+  "texture": "cupellation:fluid/molten_copper",
+  "flux_item": "natures_spirit:calcite_shard",
+  "density": 26,
+  "grades": {
+    "low": {
+      "min": 700,
+      "max": 850
+    },
+    "mid": {
+      "min": 850,
+      "max": 1000
+    },
+    "high": {
+      "min": 1000,
+      "max": 1150
+    }
+  }
+}

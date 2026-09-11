@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:basic_steel",
+  "name": "metal.cupellation.basic_steel",
+  "required_temp": 900,
+  "color": "8D8D8D",
+  "cooled_color": "484848",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "stal-alloys:steel_ingot",
+  "block": "stal-alloy:steel_block",
+  "flux_item": "minecraft:coal",
+  "density": 79,
+  "alloy_from": [
+    {
+      "metal": "cupellation:carbon",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:iron",
+      "parts": 3
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 900,
+      "max": 1000
+    },
+    "mid": {
+      "min": 1000,
+      "max": 1200
+    },
+    "high": {
+      "min": 1200,
+      "max": 1400
+    }
+  }
+}

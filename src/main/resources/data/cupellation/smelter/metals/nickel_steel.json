@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:nickel_steel",
+  "name": "metal.cupellation.nickel_steel",
+  "required_temp": 950,
+  "color": "ABA6A3",
+  "cooled_color": "87817F",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "agedaddition:nickel_steel_ingot",
+  "block": "agedaddition:nickel_steel_block",
+  "flux_item": "minecraft:gunpowder",
+  "density": 90,
+  "alloy_from": [
+    {
+      "metal": "cupellation:basic_steel",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:nickel",
+      "parts": 3
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 950,
+      "max": 1100
+    },
+    "mid": {
+      "min": 1100,
+      "max": 1300
+    },
+    "high": {
+      "min": 1300,
+      "max": 1500
+    }
+  }
+}

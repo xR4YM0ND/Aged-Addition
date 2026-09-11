@@ -1,0 +1,26 @@
+{
+  "id": "cupellation:zinc",
+  "name": "metal.cupellation.zinc",
+  "required_temp": 300,
+  "color": "C7D5CE",
+  "cooled_color": "A8B8B0",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "stal-alloys:zinc_ingot",
+  "block": "stal-alloys:zinc_block",
+  "flux_item": "natures_spirit:chalk_powder",
+  "density": 71,
+  "grades": {
+    "low": {
+      "min": 300,
+      "max": 450
+    },
+    "mid": {
+      "min": 450,
+      "max": 600
+    },
+    "high": {
+      "min": 600,
+      "max": 750
+    }
+  }
+}

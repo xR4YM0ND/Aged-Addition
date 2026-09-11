@@ -1,0 +1,25 @@
+{
+  "id": "cupellation:tin",
+  "name": "metal.cupellation.tin",
+  "required_temp": 200,
+  "color": "EFEFEF",
+  "cooled_color": "919191",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "stal-alloys:tin_ingot",
+  "flux_item": "minecraft:bone_meal",
+  "density": 73,
+  "grades": {
+    "low": {
+      "min": 200,
+      "max": 350
+    },
+    "mid": {
+      "min": 350,
+      "max": 550
+    },
+    "high": {
+      "min": 550,
+      "max": 650
+    }
+  }
+}

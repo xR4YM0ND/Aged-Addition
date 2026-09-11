@@ -23,14 +23,12 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class BlockInit {
 
     // MATERIAL BLOCKS
-
     public static final Block BRONZE_BLOCK = register("bronze_block", new Block(AbstractBlock.Settings.create().mapColor(MapColor.IRON_GRAY).instrument(NoteBlockInstrument.IRON_XYLOPHONE).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)), true, ItemGroups.NATURAL);
     public static final Block NICKEL_STEEL_BLOCK = register("nickel_steel_block", new Block(AbstractBlock.Settings.create().mapColor(MapColor.IRON_GRAY).instrument(NoteBlockInstrument.IRON_XYLOPHONE).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)), true, ItemGroups.NATURAL);
     public static final Block CHROME_STEEL_BLOCK = register("chrome_steel_block", new Block(AbstractBlock.Settings.create().mapColor(MapColor.IRON_GRAY).instrument(NoteBlockInstrument.IRON_XYLOPHONE).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)), true, ItemGroups.NATURAL);
     public static final Block STAINLESS_STEEL_BLOCK = register("stainless_steel_block", new Block(AbstractBlock.Settings.create().mapColor(MapColor.IRON_GRAY).instrument(NoteBlockInstrument.IRON_XYLOPHONE).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)), true, ItemGroups.NATURAL);
 
     // SPARSE ORES
-
     public static final Block SPARSE_COAL_ORE = register("sparse_coal_ore", new ExperienceDroppingBlock(UniformIntProvider.create(0, 1), AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(8.0F, 50.0F)), true, ItemGroups.NATURAL);
     public static final Block SPARSE_COPPER_ORE = register("sparse_copper_ore", new ExperienceDroppingBlock(UniformIntProvider.create(0, 1), AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(8.0F, 50.0F)), true, ItemGroups.NATURAL);
     public static final Block SPARSE_EMERALD_ORE = register("sparse_emerald_ore", new ExperienceDroppingBlock(UniformIntProvider.create(0, 1), AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(8.0F, 50.0F)), true, ItemGroups.NATURAL);
@@ -44,7 +42,6 @@ public class BlockInit {
     public static final Block SPARSE_ZINC_ORE = register("sparse_zinc_ore", new ExperienceDroppingBlock(UniformIntProvider.create(0, 1), AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(8.0F, 50.0F)), true, ItemGroups.NATURAL);
 
     // COAL
-
     public static final Block ANDESITE_COAL_ORE = register("andesite_coal_ore", new ExperienceDroppingBlock(UniformIntProvider.create(0, 1), AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(10.0F, 70.0F)), true, ItemGroups.NATURAL);
     public static final Block CALCITE_COAL_ORE = register("calcite_coal_ore", new ExperienceDroppingBlock(UniformIntProvider.create(0, 1), AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 30.0F)), true, ItemGroups.NATURAL);
     public static final Block DIORITE_COAL_ORE = register("diorite_coal_ore", new ExperienceDroppingBlock(UniformIntProvider.create(0, 1), AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(12.0F, 80.0F)), true, ItemGroups.NATURAL);

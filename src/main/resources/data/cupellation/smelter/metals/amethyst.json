@@ -1,0 +1,25 @@
+{
+  "id": "cupellation:amethyst",
+  "name": "metal.cupellation.amethyst",
+  "required_temp": 700,
+  "color": "8B69CA",
+  "cooled_color": "533888",
+  "texture": "cupellation:fluid/molten_copper",
+  "block": "minecraft:amethyst_block",
+  "flux_item": "natures_spirit:calcite_shard",
+  "density": 27,
+  "grades": {
+    "low": {
+      "min": 700,
+      "max": 800
+    },
+    "mid": {
+      "min": 900,
+      "max": 1000
+    },
+    "high": {
+      "min": 1000,
+      "max": 1100
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "cupellation:rose_gold",
+  "name": "metal.cupellation.rose_gold",
+  "required_temp": 600,
+  "color": "DDC9C9",
+  "cooled_color": "B48383",
+  "texture": "cupellation:fluid/molten_copper",
+  "ingot": "rosegoldequipment:rose_gold_ingot",
+  "block": "rosegoldequipment:rose_gold_block",
+  "flux_item": "minecraft:bone_meal",
+  "density": 92,
+  "alloy_from": [
+    {
+      "metal": "cupellation:gold",
+      "parts": 1
+    },
+    {
+      "metal": "cupellation:copper",
+      "parts": 2
+    }
+  ],
+  "grades": {
+    "low": {
+      "min": 600,
+      "max": 800
+    },
+    "mid": {
+      "min": 800,
+      "max": 1000
+    },
+    "high": {
+      "min": 1000,
+      "max": 1150
+    }
+  }
+}
