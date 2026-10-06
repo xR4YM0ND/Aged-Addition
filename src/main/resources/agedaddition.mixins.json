@@ -9,7 +9,6 @@
     "HearthTimberMixin",
     "MeadowMixin",
     "NaturesSpiritMixin",
-    "StalMixin",
     "HideVanillaRarityMixin"
   ],
   "client": [

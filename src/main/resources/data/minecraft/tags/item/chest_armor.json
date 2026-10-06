@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "agedaddition:basic_steel_chestplate",
-    "agedaddition:nickel_steel_chestplate",
-    "agedaddition:chrome_steel_chestplate",
-    "agedaddition:bronze_chestplate"
+    "agedaddition:copper_chestplate"
   ]
 }

@@ -86,9 +86,9 @@ public class CompatInit {
             //LavenderBookItem.registerForBook(identifierOf("guide_book"), new Item.Settings());
             LavenderBookItem.registerForBook(AgedAdditionMain.identifierOf("guide_book"), new Item.Settings());
         }
-        if (FabricLoader.getInstance().isModLoaded("stal-alloys")) {
-            FuelRegistry.INSTANCE.add(StalAlloysItems.CARBON_PLATE, 24000);
-        }
+        //if (FabricLoader.getInstance().isModLoaded("stal-alloys")) {
+            //FuelRegistry.INSTANCE.add(StalAlloysItems.CARBON_PLATE, 24000);
+        //}
     }
 
 }

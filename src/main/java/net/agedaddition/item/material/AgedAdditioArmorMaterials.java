@@ -18,48 +18,58 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 
 public class AgedAdditioArmorMaterials {
+
+    // 4. YOUR MOD ITEM (Copper)
+    public static final RegistryEntry<ArmorMaterial> COPPER = register("agedaddition:copper", Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+    map.put(ArmorItem.Type.BOOTS, 1);
+    map.put(ArmorItem.Type.LEGGINGS, 3);
+    map.put(ArmorItem.Type.CHESTPLATE, 4);
+    map.put(ArmorItem.Type.HELMET, 1);
+    map.put(ArmorItem.Type.BODY, 4);
+    }), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f,
+    () -> Ingredient.ofItems(Items.COPPER_INGOT));
     
     // 1. EXTERNAL MOD ITEM (Example: "stal-alloys:steel_ingot")
-    public static final RegistryEntry<ArmorMaterial> BASIC_STEEL = register("agedaddition:basic_steel", Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-        map.put(ArmorItem.Type.BOOTS, 2);
-        map.put(ArmorItem.Type.LEGGINGS, 5);
-        map.put(ArmorItem.Type.CHESTPLATE, 7);
-        map.put(ArmorItem.Type.HELMET, 3);
-        map.put(ArmorItem.Type.BODY, 5);
-    }), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, 
+    //public static final RegistryEntry<ArmorMaterial> BASIC_STEEL = register("agedaddition:basic_steel", Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+    //map.put(ArmorItem.Type.BOOTS, 2);
+    //map.put(ArmorItem.Type.LEGGINGS, 5);
+    //map.put(ArmorItem.Type.CHESTPLATE, 7);
+    //map.put(ArmorItem.Type.HELMET, 3);
+    //map.put(ArmorItem.Type.BODY, 5);
+    //}), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f,
     // SUPPLIER: Looks up an item from another mod using its ID string
-    () -> Ingredient.ofItems(Registries.ITEM.get(Identifier.of("stal-alloys", "steel_ingot"))));
+    //() -> Ingredient.ofItems(Registries.ITEM.get(Identifier.of("stal-alloys", "steel_ingot"))));
 
     // 2. EXTERNAL MOD ITEM (Example: "stal-alloys:bronze_ingot")
-    public static final RegistryEntry<ArmorMaterial> BRONZE = register("agedaddition:bronze", Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-        map.put(ArmorItem.Type.BOOTS, 2);
-        map.put(ArmorItem.Type.LEGGINGS, 5);
-        map.put(ArmorItem.Type.CHESTPLATE, 7);
-        map.put(ArmorItem.Type.HELMET, 3);
-        map.put(ArmorItem.Type.BODY, 5);
-    }), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, 
-    () -> Ingredient.ofItems(Registries.ITEM.get(Identifier.of("stal-alloys", "bronze_ingot"))));
+    //public static final RegistryEntry<ArmorMaterial> BRONZE = register("agedaddition:bronze", Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+    //map.put(ArmorItem.Type.BOOTS, 2);
+    //map.put(ArmorItem.Type.LEGGINGS, 5);
+    //map.put(ArmorItem.Type.CHESTPLATE, 7);
+    //map.put(ArmorItem.Type.HELMET, 3);
+    //map.put(ArmorItem.Type.BODY, 5);
+    //}), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f,
+    //() -> Ingredient.ofItems(Registries.ITEM.get(Identifier.of("stal-alloys", "bronze_ingot"))));
 
     // 3. YOUR MOD ITEM (Direct reference to ItemInit)
-    public static final RegistryEntry<ArmorMaterial> NICKEL_STEEL = register("agedaddition:nickel_steel", Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-        map.put(ArmorItem.Type.BOOTS, 2);
-        map.put(ArmorItem.Type.LEGGINGS, 5);
-        map.put(ArmorItem.Type.CHESTPLATE, 7);
-        map.put(ArmorItem.Type.HELMET, 3);
-        map.put(ArmorItem.Type.BODY, 5);
-    }), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, 
+    //public static final RegistryEntry<ArmorMaterial> NICKEL_STEEL = register("agedaddition:nickel_steel", Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+    //map.put(ArmorItem.Type.BOOTS, 2);
+    //map.put(ArmorItem.Type.LEGGINGS, 5);
+    //map.put(ArmorItem.Type.CHESTPLATE, 7);
+    //map.put(ArmorItem.Type.HELMET, 3);
+    //map.put(ArmorItem.Type.BODY, 5);
+    //}), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f,
     // SUPPLIER: Directly references the static item from your ItemInit class
-    () -> Ingredient.ofItems(ItemInit.NICKEL_STEEL_INGOT));
+    //() -> Ingredient.ofItems(ItemInit.NICKEL_STEEL_INGOT));
 
     // 4. YOUR MOD ITEM
-    public static final RegistryEntry<ArmorMaterial> CHROME_STEEL = register("agedaddition:chrome_steel", Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-        map.put(ArmorItem.Type.BOOTS, 2);
-        map.put(ArmorItem.Type.LEGGINGS, 5);
-        map.put(ArmorItem.Type.CHESTPLATE, 7);
-        map.put(ArmorItem.Type.HELMET, 3);
-        map.put(ArmorItem.Type.BODY, 5);
-    }), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, 
-    () -> Ingredient.ofItems(ItemInit.CHROME_STEEL_INGOT));
+    //public static final RegistryEntry<ArmorMaterial> CHROME_STEEL = register("agedaddition:chrome_steel", Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+    //map.put(ArmorItem.Type.BOOTS, 2);
+    //map.put(ArmorItem.Type.LEGGINGS, 5);
+    //map.put(ArmorItem.Type.CHESTPLATE, 7);
+    //map.put(ArmorItem.Type.HELMET, 3);
+    //map.put(ArmorItem.Type.BODY, 5);
+    //}), 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f,
+    //() -> Ingredient.ofItems(ItemInit.CHROME_STEEL_INGOT));
 
     private static RegistryEntry<ArmorMaterial> register(String id, EnumMap<ArmorItem.Type, Integer> defense, int enchantability, RegistryEntry<SoundEvent> equipSound, float toughness,
             float knockbackResistance, Supplier<Ingredient> repairIngredient) {

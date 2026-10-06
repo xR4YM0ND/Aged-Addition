@@ -22,22 +22,105 @@ public class AgedCupellationPlugin implements CupellationEntrypoint {
     // natures_spirit:calcite_shard, fire_charge, gunpowder, bone_meal, natures_spirit:chalk_powder, blaze_powder, prismarine_shard, prismarine_crystals, coal
     @Override
     public void registerMoldTypes() {
-                CupellationAPI.registerMoldType(
-                        MoldType.builder("diamond", 144)
-                                .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
-                                .strategy(new MappedResultMoldStrategy(Map.of(Identifier.of("cupellation", "diamond"), Identifier.of("minecraft", "diamond"))))
-                                .craftableAsClayMold(Set.of(Identifier.of("minecraft", "diamond")))
-                                .build());
+        CupellationAPI.registerMoldType(
+                MoldType.builder("diamond_gemstone", 144)
+                        .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
+                        .strategy(new MappedResultMoldStrategy(Map.of(Identifier.of("cupellation", "diamond"), Identifier.of("minecraft", "diamond"))))
+                        .craftableAsClayMold(Set.of(Identifier.of("minecraft", "diamond")))
+                        .build());
 
-        CupellationAPI.registerMoldType(new MoldType("amethyst_shard", 144, false, Set.of()));
-        CupellationAPI.registerMoldType(new MoldType("emerald", 144, false, Set.of()));
-        CupellationAPI.registerMoldType(new MoldType("diamond", 144, false, Set.of()));
+        CupellationAPI.registerMoldType(
+                MoldType.builder("emerald_gemstone", 144)
+                        .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
+                        .strategy(new MappedResultMoldStrategy(Map.of(Identifier.of("cupellation", "emerald"), Identifier.of("minecraft", "emerald"))))
+                        .craftableAsClayMold(Set.of(Identifier.of("minecraft", "emerald")))
+                        .build());
 
-        CupellationAPI.registerMoldType(new MoldType("dagger_blade", 864, false, Set.of()));
-        CupellationAPI.registerMoldType(new MoldType("dirk_blade", 1296, false, Set.of()));
-        CupellationAPI.registerMoldType(new MoldType("sheet", 432, false, Set.of()));
-        CupellationAPI.registerMoldType(new MoldType("rod", 288, false, Set.of()));
-        CupellationAPI.registerMoldType(new MoldType("diamond_gemstone", 144, false, Set.of()));
-        CupellationAPI.registerMoldType(new MoldType("hook", 864, false, Set.of()));
+        CupellationAPI.registerMoldType(
+                MoldType.builder("amethyst_shard", 144)
+                        .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
+                        .strategy(new MappedResultMoldStrategy(Map.of(Identifier.of("cupellation", "amethyst"), Identifier.of("minecraft", "amethyst_shard"))))
+                        .craftableAsClayMold(Set.of(Identifier.of("minecraft", "amethyst_shard")))
+                        .build());
+
+        CupellationAPI.registerMoldType(
+                MoldType.builder("nether_quartz", 144)
+                        .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
+                        .strategy(new MappedResultMoldStrategy(Map.of(Identifier.of("cupellation", "quartz"), Identifier.of("minecraft", "quartz"))))
+                        .craftableAsClayMold(Set.of(Identifier.of("minecraft", "quartz")))
+                        .build());
+
+        CupellationAPI.registerMoldType(
+                MoldType.builder("lapis", 144)
+                        .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
+                        .strategy(new MappedResultMoldStrategy(Map.of(Identifier.of("cupellation", "lapis"), Identifier.of("minecraft", "lapis_lazuli"))))
+                        .craftableAsClayMold(Set.of(Identifier.of("minecraft", "lapis_lazuli")))
+                        .build());
+
+        CupellationAPI.registerMoldType(
+                MoldType.builder("dust", 144)
+                        .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
+                        .strategy(new MappedResultMoldStrategy(Map.of(Identifier.of("cupellation", "redstone"), Identifier.of("minecraft", "redstone"))))
+                        .craftableAsClayMold(Set.of(Identifier.of("minecraft", "redstone"),Identifier.of("minecraft", "glowstone_dust")))
+                        .build());
+
+
+
+        CupellationAPI.registerMoldType(
+                MoldType.builder("hook", 432)
+                        .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
+                        .strategy(new MappedResultMoldStrategy(Map.of(
+                                Identifier.of("cupellation", "iron"), Identifier.of("yo_hooks", "iron_hook_head"),
+                                Identifier.of("cupellation", "gold"), Identifier.of("yo_hooks", "gold_hook_head"),
+                                Identifier.of("cupellation", "diamond"), Identifier.of("yo_hooks", "diamond_hook_head"),
+                                Identifier.of("cupellation", "netherite"), Identifier.of("yo_hooks", "netherite_hook_head")
+                        )))
+                        .craftableAsClayMold(Set.of(
+                                Identifier.of("agedaddition", "stone_hook_head"),
+                                Identifier.of("yo_hooks", "iron_hook_head"),
+                                Identifier.of("yo_hooks", "gold_hook_head"),
+                                Identifier.of("yo_hooks", "diamond_hook_head"),
+                                Identifier.of("yo_hooks", "netherite_hook_head")
+                        ))
+//                .stampItemIds(Set.of(
+//                        Identifier.of("yo_hooks","iron_hook"),
+//                        Identifier.of("yo_hooks","gold_hook"),
+//                        Identifier.of("yo_hooks","diamond_hook"),
+//                        Identifier.of("yo_hooks","netherite_hook")
+//                ))
+                .build());
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        CupellationAPI.registerMoldType(
+//                MoldType.builder("diamond", 144)
+//                        .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
+//                        .strategy(new MappedResultMoldStrategy(Map.of(Identifier.of("cupellation", "diamond"), Identifier.of("minecraft", "diamond"))))
+//                        .craftableAsClayMold(Set.of(Identifier.of("minecraft", "diamond")))   ///// welches item zum pressen
+//                        .build());
+
+        //CupellationAPI.registerMoldType(new MoldType("diamond", 144, false, Set.of()));
+        //CupellationAPI.registerMoldType(new MoldType("dagger_blade", 864, false, Set.of()));
+        //CupellationAPI.registerMoldType(new MoldType("dirk_blade", 1296, false, Set.of()));
+        //CupellationAPI.registerMoldType(new MoldType("sheet", 432, false, Set.of()));
+        //CupellationAPI.registerMoldType(new MoldType("rod", 288, false, Set.of()));
+
+//        CupellationAPI.registerMoldType(new MoldType("amethyst_shard", 144, false, Set.of()));
+//        CupellationAPI.registerMoldType(new MoldType("emerald_gemstone", 144, false, Set.of()));
+//        CupellationAPI.registerMoldType(new MoldType("diamond_gemstone", 144, false, Set.of()));
+//        CupellationAPI.registerMoldType(new MoldType("nether_quartz", 144, false, Set.of()));
+//        CupellationAPI.registerMoldType(new MoldType("hook", 864, false, Set.of()));
  }
 }

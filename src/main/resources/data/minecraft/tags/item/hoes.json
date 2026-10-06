@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "agedaddition:nickel_steel_hoe",
-    "agedaddition:chrome_steel_hoe",
-    "agedaddition:bronze_hoe"
+    "agedaddition:copper_hoe"
   ]
 }
