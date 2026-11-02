@@ -1,0 +1,5 @@
+{
+  "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Damascus Steel Equipment",
+  "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Add damascus steel weapon, or tool",
+  "item.minecraft.smithing_template.netherite_upgrade.ingredients": "Netherite Head / Blade"
+}

@@ -82,13 +82,31 @@ public class AgedCupellationPlugin implements CupellationEntrypoint {
                                 Identifier.of("yo_hooks", "diamond_hook_head"),
                                 Identifier.of("yo_hooks", "netherite_hook_head")
                         ))
-//                .stampItemIds(Set.of(
-//                        Identifier.of("yo_hooks","iron_hook"),
-//                        Identifier.of("yo_hooks","gold_hook"),
-//                        Identifier.of("yo_hooks","diamond_hook"),
-//                        Identifier.of("yo_hooks","netherite_hook")
-//                ))
                 .build());
+
+        CupellationAPI.registerMoldType(
+                MoldType.builder("prospector_head", 432)
+                        .moldingMetalTypeId(Identifier.of("cupellation", "gold"))
+                        .strategy(new MappedResultMoldStrategy(Map.of(
+                                Identifier.of("cupellation", "copper"), Identifier.of("agedaddition", "copper_prospector_head"),
+                                Identifier.of("cupellation", "iron"), Identifier.of("agedaddition", "iron_prospector_head"),
+                                Identifier.of("cupellation", "steel"), Identifier.of("agedaddition", "steel_prospector_head"),
+                                Identifier.of("cupellation", "diamond"), Identifier.of("agedaddition", "diamond_prospector_head"),
+                                Identifier.of("cupellation", "damascus_steel"), Identifier.of("agedaddition", "damascus_steel_prospector_head"),
+                                Identifier.of("cupellation", "netherite"), Identifier.of("agedaddition", "netherite_prospector_head"),
+                                Identifier.of("cupellation", "gilded_netherite"), Identifier.of("agedaddition", "gilded_netherite_prospector_head")
+                        )))
+                        .craftableAsClayMold(Set.of(
+                                Identifier.of("agedaddition", "stone_prospector_head"),
+                                Identifier.of("agedaddition", "copper_prospector_head"),
+                                Identifier.of("agedaddition", "iron_prospector_head"),
+                                Identifier.of("agedaddition", "steel_prospector_head"),
+                                Identifier.of("agedaddition", "diamond_prospector_head"),
+                                Identifier.of("agedaddition", "damascus_steel_prospector_head"),
+                                Identifier.of("agedaddition", "netherite_prospector_head"),
+                                Identifier.of("agedaddition", "gilded_netherite_prospector_head")
+                        ))
+                        .build());
 
         
 

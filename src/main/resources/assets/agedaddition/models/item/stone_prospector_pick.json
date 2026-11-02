@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "item/handheld",
   "textures": {
-    "layer0": "agedaddition:item/prospector_picks/stone_prospector_pick"
+    "layer0": "agedaddition:item/stone_prospector_pick"
   }
 }

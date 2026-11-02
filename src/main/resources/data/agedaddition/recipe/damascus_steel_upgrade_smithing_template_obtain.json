@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "S": {
+      "item": "minecraft:blackstone"
+    },
+    "X": {
+      "item": "earlystage:damascus_steel_ingot"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "agedaddition:damascus_steel_upgrade_smithing_template"
+  }
+}

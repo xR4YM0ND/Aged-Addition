@@ -73,6 +73,8 @@ public class CompatInit {
         return register(CupellationMain.identifierOf(id), block);
     }
 
+
+
     private static Block register(Identifier id, Block block) {
         Item item = Registry.register(Registries.ITEM, id, new BlockItem(block, new Item.Settings()));
         ItemGroupEvents.modifyEntriesEvent(ItemInit.AGEDADDITION_ITEM_GROUP).register(entries -> entries.add(item));
@@ -84,7 +86,8 @@ public class CompatInit {
         // This class will ONLY be loaded if Lavender is installed
         if (FabricLoader.getInstance().isModLoaded("lavender")) {
             //LavenderBookItem.registerForBook(identifierOf("guide_book"), new Item.Settings());
-            LavenderBookItem.registerForBook(AgedAdditionMain.identifierOf("guide_book"), new Item.Settings());
+            Item item = LavenderBookItem.registerForBook(AgedAdditionMain.identifierOf("guide_book"), new Item.Settings());
+            ItemGroupEvents.modifyEntriesEvent(ItemInit.AGEDADDITION_ITEM_GROUP).register(entries -> entries.add(item));
         }
         //if (FabricLoader.getInstance().isModLoaded("stal-alloys")) {
             //FuelRegistry.INSTANCE.add(StalAlloysItems.CARBON_PLATE, 24000);

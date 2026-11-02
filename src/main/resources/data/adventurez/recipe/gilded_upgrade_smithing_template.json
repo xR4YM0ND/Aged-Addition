@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "C": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "adventurez:gilded_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "adventurez:gilded_upgrade_smithing_template"
+  }
+}

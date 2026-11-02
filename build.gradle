@@ -72,6 +72,10 @@ dependencies {
 	modImplementation ('maven.modrinth:cupellation:1.0.5+1.21.1') {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
+	// MiningZ
+	modCompileOnly ('maven.modrinth:miningz:1.0.1') {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
 }
 
 processResources {

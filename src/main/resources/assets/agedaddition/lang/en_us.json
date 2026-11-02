@@ -6,12 +6,15 @@
 
     "item.agedaddition.coal_coke": "Coal Coke",
 
+    "item.agedaddition.stone_prospector_head": "Stone Prospector Head",
+    "item.agedaddition.stone_prospector_pick": "Stone Prospector Pick",
     "item.agedaddition.stone_hook_head": "Stone Hook Head",
     "item.agedaddition.stone_sheet": "Stone Sheet",
     "item.agedaddition.stone_rod": "Stone Rod",
     "item.agedaddition.stone_dagger_blade": "Stone Dagger Blade",
     "item.agedaddition.stone_dirk_blade": "Stone Dirk Blade",
 
+    "item.agedaddition.copper_prospector_head": "Copper Prospector Head",
     "item.agedaddition.copper_nugget": "Copper Nugget",
     "item.agedaddition.raw_copper_nugget": "Raw Copper Nugget",
     "item.agedaddition.copper_sheet": "Copper Sheet",
@@ -32,21 +35,43 @@
     "item.agedaddition.copper_leggings": "Copper Leggings",
     "item.agedaddition.copper_boots": "Copper Boots",
 
+    "item.agedaddition.iron_prospector_head": "Iron Prospector Head",
     "item.agedaddition.raw_iron_nugget": "Raw Iron Nugget",
 
     "item.agedaddition.raw_gold_nugget": "Raw Gold Nugget",
 
+    "item.agedaddition.steel_prospector_head": "Steel Prospector Head",
+    "item.agedaddition.steel_prospector_pick": "Steel Prospector Pick",
     "item.agedaddition.steel_axe_head": "Steel Axe Head",
     "item.agedaddition.steel_pickaxe_head": "Steel Pickaxe Head",
     "item.agedaddition.steel_shovel_head": "Steel Shovel Head",
     "item.agedaddition.steel_hoe_head": "Steel Hoe Head",
     "item.agedaddition.steel_sword_blade": "Steel Sword Blade",
 
+    "item.agedaddition.diamond_prospector_head": "Diamond Prospector Head",
+
+    "item.agedaddition.damascus_steel_prospector_head": "Damascus Steel Prospector Head",
+    "item.agedaddition.damascus_steel_prospector_pick": "Damascus Steel Prospector Pick",
+    "item.agedaddition.damascus_steel_upgrade_smithing_template": "Smithing Template",
+    "upgrade.agedaddition.damascus_steel_upgrade": "Damascus Steel Upgrade",
+    "item.agedaddition.damascus_steel_upgrade_template.applies_to": "Diamond Equipment",
+    "item.agedaddition.damascus_steel_upgrade_template.ingredients": "Damascus Steel Head / Blade",
+    "item.agedaddition.smithing_template.damascus_steel_upgrade.base_slot_description": "Add diamond weapon, or tool",
     "item.agedaddition.damascus_steel_axe_head": "Damascus Steel Axe Head",
     "item.agedaddition.damascus_steel_pickaxe_head": "Damascus Steel Pickaxe Head",
     "item.agedaddition.damascus_steel_shovel_head": "Damascus Steel Shovel Head",
     "item.agedaddition.damascus_steel_hoe_head": "Damascus Steel Hoe Head",
     "item.agedaddition.damascus_steel_sword_blade": "Damascus Steel Sword Blade",
+
+    "item.agedaddition.netherite_prospector_head": "Netherite Prospector Head",
+
+    "item.agedaddition.gilded_netherite_prospector_head": "Gilded Netherite Prospector Head",
+    "item.agedaddition.gilded_netherite_prospector_pick": "Gilded Netherite Prospector Pick",
+    "item.agedaddition.gilded_netherite_axe_head": "Gilded Netherite Axe Head",
+    "item.agedaddition.gilded_netherite_pickaxe_head": "Gilded Netherite Pickaxe Head",
+    "item.agedaddition.gilded_netherite_shovel_head": "Gilded Netherite Shovel Head",
+    "item.agedaddition.gilded_netherite_hoe_head": "Gilded Netherite Hoe Head",
+    "item.agedaddition.gilded_netherite_sword_blade": "Gilded Netherite Sword Blade",
 
     "item.agedaddition.coal_piece": "Coal Piece",
     "item.agedaddition.lapis_lazuli_piece": "Lapis Lazuli Piece",
@@ -130,21 +155,6 @@
     "block.agedaddition.smooth_basalt_quartz_ore": "Smooth Basalt Quartz Ore",
     "block.agedaddition.deepslate_quartz_ore": "Deepslate Quartz Ore",
     "block.agedaddition.blackstone_quartz_ore": "Blackstone Quartz Ore",
-
-    "block.cupellation.limestone_brick_casting_basin": "Limestone Brick Casting Basin",
-    "block.cupellation.limestone_brick_casting_table": "Limestone Brick Casting Table",
-    "block.cupellation.limestone_brick_drain": "Limestone Brick Drain",
-    "block.cupellation.limestone_brick_faucet": "Limestone Brick Faucet",
-    "block.cupellation.limestone_brick_glass": "Limestone Brick Glass",
-    "block.cupellation.limestone_brick_lever": "Limestone Brick Lever",
-    "block.cupellation.limestone_brick_smelter": "Limestone Brick Smelter",
-    "block.cupellation.white_brick_casting_basin": "White Brick Casting Basin",
-    "block.cupellation.white_brick_casting_table": "White Brick Casting Table",
-    "block.cupellation.white_brick_drain": "White Brick Drain",
-    "block.cupellation.white_brick_faucet": "White Brick Faucet",
-    "block.cupellation.white_brick_glass": "White Brick Glass",
-    "block.cupellation.white_brick_lever": "White Brick Lever",
-    "block.cupellation.white_brick_smelter": "White Brick Smelter",
 
     "item.agedaddition.guide_book": "Guide Book",
 

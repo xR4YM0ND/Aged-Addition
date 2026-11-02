@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "agedaddition:item/gilded_netherite_set/gilded_netherite_prospector_head"
+  }
+}

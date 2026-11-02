@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "agedaddition:item/stainless_steel_set/stainless_steel_hoe"
-  }
-}

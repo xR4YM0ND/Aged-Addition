@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "agedaddition:item/golden_set/golden_sheet"
-    }
-}

@@ -24,7 +24,6 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 @Mixin(Blocks.class)
 public class BlocksMixin {
 
-    // --- NEUE STRENGTH ANPASSUNGEN (FIKTIVE ORDINAL WERTE) ---
 
     // STONE
     @WrapOperation(method = "<clinit>", at = @At(value = "NEW", target = "(Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/Block;", ordinal = 0))

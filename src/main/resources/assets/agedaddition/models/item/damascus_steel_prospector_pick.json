@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "agedaddition:item/damascus_steel_set/damascus_steel_prospector_pick"
+  }
+}

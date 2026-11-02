@@ -9,6 +9,8 @@
   "metal.cupellation.quartz": "Molten Quartz",
   "metal.cupellation.lapis": "Molten Lapis",
   "metal.cupellation.redstone": "Molten Redstone",
+  "metal.cupellation.gilded_netherite": "Molten Gilded Netherite",
+
   "item.cupellation.diamond_gemstone_mold": "Diamond Mold",
   "item.cupellation.clay_diamond_gemstone_mold": "Clay Diamond Mold",
   "item.cupellation.brick_diamond_gemstone_mold": "Brick Diamond Mold",
@@ -29,5 +31,23 @@
   "item.cupellation.brick_dust_mold": "Brick Dust Mold",
   "item.cupellation.hook_mold": "Hook Mold",
   "item.cupellation.clay_hook_mold": "Clay Hook Mold",
-  "item.cupellation.brick_hook_mold": "Brick Hook Mold"
+  "item.cupellation.brick_hook_mold": "Brick Hook Mold",
+  "item.cupellation.prospector_head_mold": "Prospector Head Mold",
+  "item.cupellation.clay_prospector_head_mold": "Clay Prospector Head Mold",
+  "item.cupellation.brick_prospector_head_mold": "Brick Prospector Head Mold",
+
+  "block.cupellation.limestone_brick_casting_basin": "Limestone Brick Casting Basin",
+  "block.cupellation.limestone_brick_casting_table": "Limestone Brick Casting Table",
+  "block.cupellation.limestone_brick_drain": "Limestone Brick Drain",
+  "block.cupellation.limestone_brick_faucet": "Limestone Brick Faucet",
+  "block.cupellation.limestone_brick_glass": "Limestone Brick Glass",
+  "block.cupellation.limestone_brick_lever": "Limestone Brick Lever",
+  "block.cupellation.limestone_brick_smelter": "Limestone Brick Smelter",
+  "block.cupellation.white_brick_casting_basin": "White Brick Casting Basin",
+  "block.cupellation.white_brick_casting_table": "White Brick Casting Table",
+  "block.cupellation.white_brick_drain": "White Brick Drain",
+  "block.cupellation.white_brick_faucet": "White Brick Faucet",
+  "block.cupellation.white_brick_glass": "White Brick Glass",
+  "block.cupellation.white_brick_lever": "White Brick Lever",
+  "block.cupellation.white_brick_smelter": "White Brick Smelter"
 }
